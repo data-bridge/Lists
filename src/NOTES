@@ -1,0 +1,26 @@
+* Set up GitHub Lists project.
+* All Gutenberg files.
+* Track down differences with Java for WBF name list (accents only).
+* Metaphone itself
+  - Loop: Could be dispatch function
+  - Space is new word (not single string)
+  - isVowel is ASCII vowel or table lookup
+  - setWord uses charsets
+  - Maybe some special characters should get pronunciation!
+* Turn pronunciation into Metaphone3.
+* Run C++ against pronunciation.
+* Try other files from web (also BBODB output).
+* Which extended/UTF8 characters occur at all?
+* Run single files against themselves for identical strings
+  (duplicates, or false positives?)
+* Run different files against each other for identical strings
+  (players appearing in more than one file, or false positives?)
+* Set up format with scrapers and manipulators in Github,
+  raw data (later compressed) on data
+
+* Make format for names
+  - Look at BBODB
+  - Should contain gender
+    . Mixed/women's tournaments
+    . Women's and not men's first names
+    . Maybe Google image!
