@@ -765,7 +765,8 @@ bool Metaphone3::e_Pronounced_At_End()
       stringAt(0, 5, "LETHE", "CADRE", "TILDE", "SIGNE", "POSSE", 
         "LATTE", "ANIME", "DOLCE", "CROCE", "ADOBE", "OUTRE", 
         "JESSE", "JAIME", "JAFFE", "BENGE", "RUNGE", "CHILE", 
-        "DESME", "CONDE", "URIBE", "LIBRE", "ANDRE")) ||
+        "DESME", "CONDE", "URIBE", "LIBRE", "ANDRE", "HERVE",
+        "GAGNE")) ||
       (m_length == 6 &&
       stringAt(0, 6, "HECATE", "PSYCHE", "DAPHNE", "PENSKE", "CLICHE", 
         "RECIPE", "TAMALE", "SESAME", "SIMILE", "FINALE", "KARATE", 
