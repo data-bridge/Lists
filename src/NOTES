@@ -3,7 +3,6 @@
   - Space is new word (not single string)
   - No more tokenize in test then
   - Maybe some special characters should get pronunciation!
-  - Hervè and Gagné: Add as exceptions?
 
 * Turn pronunciation into Metaphone3.
 * Run C++ against pronunciation.

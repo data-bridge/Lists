@@ -449,8 +449,6 @@ bool Metaphone3::rootOrInflections(
   if (localRoot.back() == 'E')
     localRoot.pop_back();
 
-  // TODO shein: Can speed up by checking lengths and taking substr
-  // or inWord.
   if (inWord == localRoot + "ES" ||
       inWord == localRoot + "ED" ||
       inWord == localRoot + "ING" ||
@@ -536,7 +534,6 @@ void Metaphone3::encode()
     if (m_current >= m_length)
       break;
 
-    // switch (m_inWord.at(static_cast<size_t>(m_current)))
     switch (const char c = m_inWord[static_cast<unsigned>(m_current)])
     {
       case 'B': encode_B(); break;
@@ -559,23 +556,6 @@ void Metaphone3::encode()
       case 'W': encode_W(); break;
       case 'X': encode_X(); break;
       case 'Z': encode_Z(); break;
-
-      case 'ß':
-      case 'Ç':
-        add("S"); 
-        m_current++; 
-        break;
-
-      case 'Ń':
-        add("N");
-        m_current++;
-        break;
-
-      case 'Đ': // eth
-      case 'Ţ': // thorn
-        add("0");
-        m_current++;
-        break;
 
       default:
         if (isVowel(c))
@@ -638,7 +618,6 @@ void Metaphone3::encode_E_Pronounced()
   if ((m_length == 4 && stringAt(0, 4, "LAME", "SAKE", "PATE")) || 
       (m_length == 5 && stringAt(0, 5, "AGAPE")) || 
       (m_current == 5 && stringAt(0, 6, "RESUME")))
-      // TODO shein: m_current? 5?
   {
     // Special cases with two pronunciations.
     add("", "A");
@@ -2940,7 +2919,8 @@ bool Metaphone3::encode_German_J()
 bool Metaphone3::encode_Spanish_OJ_UJ()
 {
   // Encode "-JOJ-" and "-JUJ-" as spanish words.
-  if (stringAt(m_current+1, 5, "OJOBA", "UJUY ")) // TODO shein: ?? space
+  if (stringAt(m_current+1, 5, "OJOBA") ||
+      stringAt(m_current+1, 4, "UJUY"))
   {
     if (m_encodeVowels)
     {
@@ -3354,8 +3334,6 @@ bool Metaphone3::encode_LL_As_Vowel()
          stringAt(m_last, 1, "A", "O")) &&
          stringAt(m_current-1, 2, "AL", "IL")) &&
          ! stringAt(m_current-1, 4, "ALLA")) ||
-      // shein: This looks odd.  There is no link between m_current
-      // and m_last.  
 
       stringAt(0, 5, "VILLE", "VILLA") ||
       stringAt(0, 8, "GALLARDO", "VALLADAR", "MAGALLAN", "CAVALLAR", 
@@ -3826,9 +3804,7 @@ bool Metaphone3::encode_PPH()
   // Encode "-PPH-". I don't know why the Greek poet's
   // name is transliterated this way...: 'sappho'.
   if (m_current+2 < m_length && 
-      charAt(m_current+1) == 'P' && 
-      charAt(m_current+2) == 'H')
-      // TODO shein: can write as stringAt(m_current, 2, "PH")?
+      stringAt(m_current+1, 2, "PH"))
   {
     add("F");
     m_current += 3;
@@ -5138,9 +5114,7 @@ bool Metaphone3::encode_TH()
           "AMES", "OVEN", "OFEN", "ILDA", "ILDE") ||
         (m_length == 4 && stringAt(0, 4, "THOM")) ||
         (m_length == 5 && stringAt(0, 5, "THOMS")) ||
-        stringAt(0, 4, "VAN ", "VON ") ||
         stringAt(0, 3, "SCH"))
-        // shein: So spaces are treated in some cases?
       add("T");
     else if (stringAt(0, 2, "SM"))
       // Give an 'etymological' 2nd encoding for "smith".
