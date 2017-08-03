@@ -321,6 +321,15 @@ void convertToUpper(
       }
     }
 
+    // Skip this part of the ASCII table, unless perhaps later.
+    // http://www.ascii-code.com/
+    if (ci < -0x40)
+    {
+      textOut.push_back('*');
+      continue;
+    }
+
+
     const char e = charTables.extASCII[static_cast<unsigned>(ci+0x40)];
     if (e == 0)
     {
