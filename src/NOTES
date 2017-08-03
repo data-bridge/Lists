@@ -1,14 +1,16 @@
-* Track down differences with Java for WBF name list (accents only).
 * Metaphone itself
   - Loop: Could be dispatch function
   - Space is new word (not single string)
-  - isVowel is ASCII vowel or table lookup
-  - setWord uses charsets
+  - No more tokenize in test then
   - Maybe some special characters should get pronunciation!
+  - Hervè and Gagné: Add as exceptions?
+
 * Turn pronunciation into Metaphone3.
 * Run C++ against pronunciation.
+
 * Try other files from web (also BBODB output).
 * Which extended/UTF8 characters occur at all?
+
 * Run single files against themselves for identical strings
   (duplicates, or false positives?)
 * Run different files against each other for identical strings

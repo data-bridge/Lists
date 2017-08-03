@@ -360,17 +360,7 @@ bool Metaphone3::isVowel(const char in) const
 {
   // Tests if character is a vowel.
   if (in == 'A' || in == 'E' || in == 'I' || 
-      in == 'O' || in == 'U' || in == 'Y' || 
-      in == 'Ŕ' || 
-      in == 'Á' || in == 'Â' || in == 'Ă' || in == 'Ä' || 
-      in == 'Ĺ' || in == 'Ć' || in == 'Č' || 
-      in == 'É' || in == 'Ę' || in == 'Ë' || in == 'Ě' || 
-      in == 'Í' || in == 'Î' || 
-      in == 'Ď' || in == 'Ň' || 
-      in == 'Ó' || in == 'Ô' || in == 'Ő' || in == 'Ö' || 
-      in == '?' || in == 'Ř' || 
-      in == 'Ů' || in == 'Ú' || in == 'Ű' || in == 'Ü' || 
-      in == 'Ý' || in == '?')
+      in == 'O' || in == 'U' || in == 'Y' || in == '?')
     return true;
   else
     return false;
