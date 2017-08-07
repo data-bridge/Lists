@@ -1,0 +1,17 @@
+Pronunciation
+=============
+
+* Split plaintext into words with encodings (word, line number, encoding)
+* Sort output
+* Look for words with different encodings (ignore case)
+* Fix in mpron.txt until no more problems
+
+* Look for words that are prefixes of other words,
+  encodings should be too
+
+* Look at pairs of successive sounds in single words (csv matrix)
+* Script can extract
+  - All occurrences of specific word (word, line number, encoding)
+  - Ditto of a sounds string "E/n" etc.
+
+* Make conclusive lists of sounds and encodings

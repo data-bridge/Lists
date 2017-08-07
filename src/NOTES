@@ -1,7 +1,4 @@
 * Metaphone itself
-  - Loop: Could be dispatch function
-  - Space is new word (not single string)
-  - No more tokenize in test then
   - Maybe some special characters should get pronunciation!
 
 * Turn pronunciation into Metaphone3.
