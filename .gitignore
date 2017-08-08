@@ -31,7 +31,6 @@
 *.csv
 *.vsp
 *.vspx
-*.log
 *.lib
 *.skip
 *.sht
