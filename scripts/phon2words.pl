@@ -3,14 +3,20 @@
 use strict;
 use warnings;
 
-my $FILE;
+my ($DIR, $FILE);
 if ($#ARGV == 0)
 {
   $FILE = $ARGV[0];
 }
+elsif (`uname -a` =~ /CDD/)
+{
+  $DIR = "../../../OneDrive/bridge/data/words/Moby/Pronunciator II";
+  $FILE = "$DIR/mpron.txt";
+}
 else
 {
-  $FILE = "../../../bridgedata/words/Moby/Pronunciator II/mpron.txt";
+  $DIR = "../../../bridgedata/words/Moby/Pronunciator II";
+  $FILE = "$DIR/mpron.txt";
 }
 
 my $lineno = 0;
