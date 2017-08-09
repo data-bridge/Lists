@@ -16,7 +16,7 @@ else
   $FILE = "wordsort.txt";
 }
 
-my $ACCEPTS = "accepts.txt";
+my $ACCEPTS = "accepts.lst";
 my %accepts;
 read_accepts();
 
@@ -143,20 +143,13 @@ sub read_accepts
     chomp $line;
     $line =~ s///g;
     $lineno++;
+    next if $line eq "";
 
-    die "Bad line '$line'" unless $line =~ /(^.*):\s*$/;
-    my $word = $1;
+    die "Bad line '$line'" unless $line =~ /(^.*):\s+(.*)$/;
+    my ($word, $rest) = ($1, $2);
 
-    while (1)
-    {
-      $line = <$fa>;
-      chomp $line;
-      $line =~ s///g;
-      $lineno++;
-      last if $line eq "";
-
-      $accepts{$word}{$line} = 1;
-    }
+    my @list = split /\s+/, $rest;
+    $accepts{$word}{$_} = 1 for @list;
   }
 }
 
