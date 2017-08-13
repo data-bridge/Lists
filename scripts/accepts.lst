@@ -3,11 +3,18 @@ ab: A/b &/b
 abbes: &/b/eI/z &/b/E/z
 abe: eI/b A/b/eI
 adel: @/d/E/l A/d/@/l
+ager: eI/dZ/@/r A/j/E/R
 agent: eI/dZ/@/n/t @/Z/A/N
 albert: &/l/b/@/r/t A/l/b/E/R
 albion: &/l/b/i/@/n A/l/b/j/O/N
 alcazar: &/l/k/@/z/A/r &/l/k/&/z/@/r
-all: O/l a/l
+alexis: @/l/E/k/s/I/s A/l/E/k/s/i
+all: O/l A/l
+amen: eI/m/E/n A/m/E/n
+amor: eI/m/O/R A/m/oU/R
+amis: eI/m/I/s &/m/i
+and: &/n/d -/n
+ark: A/r/k A/R/k
 august: O/g/@/s/t AU/g/U/s/t
 
 baden: b/A/d/-/n b/eI/d/-/n

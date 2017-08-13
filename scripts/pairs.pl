@@ -47,7 +47,7 @@ while (my $line = <$fh>)
   for my $p (0 .. $#phonemes-1)
   {
     $pairs{$phonemes[$p]}{$phonemes[$p+1]}++;
-# if ($phonemes[$p] eq 'Y' && $phonemes[$p+1] eq 'N')
+# if ($phonemes[$p] =~ /^\s*$/ || $phonemes[$p+1] =~ /^\s*$/)
 # {
   # print "XXX $lineno $line\n";
 # }
