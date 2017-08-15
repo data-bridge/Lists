@@ -101,10 +101,10 @@ sub process_group
   }
   else
   {
-if ($word =~ /rust/)
-{
-  print "HERE\n";
-}
+# if ($word =~ /rust/)
+# {
+  # print "HERE\n";
+# }
     my $salvaged = 1;
     for my $k (@keys)
     {
