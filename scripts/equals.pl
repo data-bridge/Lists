@@ -24,8 +24,9 @@ my $lineno = 0;
 my $word;
 my $prev_word = "";
 my %group;
-my ($num_words, $num_good_words, $num_good_multi_words, $num_bad_words);
+my ($num_words, $num_good_words, $num_good_multi_words);
 my $num_salvaged = 0;
+my $num_bad_words = 0;
 my @hist;
 
 open my $fh, '<', $FILE or die "Can't open $FILE: $!";
