@@ -69,6 +69,7 @@ printf "%-30s %8d\n", "Number of good multi-words", $num_good_multi_words;
 printf "%-30s %8d\n\n", "Number of salvaged words", $num_salvaged;
 printf "%-30s %8d\n\n", "Number of bad words", $num_bad_words;
 
+exit;
 print "Histogram\n";
 my $m = ($#hist > 50 ? 50 : $#hist);
 for my $i (0 .. $m)
@@ -102,10 +103,6 @@ sub process_group
   }
   else
   {
-# if ($word =~ /rust/)
-# {
-  # print "HERE\n";
-# }
     my $salvaged = 1;
     for my $k (@keys)
     {

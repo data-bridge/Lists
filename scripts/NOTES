@@ -1,5 +1,14 @@
+check that all entries in log files are used
+
 Pronunciation
 =============
+
+* Change prefix.pl order: If at least one prefix leads to overall
+  solution, don't flag (so first loop wd, second prefix).
+
+* Integrate pre- and postfix
+
+* Integrate two-word combination
 
 * Look for words that are prefixes of other words,
   encodings should be too
@@ -19,3 +28,5 @@ dZ vs j
 t/S vs tS
 li vs lj
 du vs dju etc.
+
+look at double s's, exsanguine
