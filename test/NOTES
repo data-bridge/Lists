@@ -16,6 +16,12 @@ Something like Files.cpp from Build:
 - All txt files other than doubles and nosplits
 - Annotated by category (may be none) and sub
 
+Should do timing
+
+Direct call at string level
+
+Could perhaps multi-thread, but probably fast enough as it is
+
 Words class
 - store(word, cat, sub, mpron, metaphone1..4)
 - All kinds of stats
