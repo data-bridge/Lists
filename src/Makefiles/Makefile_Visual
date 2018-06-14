@@ -1,0 +1,90 @@
+# --------------------- INFORMATION --------------------------------
+
+# This the Metapron3 Makefile for Windows and the Microsoft Visual C++
+# compiler.  It assumes a Unix-like setup for some commands.
+
+# The "windres" and "cvtres" tools are used for putting version
+# information into the DLL in a way that Windows can see.
+# It is not mandatory, and if you don't have those tools,
+# You can remove $(VFILE).obj in the target line below.
+
+
+# ----------------------- OFTEN OK    ------------------------------
+
+# From here on you you don't have to change anything to CONFIGURE
+# the compilation.  But you may well have to change something to 
+# get it to compile.
+
+INCL_SOURCE	= Makefiles/sources.txt
+INCL_DEPENDS	= Makefiles/depends_obj.txt
+
+# If your Microsoft compiler is not called cl, change it here.
+CC		= cl
+
+# We compile with aggressive warnings, but we have to turn off some
+# of them as they appear in Windows libraries in great numbers...
+
+WARN_FLAGS	=		\
+	/Wall			\
+	/wd4365			\
+	/wd4464			\
+	/wd4514			\
+	/wd4555			\
+	/wd4571			\
+	/wd4623			\
+	/wd4625			\
+	/wd4626			\
+	/wd4668			\
+	/wd4710			\
+	/wd4711			\
+	/wd4774			\
+	/wd4820			\
+	/wd4996			\
+	/wd5026			\
+	/wd5027			\
+	/WX
+
+# If you don't have /std:c++17, you won't get THR_STLIMPL.
+
+COMPILE_FLAGS	= /O2 /Oi /Ot /Oy /Ox /GL /EHs /std:c++17 \
+		$(WARN_FLAGS) \
+		$(THREAD_COMPILE) $(THREADING)
+
+LINK_FLAGS1	= /O2 /Oi /Ot /Oy /GL /EHs $(WARN_FLAGS)
+LINK_FLAGS2	= $(THREAD_LINK)
+
+DLLBASE		= metapron3
+DLL 		= $(DLLBASE).dll
+DLIB 		= $(DLLBASE).lib
+EXPORTER	= Exports.def
+
+VFILE		= metapron3res
+
+include $(INCL_SOURCE)
+
+OBJ_FILES 	= $(subst .cpp,.obj,$(SOURCE_FILES)) $(VFILE).obj
+
+vs:	$(OBJ_FILES)
+	$(CC) $(LINK_FLAGS1) $(OBJ_FILES) $(EXPORTER) \
+	$(LINK_FLAGS2) /out:$(DLL)
+
+%.obj:	%.cpp
+	$(CC) $(COMPILE_FLAGS) /c $<
+
+$(DLLBASE).res:	$(DLLBASE).rc
+	windres $(DLLBASE).rc $(DLLBASE).res
+
+$(VFILE).obj:	$(DLLBASE).res
+	cvtres /MACHINE:X86 /OUT:$(VFILE).obj $(DLLBASE).res
+
+depend:
+	makedepend -Y -o.obj -- $(SOURCE_FILES)
+
+clean:
+	rm -f $(OBJ_FILES) $(DLL) $(DLLBASE).{lib,exp,def,obj,res}
+
+# If you don't have a Linux-like setup, use "del" instead of "rm"
+# and "copy" instead of "cp".
+
+include $(INCL_DEPENDS)
+

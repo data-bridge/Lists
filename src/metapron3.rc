@@ -1,0 +1,28 @@
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "None"
+            VALUE "FileDescription", "metapron3 port"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "metapron3.dll"
+            VALUE "LegalCopyright", "Copyright for changes © 2018 Soren Hein"
+            VALUE "OriginalFilename", "metapron3.dll"
+            VALUE "ProductName", "Port of Metapron3 by Lawrence Philips"
+            VALUE "ProductVersion", "2.9.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
