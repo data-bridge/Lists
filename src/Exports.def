@@ -1,0 +1,12 @@
+LIBRARY   metapron3
+EXPORTS
+   metaword
+   metaword@20 = metaword
+   metaphrase
+   metaphrase@20 = metaphrase
+   metalist
+   metalist@24 = metalist
+   ErrorMessage
+   ErrorMessage@8 = ErrorMessage
+   
+   

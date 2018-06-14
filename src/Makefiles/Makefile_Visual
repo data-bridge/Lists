@@ -20,6 +20,7 @@ INCL_DEPENDS	= Makefiles/depends_obj.txt
 
 # If your Microsoft compiler is not called cl, change it here.
 CC		= cl
+LINK		= link
 
 # We compile with aggressive warnings, but we have to turn off some
 # of them as they appear in Windows libraries in great numbers...
@@ -50,8 +51,7 @@ COMPILE_FLAGS	= /O2 /Oi /Ot /Oy /Ox /GL /EHs /std:c++17 \
 		$(WARN_FLAGS) \
 		$(THREAD_COMPILE) $(THREADING)
 
-LINK_FLAGS1	= /O2 /Oi /Ot /Oy /GL /EHs $(WARN_FLAGS)
-LINK_FLAGS2	= $(THREAD_LINK)
+LINK_FLAGS1	= /LTCG
 
 DLLBASE		= metapron3
 DLL 		= $(DLLBASE).dll
@@ -65,8 +65,8 @@ include $(INCL_SOURCE)
 OBJ_FILES 	= $(subst .cpp,.obj,$(SOURCE_FILES)) $(VFILE).obj
 
 vs:	$(OBJ_FILES)
-	$(CC) $(LINK_FLAGS1) $(OBJ_FILES) $(EXPORTER) \
-	$(LINK_FLAGS2) /out:$(DLL)
+	$(LINK) $(LINK_FLAGS1) $(OBJ_FILES) /DEF:$(EXPORTER) \
+	/DLL /OUT:$(DLL)
 
 %.obj:	%.cpp
 	$(CC) $(COMPILE_FLAGS) /c $<
@@ -88,3 +88,4 @@ clean:
 
 include $(INCL_DEPENDS)
 
+# DO NOT DELETE

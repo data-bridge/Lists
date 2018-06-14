@@ -1,13 +1,16 @@
-// Extension of Metaphone3.
-// Copyright (C) 2017 by Soren Hein.
-// No restrictions on copying and modifying, as long as credit is given.
-// No warranties.
+/*
+   Pron, a wrapper for a ported and somewhat modified Metapron3.
 
-#ifndef CHARSETS_H
-#define CHARSETS_H
+   All Metapron3 copyright (C) 2010 Lawrence Philips.
+   Copyright (C) 2018 by Soren Hein for the changes.
+
+   See LICENSE and README.
+*/
+
+#ifndef PRON_CHARSETS_H
+#define PRON_CHARSETS_H
 
 #include <string>
-// #include <vector>
 
 using namespace std;
 
@@ -34,4 +37,4 @@ void convertToUpper(
   string& textOut,
   const CharTables& charTables);
 
-#endif CHARSETS_H
+#endif

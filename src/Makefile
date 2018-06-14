@@ -1,67 +1,91 @@
+# --------------------- INFORMATION --------------------------------
+
+# This the Metapron3 Makefile for Windows and the Microsoft Visual C++
+# compiler.  It assumes a Unix-like setup for some commands.
+
+# The "windres" and "cvtres" tools are used for putting version
+# information into the DLL in a way that Windows can see.
+# It is not mandatory, and if you don't have those tools,
+# You can remove $(VFILE).obj in the target line below.
+
+
+# ----------------------- OFTEN OK    ------------------------------
+
+# From here on you you don't have to change anything to CONFIGURE
+# the compilation.  But you may well have to change something to 
+# get it to compile.
+
+INCL_SOURCE	= Makefiles/sources.txt
+INCL_DEPENDS	= Makefiles/depends_obj.txt
+
+# If your Microsoft compiler is not called cl, change it here.
+CC		= cl
+LINK		= link
+
+# We compile with aggressive warnings, but we have to turn off some
+# of them as they appear in Windows libraries in great numbers...
+
+WARN_FLAGS	=		\
+	/Wall			\
+	/wd4365			\
+	/wd4464			\
+	/wd4514			\
+	/wd4555			\
+	/wd4571			\
+	/wd4623			\
+	/wd4625			\
+	/wd4626			\
+	/wd4668			\
+	/wd4710			\
+	/wd4711			\
+	/wd4774			\
+	/wd4820			\
+	/wd4996			\
+	/wd5026			\
+	/wd5027			\
+	/WX
+
+# If you don't have /std:c++17, you won't get THR_STLIMPL.
+
+COMPILE_FLAGS	= /O2 /Oi /Ot /Oy /Ox /GL /EHs /std:c++17 \
+		$(WARN_FLAGS) \
+		$(THREAD_COMPILE) $(THREADING)
+
+LINK_FLAGS1	= /LTCG
+
+DLLBASE		= metapron3
+DLL 		= $(DLLBASE).dll
+DLIB 		= $(DLLBASE).lib
 EXPORTER	= Exports.def
 
-SOURCE_FILES 	=		\
-	Metaphone3.cpp		\
-	charsets.cpp		\
-	test.cpp
+VFILE		= metapron3res
 
-TEST		= test
+include $(INCL_SOURCE)
 
-CC_VS     	= cl
+OBJ_FILES 	= $(subst .cpp,.obj,$(SOURCE_FILES)) $(VFILE).obj
 
-WARN_FLAGS      =               \
-        /Wall                   \
-        /wd4061                 \
-        /wd4091                 \
-        /wd4127                 \
-        /wd4265                 \
-        /wd4350                 \
-        /wd4514                 \
-        /wd4555                 \
-        /wd4668                 \
-        /wd4701                 \
-        /wd4710                 \
-        /wd4711                 \
-        /wd4820                 \
-        /wd4986                 \
-        /wd4987                 \
-        /wd4996                 \
-        /WX
-
-CC_FLAGS_VS     = /O2 /Oi /Ot /Oy /GL /Zi /EHsc
-CC_FLAGS_DEBUG  = /DEBUG
-
-
-LD_FLAGS_VS	= /INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF
-
-WINDRES_FLAG	= -F pe-i386
-
-CC		= $(CC_VS)
-CC_FLAGS	= $(CC_FLAGS_VS) $(WARN_FLAGS)
-# CC_FLAGS	= $(CC_FLAGS_DEBUG) $(WARN_FLAGS) /Zi
-LD_FLAGS	= $(LD_FLAGS_VS)
-
-OBJ_FILES 	= $(subst .cpp,.obj,$(SOURCE_FILES))
-
-# Linking directly.
-
-$(TEST):	$(OBJ_FILES)
-	link /LTCG $(LD_FLAGS) $(OBJ_FILES) $(DLIB) /out:$(TEST).exe
+vs:	$(OBJ_FILES)
+	$(LINK) $(LINK_FLAGS1) $(OBJ_FILES) /DEF:$(EXPORTER) \
+	/DLL /OUT:$(DLL)
 
 %.obj:	%.cpp
-	$(CC) $(CC_FLAGS) /c $<
+	$(CC) $(COMPILE_FLAGS) /c $<
 
+$(DLLBASE).res:	$(DLLBASE).rc
+	windres $(DLLBASE).rc $(DLLBASE).res
+
+$(VFILE).obj:	$(DLLBASE).res
+	cvtres /MACHINE:X86 /OUT:$(VFILE).obj $(DLLBASE).res
 
 depend:
-	makedepend -Y -o.obj -- $(SOURCE_FILES) $(TEST).cpp
+	makedepend -Y -o.obj -- $(SOURCE_FILES)
 
 clean:
-	rm -f $(OBJ_FILES) $(TEST_OBJ_FILES) $(TEST).obj $(TEST).exe 
+	rm -f $(OBJ_FILES) $(DLL) $(DLLBASE).{lib,exp,def,obj,res}
 
+# If you don't have a Linux-like setup, use "del" instead of "rm"
+# and "copy" instead of "cp".
+
+include $(INCL_DEPENDS)
 
 # DO NOT DELETE
-
-Metaphone3.obj: Metaphone3.h charsets.h
-charsets.obj: charsets.h
-test.obj: Metaphone3.h
-test.obj: Metaphone3.h

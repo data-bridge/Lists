@@ -148,9 +148,13 @@
  */
 
 /*
- * Ported to C++.
- * Soren Hein, August 2017
- */
+   Pron, a wrapper for a ported and somewhat modified Metapron3.
+
+   All Metapron3 copyright (C) 2010 Lawrence Philips.
+   Copyright (C) 2018 by Soren Hein for the changes.
+
+   See LICENSE and README.
+*/
 
 #include <iostream>
 #include <cstdarg>
@@ -162,7 +166,6 @@
 #endif
 
 #include "Metaphone3.h"
-
 #include "charsets.h"
 
 static mutex mtx;

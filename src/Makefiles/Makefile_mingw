@@ -1,50 +1,12 @@
 # --------------------- INFORMATION --------------------------------
 
-# This the DDS Makefile for Windows and the mingw GNU g++
+# This the Metapron3 Makefile for Windows and the mingw GNU g++
 # compiler.  It assumes a Unix-like setup for some commands.
 
 # The "windres" and "cvtres" tools are used for putting version
 # information into the DLL in a way that Windows can see.
 # It is not mandatory, and if you don't have those tools,
 # You can remove $(VFILE).obj in the target line below.
-
-# --------------------- CONFIGURATION ------------------------------
-
-# You can configure the following:
-
-# 1. The threading systems that you want in the DLL/executable.
-# You will always get single-threading.  If you have multiple
-# threading systems, the default will be the multi-threading one
-# with the lowest number (see System.cpp).  All that matters is
-# CC_THREADING.
-
-# GCD doesn't work on Windows.
-THR_BOOST	= -DDDS_THREADS_BOOST
-THR_GCD		= -DDDS_THREADS_GCD
-THR_OPENMP	= -DDDS_THREADS_OPENMP
-THR_WINAPI	= -DDDS_THREADS_WINAPI
-THR_STL		= -DDDS_THREADS_STL
-
-THREADING	= $(THR_BOOST) $(THR_OPENMP) $(THR_STL)
-
-# If you need to add something for a threading system, this is
-# the place.
-
-CC_BOOST_LINK	= -lboost_system -lboost_thread
-
-THREAD_COMPILE	= -fopenmp
-THREAD_LINK	= -lgomp $(CC_BOOST_LINK)
-
-# 2. Debugging options.  (There are more granular options in debug.h.)
-
-DEBUG_ALL	= -DDDS_DEBUG_ALL 
-TIMING		= -DDDS_TIMING
-SCHEDULER	= -DDDS_SCHEDULER
-
-# All that matters from no. 2 and no. 3 is the following.  Here you
-# can add $(SMALL_MEMORY) etc.
-
-DDS_BEHAVIOR	=
 
 # ----------------------- OFTEN OK    ------------------------------
 
@@ -86,21 +48,19 @@ WARN_FLAGS	= 		\
 	-Wno-long-long
 
 COMPILE_FLAGS	= -O3 -DBUILDING_EXAMPLE_DLL -fopenmp \
-		$(WARN_FLAGS) \
-		$(DDS_BEHAVIOR) $(THREAD_COMPILE) $(THREADING)
+		$(WARN_FLAGS) 
 
 LINK1_FLAGS	= -shared
 LINK2_FLAGS	= 		\
-	$(THREAD_LINK)		\
-	-Wl,--out-implib,libdds.a \
+	-Wl,--out-implib,libmetapron3.a \
 	-Wl,--no-undefined
 
-DLLBASE		= dds
+DLLBASE		= metapron3
 DLL 		= $(DLLBASE).dll
 DLIB 		= $(DLLBASE).lib
 EXPORTER	= Exports.def
 
-VFILE		= ddsres
+VFILE		= metapron3res
 WINDRES_FLAG	= -F pe-x86-64
 
 include $(INCL_SOURCE)

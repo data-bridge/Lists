@@ -3,7 +3,6 @@
 *.a
 *.dll
 *.obj
-*.def
 
 *.exe
 *.swp

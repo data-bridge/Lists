@@ -46,6 +46,14 @@ EXTERN_C DLLEXPORT int STDCALL metaword(
   char * alt
   );
 
+EXTERN_C DLLEXPORT int STDCALL metaphrase(
+  char * word,
+  bool encodeVowels,
+  bool encodeExact,
+  char * best,
+  char * alt
+  );
+
 EXTERN_C DLLEXPORT int STDCALL metalist(
   char ** words,
   int number,

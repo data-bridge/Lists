@@ -6,3 +6,11 @@
 
    See LICENSE and README.
 */
+
+#include "../include/portab.h"
+
+
+#ifndef PRON_ENTRY_H
+#define PRON_ENTRY_H
+
+#endif

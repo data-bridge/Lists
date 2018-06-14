@@ -1,12 +1,17 @@
-// Extension of Metaphone3.
-// Copyright (C) 2017 by Soren Hein.
-// No restrictions on copying and modifying, as long as credit is given.
-// No warranties.
+/*
+   Pron, a wrapper for a ported and somewhat modified Metapron3.
+
+   All Metapron3 copyright (C) 2010 Lawrence Philips.
+   Copyright (C) 2018 by Soren Hein for the changes.
+
+   See LICENSE and README.
+*/
+
+#include <iostream>
 
 #include "charsets.h"
 
 
-#include <iostream>
 void setEntry(
   const unsigned page,
   const unsigned high,
@@ -29,7 +34,6 @@ void setEntry(
   setEntry(page, high, mappedChar, charTables);
 
   const unsigned shift = high - 0x80;
-// cout << "shift " << shift << endl;
   charTables.extASCII[shift] = mappedChar;
   charTables.isVowel[shift] = isVowel;
 }
@@ -49,14 +53,7 @@ void setEntry(
   setEntry(page, high, ASCII, isVowel, tablesASCII);
 
   const char mappedChar = static_cast<char>(extendedHigh - 0x100);
-// cout << "extHigh " << extendedHigh << ": " << mappedChar << endl;
   setEntry(page, high, mappedChar, isVowel, tablesExtend);
-// cout << "mapped: " << mappedChar << endl;
-// const unsigned char c = 0xE9;
-// const unsigned char c = 'é';
-// printf("printf %c\n", c);
-// cout << "pos 0A: " << tablesASCII.extASCII[0] << endl;
-// cout << "pos 0E: " << tablesExtend.extASCII[0] << endl;
 }
 
 
