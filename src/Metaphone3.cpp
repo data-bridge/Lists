@@ -177,7 +177,7 @@ static CharTables tablesASCII, tablesExtended;
 #define MAX_KEY_ALLOCATION 32
 
 // Default maximum length of encoded key
-#define DEFAULT_MAX_KEY_LENGTH 8
+#define DEFAULT_MAX_KEY_LENGTH 32
 
 
 Metaphone3::Metaphone3()

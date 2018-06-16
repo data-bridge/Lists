@@ -7,10 +7,21 @@
    See LICENSE and README.
 */
 
+#include <vector>
+
 #include "../include/pron.h"
 #include "../include/portab.h"
 
 #include "Metaphone3.h"
+
+
+Metaphone3 mph;
+
+
+void tokenize(
+  const string& text,
+  vector<string>& tokens,
+  const string& delimiters);
 
 
 int STDCALL metaword(
@@ -20,11 +31,16 @@ int STDCALL metaword(
   char * best,
   char * alt)
 {
-  UNUSED(word);
-  UNUSED(encodeVowels);
-  UNUSED(encodeExact);
-  UNUSED(best);
-  UNUSED(alt);
+  mph.setEncodeVowels(encodeVowels);
+  mph.setEncodeExact(encodeExact);
+
+  string t(word);
+  mph.setWord(t);
+  mph.encode();
+
+  strcpy(best, mph.getMetaph().c_str());
+  strcpy(alt, mph.getAlternateMetaph().c_str());
+
   return RETURN_NO_FAULT;
 }
 
@@ -36,29 +52,63 @@ int STDCALL metaphrase(
   char * best,
   char * alt)
 {
-  UNUSED(word);
-  UNUSED(encodeVowels);
-  UNUSED(encodeExact);
-  UNUSED(best);
-  UNUSED(alt);
+  vector<string> tokens;
+  tokens.clear();
+
+  string words(word);
+  tokenize(words, tokens, " ");
+
+  mph.setEncodeVowels(encodeVowels);
+  mph.setEncodeExact(encodeExact);
+
+  string res = "";
+  string resAlt = "";
+
+  for (unsigned i = 0; i < tokens.size(); i++)
+  {
+    mph.setWord(tokens[i]);
+    mph.encode();
+
+    res += mph.getMetaph() + " ";
+    resAlt += mph.getAlternateMetaph() + " ";
+  }
+
+  if (res != "")
+    res.pop_back();
+  if (resAlt != "")
+    resAlt.pop_back();
+
+  strcpy(best, res.c_str());
+  strcpy(alt, res.c_str());
+
   return RETURN_NO_FAULT;
 }
 
 
 int STDCALL metalist(
   char ** words,
-  int number,
+  unsigned number,
   bool encodeVowels,
   bool encodeExact,
   char ** bests,
   char ** alts)
 {
-  UNUSED(words);
-  UNUSED(number);
-  UNUSED(encodeVowels);
-  UNUSED(encodeExact);
-  UNUSED(bests);
-  UNUSED(alts);
+  mph.setEncodeVowels(encodeVowels);
+  mph.setEncodeExact(encodeExact);
+
+  string res = "";
+  string resAlt = "";
+
+  for (unsigned i = 0; i < number; i++)
+  {
+    string t(words[i]);
+    mph.setWord(t);
+    mph.encode();
+
+    strcpy(bests[i], mph.getMetaph().c_str());
+    strcpy(alts[i], mph.getAlternateMetaph().c_str());
+  }
+
   return RETURN_NO_FAULT;
 }
 
@@ -77,3 +127,34 @@ void STDCALL ErrorMessage(int code, char line[80])
       strcpy(line, "Not a Metapron3 error code");
   }
 }
+
+
+// tokenize splits a string into tokens separated by delimiter.
+// http://stackoverflow.com/questions/236129/split-a-string-in-c
+
+void tokenize(
+  const string& text,
+  vector<string>& tokens,
+  const string& delimiters)
+{
+  string::size_type pos, lastPos = 0;
+
+  while (true)
+  {
+    pos = text.find_first_of(delimiters, lastPos);
+    if (pos == std::string::npos)
+    {
+      pos = text.length();
+      tokens.push_back(string(text.data()+lastPos,
+        static_cast<string::size_type>(pos - lastPos)));
+      break;
+    }
+    else
+    {
+      tokens.push_back(string(text.data()+lastPos,
+        static_cast<string::size_type>(pos - lastPos)));
+    }
+    lastPos = pos + 1;
+  }
+}
+

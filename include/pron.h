@@ -56,7 +56,7 @@ EXTERN_C DLLEXPORT int STDCALL metaphrase(
 
 EXTERN_C DLLEXPORT int STDCALL metalist(
   char ** words,
-  int number,
+  unsigned number,
   bool encodeVowels,
   bool encodeExact,
   char ** bests,

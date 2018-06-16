@@ -1,16 +1,6 @@
 2018-06-14
 ----------
 
-args.cpp
--w word
--p phrase
--i file
--I directory (assume s/c structure for bottom two levels)
--v enable vowels
--x enable exact
--f format (csv, txt)
--c collisions
-
 Something like Files.cpp from Build:
 - Filename with whole path, starting from a directory
 - All txt files other than doubles and nosplits
