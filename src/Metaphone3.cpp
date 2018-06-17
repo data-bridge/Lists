@@ -167,17 +167,11 @@
 
 #include "Metaphone3.h"
 #include "charsets.h"
+#include "../include/pron.h"
 
 static mutex mtx;
 static bool setTables = false;
 static CharTables tablesASCII, tablesExtended;
-
-
-// Default size of key storage allocation
-#define MAX_KEY_ALLOCATION 32
-
-// Default maximum length of encoded key
-#define DEFAULT_MAX_KEY_LENGTH 32
 
 
 Metaphone3::Metaphone3()

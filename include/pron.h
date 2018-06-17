@@ -24,8 +24,16 @@
   #define EXTERN_C
 #endif
 
-/* Version 1.0.0. Allowing for 2 digit minor versions */
+// Version 1.0.0. Allowing for 2 digit minor versions
 #define PRON_VERSION 10100
+
+// Default size of key storage allocation
+#define MAX_KEY_ALLOCATION 32
+
+// Default maximum length of encoded key
+#define DEFAULT_MAX_KEY_LENGTH 32
+
+
 
 // Error codes. See interface document for more detail.
 // Call ErrorMessage(code, line[]) to get the text form in line[].
