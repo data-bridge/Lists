@@ -16,6 +16,7 @@
 #include <set>
 #include <map>
 
+#include "const.h"
 #include "../include/pron.h"
 
 using namespace std;
@@ -38,7 +39,7 @@ struct WordEntry
   string metapron;
   string metapronAlt;
 
-  list<PronEntry> prons;
+  vector<PronEntry> prons;
 };
 
 typedef map<string, map<string, unsigned>> CountMap;
@@ -57,6 +58,10 @@ class Words
 
     bool encodeVowelsVal;
     bool encodeExactVal;
+    vector<map<string, string>> metapronMap;
+
+    set<string> categories;
+    set<string> subcats;
 
     vector<WordEntry> words;
     unsigned indexNextRead;
@@ -91,24 +96,65 @@ class Words
     CountMap errorsCount2;
 
 
+    void setTable();
+
     void pronToMeta(
       const string& realpron,
       string& mpron) const;
+
+    void fnameToTags(
+      const string& fname,
+      string& cat,
+      string& sub) const;
 
     void findCollision(
       StringIndexMap& mmap,
       StringIndexMap& realmap);
 
-    void printStat(
+    bool lineToComps(
+      const string& line,
+      string& w,
+      string& lno,
+      string& pr,
+      string& vw,
+      string& vp) const;
+
+    string shorten(const string& s) const;
+
+    void printStatTXT(
       ofstream& fout,
       const string& heading,
       const CountMap& count) const;
+      
+    void printStatCSV(
+      ofstream& fout,
+      const string& heading,
+      const CountMap& count) const;
+      
+    void printStat(
+      ofstream& fout,
+      const string& heading,
+      const CountMap& count,
+      const Format format) const;
+      
+    void printStatPercentTXT(
+      ofstream& fout,
+      const string& heading,
+      const CountMap& countDenom,
+      const CountMap& countNum) const;
+      
+    void printStatPercentCSV(
+      ofstream& fout,
+      const string& heading,
+      const CountMap& countDenom,
+      const CountMap& countNum) const;
       
     void printStatPercent(
       ofstream& fout,
       const string& heading,
       const CountMap& countDenom,
-      const CountMap& countNum) const;
+      const CountMap& countNum,
+      const Format format) const;
       
     void printMetapronError(
       ofstream& fout,
@@ -118,7 +164,7 @@ class Words
     void printCollision(
       ofstream& fout,
       const string& heading,
-      StringIndexMap& collmap);
+      const StringIndexMap& collmap) const;
 
   public:
 
@@ -127,11 +173,13 @@ class Words
     void reset();
 
     void rewind();
-    char const * next() const;
+    char const * next();
 
     void setEncoding(
       const bool encodeVowels,
       const bool encodeExact);
+
+    void ingestFile(const string& fname);
 
     void addReal(
       const string& word,
@@ -155,7 +203,7 @@ class Words
 
     void printStats(
       const string& fname,
-      const PronFormat format) const;
+      const Format format) const;
 
     void printMetapronErrors(
       const string& fname) const;

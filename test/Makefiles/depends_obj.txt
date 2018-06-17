@@ -1,6 +1,8 @@
 ../src/charsets.obj: ../src/charsets.h
 ../src/Metaphone3.obj: ../src/Metaphone3.h ../src/charsets.h
+../src/Metaphone3.obj: ../include/pron.h
 ../src/wrapper.obj: ../include/pron.h ../include/portab.h ../src/Metaphone3.h
 args.obj: args.h const.h
-dtest.obj: ../src/Metaphone3.h
-dtest.obj: ../src/Metaphone3.h
+parse.obj: parse.h
+Words.obj: Words.h const.h ../include/pron.h parse.h
+dtest.obj: ../include/pron.h

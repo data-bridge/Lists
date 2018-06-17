@@ -9,12 +9,70 @@
 
 
 #include <iostream>
+#include <iomanip>
 #include <fstream>
+
+#include "Words.h"
+#include "parse.h"
+
+#define WIDTH 8
+
+
+const vector<vector<string>> PronList =
+{
+  {"&", "", "A", "", "A"},
+  {"@", "", "A", "", "A"},
+  {"(@)", "", "A", "", "A"},
+  {"-", "", "A", "", "A"},
+  {"A", "", "A", "", "A"},
+  {"AU", "", "A", "", "A"},
+  {"aI", "", "A", "", "A"},
+  {"E", "", "A", "", "A"},
+  {"eI", "", "A", "", "A"},
+  {"I", "", "A", "", "A"},
+  {"i", "", "A", "", "A"},
+  {"j", "", "A", "", "A"},
+  {"O", "", "A", "", "A"},
+  {"Oi", "", "A", "", "A"},
+  {"oU", "", "A", "", "A"},
+  {"U", "", "A", "", "A"},
+  {"u", "", "A", "", "A"},
+  {"w", "", "A", "", "A"},
+  {"y", "", "A", "", "A"},
+  {"Y", "", "A", "", "A"},
+
+  {"b", "P", "P", "B", "B"},
+  {"c", "S", "S", "S", "S"},
+  {"D", "0", "0", "0", "0"}, // Zero
+  {"d", "T", "T", "D", "D"},
+  {"dZ", "J", "J", "J", "J"},
+  {"f", "F", "F", "F", "F"},
+  {"g", "K", "K", "G", "G"},
+  {"h", "H", "H", "H", "H"},
+  {"k", "K", "K", "K", "K"},
+  {"l", "L", "L", "L", "L"},
+  {"m", "M", "M", "M", "M"},
+  {"N", "NK", "NK", "NG", "NG"},
+  {"n", "N", "N", "N", "N"},
+  {"p", "P", "P", "P", "P"},
+  {"r", "R", "R", "R", "R"},
+  {"S", "X", "X", "X", "X"},
+  {"s", "S", "S", "S", "S"},
+  {"T", "0", "0", "0", "0"}, // Zero
+  {"t", "T", "T", "T", "T"},
+  {"tS", "X", "X", "X", "X"},
+  {"v", "F", "F", "V", "V"},
+  {"x", "X", "X", "X", "X"},
+  {"Z", "J", "J", "J", "J"},
+  {"z", "S", "S", "S", "S"}
+
+};
 
 
 Words::Words()
 {
   Words::reset();
+  Words::setTable();
 }
 
 
@@ -38,7 +96,28 @@ void Words::reset()
   wordsCount.clear();
   errorsCount1.clear();
   errorsCount2.clear();
-  collisionsCountReal.clear();
+}
+
+
+void Words::setTable()
+{
+  // The index is 2*encodeVowels + encodeExact, so
+  //     vowels  exact
+  // 0:   false  false
+  // 1:   false   true
+  // 2:    true  false
+  // 3:    true   true
+
+  metapronMap.resize(4);
+
+  for (auto &e: PronList)
+  {
+    const string& k = e[0];
+    metapronMap[0][k] = e[1];
+    metapronMap[1][k] = e[2];
+    metapronMap[2][k] = e[3];
+    metapronMap[3][k] = e[4];
+  }
 }
 
 
@@ -48,12 +127,12 @@ void Words::rewind()
 }
 
 
-char const * Words::next() const
+char const * Words::next()
 {
-  if (indexNext > words.size())
+  if (indexNextRead > words.size())
     return nullptr;
   else
-    return words[indexNext++].wordp;
+    return words[indexNextRead++].wordp;
 }
 
 
@@ -70,7 +149,105 @@ void Words::pronToMeta(
   const string& realpron,
   string& mpron) const
 {
-  // TODO
+  const unsigned i = 2*encodeVowelsVal + encodeExactVal;
+
+  const unsigned c = countDelimiters(realpron, "/");
+  vector<string> tokens(c+1);
+  tokenize(realpron, tokens, "/");
+
+  mpron = "";
+  for (auto &t: tokens)
+  {
+    auto it = metapronMap[i].find(t);
+    if (it == metapronMap[i].end())
+    {
+      cout << "realpron " << realpron << ": Cannot match " << t << "\n";
+      continue;
+    }
+
+    mpron += it->second;
+  }
+}
+
+
+void Words::fnameToTags(
+  const string& fname,
+  string& cat,
+  string& sub) const
+{
+  const unsigned c = countDelimiters(fname, "/");
+  if (c == 0)
+  {
+    cat = "none";
+    sub = "none";
+    return;
+  }
+
+  vector<string> tokens(c+1);
+  tokenize(fname, tokens, "/");
+
+  if (c == 1)
+  {
+    cat = tokens[0];
+    sub = "none";
+  }
+  else
+  {
+    cat = tokens[c-2];
+    sub = tokens[c-1];
+  }
+}
+
+
+bool Words::lineToComps(
+  const string& line,
+  string& w, // Word
+  string& lno, // Line numbers
+  string& pr, // Pronunciation
+  string& vw, // Vowels in word
+  string& vp) const // Vowels in pronunciation
+{
+  const unsigned c = countDelimiters(line, " ");
+  if (c != 4)
+    return false;
+
+  vector<string> tokens(c+1);
+  tokenize(line, tokens, "/");
+
+  w = tokens[0];
+  lno = tokens[1];
+  pr = tokens[2];
+  vw = tokens[3];
+  vp = tokens[4];
+  return true;
+}
+
+
+void Words::ingestFile(const string& fname)
+{
+  string cat, sub;
+  Words::fnameToTags(fname, cat, sub);
+
+  ifstream fin;
+  fin.open(fname);
+  string line;
+  string w, lno, pr, vw, vp;
+
+  while (getline(fin, line))
+  {
+    if (line == "" || line.front() == '#')
+      continue;
+
+    if (! Words::lineToComps(line, w, lno, pr, vw, vp))
+    {
+      cout << "fname " << fname << ": Could not parse '" << line << "'\n";
+      continue;
+    }
+
+    Words::addReal(w, pr, cat, sub, lno);
+  }
+
+  fin.close();
 }
 
 
@@ -94,7 +271,7 @@ void Words::addReal(
   WordEntry * entryp = &words.back();
 
   entryp->word = word;
-  strcpy(entryp->word, word.c_str());
+  strcpy(entryp->wordp, word.c_str());
   entryp->metapron = "";
   entryp->metapronAlt = "";
 
@@ -102,7 +279,7 @@ void Words::addReal(
   PronEntry& pe = entryp->prons.back();
 
   pe.pron = realpron;
-  Words::PronToMeta(realpron, pe.pron);
+  Words::pronToMeta(realpron, pe.pron);
   pe.category = cat;
   pe.subcat = sub;
   pe.lines = lno;
@@ -148,32 +325,33 @@ void Words::findErrors()
   for (unsigned i = 0; i < words.size(); i++)
   {
     const WordEntry we = words[i];
-    const string& correct = we.metaconv;
+    const string& candidate1 = we.metapron;
+    const string& candidate2 = we.metapronAlt;
 
     for (unsigned j = 0; j < words[i].prons.size(); j++)
     {
-      const string& met1 = words[i].prons[j].metapron;
-      const string& met2 = words[i].prons[j].metapronAlt;
+      const PronEntry& pe = words[i].prons[j];
+      const string& correct = pe.metaconv;
 
-      if (met1 == correct)
+      if (correct == candidate1)
         continue;
 
-      errors1.emplace_back(ErrorEntry);
+      errors1.emplace_back(ErrorEntry());
       ErrorEntry& e1 = errors1.back();
       e1.wordIndex = i;
-      e2.listIndex = j;
+      e1.listIndex = j;
 
-      errorsCount1[we.category][we.subcat]++;
+      errorsCount1[pe.category][pe.subcat]++;
 
-      if (met2 == correct)
+      if (correct == candidate2)
        continue;
 
-      errors2.emplace_back(ErrorEntry);
+      errors2.emplace_back(ErrorEntry());
       ErrorEntry& e2 = errors2.back();
       e2.wordIndex = i;
       e2.listIndex = j;
 
-      errorsCount2[we.category][we.subcat]++;
+      errorsCount2[pe.category][pe.subcat]++;
     }
   }
 }
@@ -185,8 +363,8 @@ void Words::findCollision(
 {
   for (auto &it: mmap)
   {
-    const string& metapron = it->first;
-    set<unsigned>& indexSet = it->second;
+    const string& metapron = it.first;
+    set<unsigned>& indexSet = it.second;
 
     if (indexSet.size() <= 1)
       continue; // No collision
@@ -194,8 +372,8 @@ void Words::findCollision(
     auto itc = collisionsOK.find(metapron);
     if (itc != collisionsOK.end())
     {
-      for (auto itok&: * itc)
-        indexSet.erase(* itok);
+      for (auto &itok: itc->second)
+        indexSet.erase(itok);
     }
 
     realmap[metapron] = indexSet;
@@ -210,12 +388,331 @@ void Words::findCollisions()
 }
 
 
+string Words::shorten(const string& s) const
+{
+  if (s.size() <= WIDTH)
+    return s;
+  else
+    return s.substr(0, WIDTH-1) + ".";
+}
+
+void Words::printStatTXT(
+  ofstream& fout,
+  const string& heading,
+  const CountMap& count) const
+{
+  fout << heading << "\n\n";
+
+  fout << setw(8) << "";
+  for (auto &c: categories)
+    fout << setw(8) << right << Words::shorten(c);
+  fout << setw(8) << right << "Sum" << "\n";
+
+  map<string, unsigned> catsum;
+
+  for (auto &s: subcats)
+  {
+    unsigned sum = 0;
+    fout << setw(8) << left << Words::shorten(s);
+    for (auto &c: categories)
+    {
+      auto itc = count.find(c);
+      if (itc == count.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      const map<string, unsigned>& smap = itc->second;
+      auto its = smap.find(s);
+      if (its == smap.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      const unsigned cval = its->second;
+      fout << setw(8) << right << cval;
+      sum += cval;
+      catsum[c] += cval;
+    }
+    fout << setw(8) << right << sum << "\n";
+  }
+
+  fout << setw(8) << left << "Sum";
+  for (auto &c: categories)
+  {
+    auto itc = catsum.find(c);
+    if (itc == catsum.end())
+    {
+      fout << setw(8) << right << "-";
+      continue;
+    }
+
+    fout << setw(8) << right << itc->second;
+  }
+
+  fout << "\n";
+}
+
+
+void Words::printStatCSV(
+  ofstream& fout,
+  const string& heading,
+  const CountMap& count) const
+{
+  fout << heading << "\n\n";
+
+  for (auto &c: categories)
+    fout << "," << Words::shorten(c);
+  fout << ",Sum\n";
+
+  map<string, unsigned> catsum;
+
+  for (auto &s: subcats)
+  {
+    unsigned sum = 0;
+    fout << Words::shorten(s);
+    for (auto &c: categories)
+    {
+      auto itc = count.find(c);
+      if (itc == count.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      const map<string, unsigned>& smap = itc->second;
+      auto its = smap.find(s);
+      if (its == smap.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      const unsigned cval = its->second;
+
+      fout << "," << cval;
+      sum += cval;
+      catsum[c] += cval;
+    }
+    fout << "," << sum << "\n";
+  }
+
+  fout << "Sum";
+  for (auto &c: categories)
+  {
+    auto itc = catsum.find(c);
+    if (itc == catsum.end())
+    {
+      fout << ",0";
+      continue;
+    }
+
+    fout << "," << itc->second;
+  }
+
+  fout << "\n";
+}
+
+
 void Words::printStat(
   ofstream& fout,
   const string& heading,
-  const CountMap& count)
+  const CountMap& count,
+  const Format format) const
 {
-  // TODO
+  if (format == PRON_FORMAT_TXT)
+    Words::printStatTXT(fout, heading, count);
+  else if (format == PRON_FORMAT_CSV)
+    Words::printStatCSV(fout, heading, count);
+}
+
+
+void Words::printStatPercentTXT(
+  ofstream& fout,
+  const string& heading,
+  const CountMap& countDenom,
+  const CountMap& countNum) const
+{
+  fout << heading << "\n\n";
+
+  fout << setw(8) << "";
+  for (auto &c: categories)
+    fout << setw(8) << right << Words::shorten(c);
+  fout << setw(8) << right << "Overall" << "\n";
+
+  map<string, unsigned> catsumDenom;
+  map<string, unsigned> catsumNum;
+
+  for (auto &s: subcats)
+  {
+    unsigned sumDenom = 0;
+    unsigned sumNum = 0;
+
+    fout << setw(8) << left << Words::shorten(s);
+    for (auto &c: categories)
+    {
+      auto itcDenom = countDenom.find(c);
+      if (itcDenom == countDenom.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      const map<string, unsigned>& smapDenom = itcDenom->second;
+      auto itsDenom = smapDenom.find(s);
+      if (itsDenom == smapDenom.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      auto itcNum = countNum.find(c);
+      if (itcNum == countNum.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      const map<string, unsigned>& smapNum = itcNum->second;
+      auto itsNum = smapNum.find(s);
+      if (itsNum == smapNum.end())
+      {
+        fout << setw(8) << right << "-";
+        continue;
+      }
+
+      const unsigned cDenom = itsDenom->second;
+      const unsigned cNum = itsNum->second;
+
+      fout << setw(7) << right << fixed << setprecision(2) << 
+        100. * cNum / static_cast<float>(cDenom) << "%";
+      sumDenom += cDenom;
+      sumNum += cNum;
+
+      catsumDenom[c] += cDenom;
+      catsumNum[c] += cNum;
+    }
+    fout << setw(8) << right << right << fixed << setprecision(2) <<
+      100. * sumNum / static_cast<float>(sumDenom) << "\n";
+  }
+
+  fout << setw(8) << left << "Overall";
+  for (auto &c: categories)
+  {
+    auto itcDenom = catsumDenom.find(c);
+    if (itcDenom == catsumDenom.end())
+    {
+      fout << setw(8) << right << "-";
+      continue;
+    }
+
+    auto itcNum = catsumNum.find(c);
+    if (itcNum == catsumNum.end())
+    {
+      fout << setw(8) << right << "-";
+      continue;
+    }
+
+    fout << setw(8) << right << fixed << setprecision(2) <<
+      100. * itcNum->second / static_cast<float>(itcDenom->second) << "\n";
+  }
+
+  fout << "\n";
+}
+
+
+void Words::printStatPercentCSV(
+  ofstream& fout,
+  const string& heading,
+  const CountMap& countDenom,
+  const CountMap& countNum) const
+{
+  fout << heading << "\n\n";
+
+  for (auto &c: categories)
+    fout << "," << c;
+  fout << ",Overall\n";
+
+  map<string, unsigned> catsumDenom;
+  map<string, unsigned> catsumNum;
+
+  for (auto &s: subcats)
+  {
+    unsigned sumDenom = 0;
+    unsigned sumNum = 0;
+
+    fout << s;
+    for (auto &c: categories)
+    {
+      auto itcDenom = countDenom.find(c);
+      if (itcDenom == countDenom.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      const map<string, unsigned>& smapDenom = itcDenom->second;
+      auto itsDenom = smapDenom.find(s);
+      if (itsDenom == smapDenom.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      auto itcNum = countNum.find(c);
+      if (itcNum == countNum.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      const map<string, unsigned>& smapNum = itcNum->second;
+      auto itsNum = smapNum.find(s);
+      if (itsNum == smapNum.end())
+      {
+        fout << ",0";
+        continue;
+      }
+
+      const unsigned cDenom = itsDenom->second;
+      const unsigned cNum = itsNum->second;
+
+      fout << "," << fixed << setprecision(4) << 
+        cNum / static_cast<float>(cDenom);
+      sumDenom += cDenom;
+      sumNum += cNum;
+
+      catsumDenom[c] += cDenom;
+      catsumNum[c] += cNum;
+    }
+    fout << "," << fixed << setprecision(4) << 
+      sumNum / static_cast<float>(sumDenom) << "\n";
+  }
+
+  fout << ",Overall";
+  for (auto &c: categories)
+  {
+    auto itcDenom = catsumDenom.find(c);
+    if (itcDenom == catsumDenom.end())
+    {
+      fout << ",0";
+      continue;
+    }
+
+    auto itcNum = catsumNum.find(c);
+    if (itcNum == catsumNum.end())
+    {
+      fout << ",0";
+      continue;
+    }
+
+    fout << "," << fixed << setprecision(4) <<
+      itcNum->second / static_cast<float>(itcNum->second) << "\n";
+  }
+
+  fout << "\n";
 }
 
 
@@ -223,26 +720,29 @@ void Words::printStatPercent(
   ofstream& fout,
   const string& heading,
   const CountMap& countDenom,
-  const CountMap& countNum)
+  const CountMap& countNum,
+  const Format format) const
 {
-  // TODO
+  if (format == PRON_FORMAT_TXT)
+    Words::printStatPercentTXT(fout, heading, countDenom, countNum);
+  else if (format == PRON_FORMAT_CSV)
+    Words::printStatPercentCSV(fout, heading, countDenom, countNum);
 }
 
 
 void Words::printStats(
   const string& fname,
-  const PronFormat format) const
+  const Format format) const
 {
-  // TODO: Make sorted lists of cats and subs, and pass them on.
-
   ofstream fout;
   fout.open(fname);
-  Words::printStat(fout, "Word counts", wordsCount);
-  Words::printStat(fout, "Error counts", errorsCount1);
-  Words::printStat(fout, "Error counts with alt", errorsCount2);
+  Words::printStat(fout, "Word counts", wordsCount, format);
+  Words::printStat(fout, "Error counts", errorsCount1, format);
+  Words::printStat(fout, "Error counts with alt", errorsCount2, format);
 
-  Words::printStatPercent(fout, "Error counts", wordsCount, errorsCount1);
-  Words::printStatPercent(fout, "Error counts with alt", wordsCount, errorsCount2);
+  Words::printStatPercent(fout, "Error counts", wordsCount, errorsCount1, format);
+  Words::printStatPercent(fout, "Error counts with alt", wordsCount, errorsCount2,
+    format);
   fout.close();
 }
 
@@ -254,11 +754,11 @@ void Words::printMetapronError(
 {
   fout << heading << "\n\n";
 
-  for (auto it&: errors)
+  for (auto &it: errors)
   {
-    const ErrorEntry& ee = * it;
+    const ErrorEntry& ee = it;
     const WordEntry& we = words[ee.wordIndex];
-    const ErrorEntry& le = we.prons[ee.listIndex];
+    const PronEntry& le = we.prons[ee.listIndex];
 
     fout << we.word << ":\n";
     fout << setw(16) << left << we.metapron <<
@@ -278,8 +778,8 @@ void Words::printMetapronErrors(const string& fname) const
 {
   ofstream fout;
   fout.open(fname);
-  Words::printCollision(fout, "Errors primary", errors1);
-  Words::printCollision(fout, "Errors with alt", errors2);
+  Words::printMetapronError(fout, "Errors primary", errors1);
+  Words::printMetapronError(fout, "Errors with alt", errors2);
   fout.close();
 }
 
@@ -291,14 +791,14 @@ void Words::printCollision(
 {
   fout << heading << "\n\n";
 
-  for (auto it&: collmap)
+  for (auto &it: collmap)
   {
-    fout << "Metapron3: " << it->first << "\n";
-    const set<unsigned>& cmap = it->second;
+    fout << "Metapron3: " << it.first << "\n";
+    const set<unsigned>& cmap = it.second;
 
-    for (auto itc&: cmap)
+    for (auto &itc: cmap)
     {
-      const WordEntry& we = words[* itc];
+      const WordEntry& we = words[itc];
       fout << "  " << we.word << ", " <<
         we.metapron << ", " << we.metapronAlt << "\n";
     }

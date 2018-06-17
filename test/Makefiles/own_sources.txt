@@ -1,2 +1,4 @@
 DTEST_SOURCE_FILES 	=	\
-        args.cpp
+        args.cpp                \
+        parse.cpp               \
+        Words.cpp
