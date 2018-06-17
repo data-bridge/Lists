@@ -34,3 +34,10 @@
 *.sht
 *.opendb
 *.exp
+
+src/Makefile
+test/Makefile
+
+src/tmp/*.txt
+src/*.txt
+scripts/*.txt
