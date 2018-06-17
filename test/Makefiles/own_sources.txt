@@ -1,0 +1,2 @@
+DTEST_SOURCE_FILES 	=	\
+        args.cpp

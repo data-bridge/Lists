@@ -1,0 +1,6 @@
+../src/charsets.obj: ../src/charsets.h
+../src/Metaphone3.obj: ../src/Metaphone3.h ../src/charsets.h
+../src/wrapper.obj: ../include/pron.h ../include/portab.h ../src/Metaphone3.h
+args.obj: args.h const.h
+dtest.obj: ../src/Metaphone3.h
+dtest.obj: ../src/Metaphone3.h

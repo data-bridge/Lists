@@ -1,0 +1,4 @@
+charsets.obj: charsets.h
+Metaphone3.obj: Metaphone3.h charsets.h
+entry.obj: ../include/pron.h ../include/portab.h
+wrapper.obj: ../include/pron.h ../include/portab.h Metaphone3.h

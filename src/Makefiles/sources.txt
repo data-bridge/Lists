@@ -1,0 +1,5 @@
+SOURCE_FILES    =               \
+        charsets.cpp            \
+        Metaphone3.cpp          \
+        entry.cpp               \
+        wrapper.cpp

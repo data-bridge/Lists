@@ -1,0 +1,4 @@
+PRON_SOURCE_FILES    =          \
+        ../src/charsets.cpp     \
+        ../src/Metaphone3.cpp   \
+        ../src/wrapper.cpp
