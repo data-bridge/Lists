@@ -1,5 +1,6 @@
 DTEST_SOURCE_FILES 	=	\
         args.cpp                \
-        parse.cpp               \
         Files.cpp               \
-        Words.cpp
+        parse.cpp               \
+        Timer.cpp               \
+	Words.cpp

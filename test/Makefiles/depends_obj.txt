@@ -3,6 +3,8 @@
 ../src/Metaphone3.obj: ../include/pron.h
 ../src/wrapper.obj: ../include/pron.h ../include/portab.h ../src/Metaphone3.h
 args.obj: args.h const.h
-parse.obj: parse.h
+parse.obj: parse.h const.h
+Files.obj: Files.h const.h parse.h
+Timer.obj: Timer.h
 Words.obj: Words.h const.h ../include/pron.h parse.h
 dtest.obj: ../include/pron.h
