@@ -29,28 +29,18 @@ class Files
 
     unsigned nextNo;
 
+    vector<FileEntry> inputList;
+
     vector<string> dirList; // Sloppy to keep this
 
     bool fillEntry(
       const string& text,
       FileEntry& entry) const;
 
-    void list2map(
-      const vector<FileEntry>& fileList,
-      map<string, vector<FileEntry>>& refMap);
-
     void buildFileList(
       const string& dirName,
       vector<FileEntry>& fileList,
-      const Format formatOnly = BRIDGE_FORMAT_SIZE);
-
-    Format guessLINFormat(const string& base) const;
-
-    void extendTaskList(
-      const FileEntry& in,
-      const vector<FileEntry>& out,
-      const bool keepFlag,
-      const map<string, vector<FileEntry>>& refMap);
+      const Format formatOnly = PRON_FORMAT_SIZE);
 
 
   public:
@@ -65,7 +55,7 @@ class Files
 
     void set(const Options& options);
 
-    bool next(FileTask& ftask);
+    bool next(FileEntry& ftask);
 
     void print() const;
 };

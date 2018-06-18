@@ -14,6 +14,7 @@
 #include <stdlib.h>
 
 #include "parse.h"
+#include "const.h"
 
 using namespace std;
 
@@ -57,5 +58,27 @@ unsigned countDelimiters(
     c += static_cast<int>
       (count(text.begin(), text.end(), delimiters.at(i)));
   return static_cast<unsigned>(c);
+}
+
+
+void toUpper(
+  string& text)
+{
+  for (unsigned i = 0; i < text.size(); i++)
+    text.at(i) = static_cast<char>(toupper(static_cast<int>(text.at(i))));
+}
+
+
+Format ext2format(const string& text)
+{
+  string st = text;
+  toUpper(st);
+
+  if (st == "TXT")
+    return PRON_FORMAT_TXT;
+  else if (st == "CSV")
+    return PRON_FORMAT_CSV;
+  else
+    return PRON_FORMAT_SIZE;
 }
 

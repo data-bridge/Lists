@@ -11,6 +11,16 @@
 #include <fstream>
 #include <regex>
 
+#if defined(__CYGWIN__)
+  #include "dirent.h"
+#elif defined(_WIN32)
+  #include "dirent.h"
+  #include <windows.h>
+  #include "Shlwapi.h"
+#else
+  #include <dirent.h>
+#endif
+
 #include "Files.h"
 #include "parse.h"
 
@@ -29,7 +39,7 @@ Files::~Files()
 void Files::reset()
 {
   nextNo = 0;
-  fileTasks.clear();
+  inputList.clear();
 }
 
 
@@ -100,8 +110,6 @@ void Files::buildFileList(
 
 void Files::set(const Options& options)
 {
-  vector<FileEntry> inputList;
-
   // Set inputList
   if (options.fileInput.setFlag)
   {
@@ -118,22 +126,23 @@ void Files::set(const Options& options)
 }
 
 
-bool Files::next(FileTask& ftask) 
+bool Files::next(FileEntry& ftask) 
 {
-  if (nextNo >= fileTasks.size())
+  if (nextNo >= inputList.size())
     return false;
 
-  ftask = fileTasks[nextNo++];
+  ftask = inputList[nextNo++];
   return true;
 }
 
 
 void Files::print() const
 {
-  for (auto &i: fileTasks)
+  for (auto &i: inputList)
   {
-    cout << "fileInput    " << i.fileInput << endl;
-    cout << "formatInput  " << FORMAT_NAMES[i.formatInput] << endl << endl;
+    cout << "fullname  " << i.fullName << endl;
+    cout << "base      " << i.base << endl;
+    cout << "format    " << FORMAT_NAMES[i.format] << endl << endl;
   }
 }
 

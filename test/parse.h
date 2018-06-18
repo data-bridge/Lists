@@ -13,6 +13,8 @@
 #include <string>
 #include <vector>
 
+#include "const.h"
+
 using namespace std;
 
 
@@ -24,5 +26,11 @@ void tokenize(
 unsigned countDelimiters(
   const string& text,
   const string& delimiters);
+
+void toUpper(
+  string& text);
+
+Format ext2format(
+  const string& text);
 
 #endif
