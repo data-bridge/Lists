@@ -192,11 +192,10 @@ static void printBinaryOption(
   const bool flag,
   const string& text)
 {
-  cout << setw(12) << text;
   if (flag)
     cout << setw(12) << text << "set\n";
   else
-    cout << setw(12) << "not set" << "\n";
+    cout << setw(12) << text << "not set" << "\n";
 }
 
 
@@ -215,7 +214,7 @@ void printOptions(const Options& options)
   if (options.formatSetFlag)
   {
     cout << setw(12) << "format" << 
-        setw(12) << FORMAT_NAMES[options.formatSetFlag] << "\n";
+        setw(12) << FORMAT_NAMES[options.format] << "\n";
   }
   else
     cout << setw(12) << "not set\n";

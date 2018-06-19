@@ -158,6 +158,25 @@ void Words::pronToMeta(
   tokenize(realpron, tokens, "/");
 
   mpron = "";
+  string prev = "";
+
+  if (! encodeVowelsVal)
+  {
+    // A leading vowel still gets encoded.
+    auto it = metapronMap[i].find(tokens[0]);
+    if (it == metapronMap[i].end())
+    {
+      cout << "realpron '" << realpron << "': Cannot match " << 
+        tokens[0] << "\n";
+    }
+
+    if (it->second == "") // Vowel
+    {
+      mpron = "A";
+      prev = "A";
+    }
+  }
+
   for (auto &t: tokens)
   {
     auto it = metapronMap[i].find(t);
@@ -167,7 +186,10 @@ void Words::pronToMeta(
       continue;
     }
 
-    mpron += it->second;
+    // Don't repeat.
+    if (it->second != prev)
+      mpron += it->second;
+    prev = it->second.back();
   }
 }
 
@@ -272,6 +294,7 @@ void Words::addReal(
   {
     i = words.size();
     words.emplace_back(WordEntry());
+    wordsMap[word] = words.size()-1;
   }
   else
     i = it->second;
@@ -287,7 +310,7 @@ void Words::addReal(
   PronEntry& pe = entryp->prons.back();
 
   pe.pron = realpron;
-  Words::pronToMeta(realpron, pe.pron);
+  Words::pronToMeta(realpron, pe.metaconv);
   pe.category = cat;
   pe.subcat = sub;
   pe.lines = lno;
@@ -571,8 +594,8 @@ void Words::printStatPercentTXT(
     if (sumDenom == 0)
       fout << setw(8) << "-" << "\n";
     else
-      fout << setw(8) << right << right << fixed << setprecision(2) <<
-        100. * sumNum / static_cast<float>(sumDenom) << "\n";
+      fout << setw(7) << right << right << fixed << setprecision(2) <<
+        100. * sumNum / static_cast<float>(sumDenom) << "%\n";
   }
 
   fout << setw(8) << left << "Overall";
@@ -582,10 +605,10 @@ void Words::printStatPercentTXT(
     const unsigned cNum = Words::lookup(catsumNum, c);
 
     if (cDenom == 0 || cNum == 0)
-      fout << setw(8) << right << "-" << "\n";
+      fout << setw(8) << right << "-";
     else
-      fout << setw(8) << right << fixed << setprecision(2) <<
-        100. * cNum / static_cast<float>(cDenom) << "\n";
+      fout << setw(7) << right << fixed << setprecision(2) <<
+        100. * cNum / static_cast<float>(cDenom) << "%";
   }
 
   fout << "\n";

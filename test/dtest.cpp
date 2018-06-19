@@ -25,6 +25,7 @@ int main(int argc, char * argv[])
 {
   Options options;
   readArgs(argc, argv, options);
+  // printOptions(options);
 
   Words words;
   words.setEncoding(options.vowelsFlag, options.exactFlag);
@@ -87,6 +88,8 @@ int main(int argc, char * argv[])
   {
     metaword(w, options.vowelsFlag, options.exactFlag, best, alt);
     words.addMeta(string(w), string(best), string(alt));
+// cout << "Added " << string(w) << ", " <<
+  // string(best) << ", " << string(alt) << endl;
   }
   timer.stop();
   cout << setw(12) << left << "Metapron" << 
