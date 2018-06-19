@@ -121,6 +121,15 @@ class Words
 
     string shorten(const string& s) const;
 
+    unsigned lookup(
+      const CountMap& count,
+      const string& cat,
+      const string& sub) const;
+
+    unsigned lookup(
+      const map<string, unsigned>& count,
+      const string& cat) const;
+
     void printStatTXT(
       ofstream& fout,
       const string& heading,

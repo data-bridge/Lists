@@ -404,6 +404,37 @@ string Words::shorten(const string& s) const
     return s.substr(0, WIDTH-1) + ".";
 }
 
+
+unsigned Words::lookup(
+  const CountMap& count,
+  const string& cat,
+  const string& sub) const
+{
+  auto itc = count.find(cat);
+  if (itc == count.end())
+    return 0;
+
+  const map<string, unsigned>& smap = itc->second;
+  auto its = smap.find(sub);
+  if (its == smap.end())
+    return 0;
+  else
+    return its->second;
+}
+
+
+unsigned Words::lookup(
+  const map<string, unsigned>& count,
+  const string& cat) const
+{
+  auto itc = count.find(cat);
+  if (itc == count.end())
+    return 0;
+  else
+    return itc->second;
+}
+
+
 void Words::printStatTXT(
   ofstream& fout,
   const string& heading,
@@ -417,32 +448,18 @@ void Words::printStatTXT(
   fout << setw(8) << right << "Sum" << "\n";
 
   map<string, unsigned> catsum;
-
   for (auto &s: subcats)
   {
     unsigned sum = 0;
     fout << setw(8) << left << Words::shorten(s);
     for (auto &c: categories)
     {
-      // TODO: Make into a function that return the value.
-      // Just test for == 0 then.
-      auto itc = count.find(c);
-      if (itc == count.end())
-      {
+      const unsigned cval = Words::lookup(count, c, s);
+      if (cval == 0)
         fout << setw(8) << right << "-";
-        continue;
-      }
+      else
+        fout << setw(8) << right << cval;
 
-      const map<string, unsigned>& smap = itc->second;
-      auto its = smap.find(s);
-      if (its == smap.end())
-      {
-        fout << setw(8) << right << "-";
-        continue;
-      }
-
-      const unsigned cval = its->second;
-      fout << setw(8) << right << cval;
       sum += cval;
       catsum[c] += cval;
     }
@@ -452,14 +469,11 @@ void Words::printStatTXT(
   fout << setw(8) << left << "Sum";
   for (auto &c: categories)
   {
-    auto itc = catsum.find(c);
-    if (itc == catsum.end())
-    {
+    const unsigned cval = Words::lookup(catsum, c);
+    if (cval == 0)
       fout << setw(8) << right << "-";
-      continue;
-    }
-
-    fout << setw(8) << right << itc->second;
+    else
+      fout << setw(8) << right << cval;
   }
 
   fout << "\n\n";
@@ -478,30 +492,13 @@ void Words::printStatCSV(
   fout << ",Sum\n";
 
   map<string, unsigned> catsum;
-
   for (auto &s: subcats)
   {
     unsigned sum = 0;
     fout << Words::shorten(s);
     for (auto &c: categories)
     {
-      auto itc = count.find(c);
-      if (itc == count.end())
-      {
-        fout << ",0";
-        continue;
-      }
-
-      const map<string, unsigned>& smap = itc->second;
-      auto its = smap.find(s);
-      if (its == smap.end())
-      {
-        fout << ",0";
-        continue;
-      }
-
-      const unsigned cval = its->second;
-
+      const unsigned cval = Words::lookup(count, c, s);
       fout << "," << cval;
       sum += cval;
       catsum[c] += cval;
@@ -511,16 +508,7 @@ void Words::printStatCSV(
 
   fout << "Sum";
   for (auto &c: categories)
-  {
-    auto itc = catsum.find(c);
-    if (itc == catsum.end())
-    {
-      fout << ",0";
-      continue;
-    }
-
-    fout << "," << itc->second;
-  }
+    fout << "," << Words::lookup(catsum, c);
 
   fout << "\n\n";
 }
@@ -563,38 +551,13 @@ void Words::printStatPercentTXT(
     fout << setw(8) << left << Words::shorten(s);
     for (auto &c: categories)
     {
-      auto itcDenom = countDenom.find(c);
-      if (itcDenom == countDenom.end())
+      const unsigned cDenom = Words::lookup(countDenom, c, s);
+      const unsigned cNum = Words::lookup(countNum, c, s);
+      if (cDenom == 0 || cNum == 0)
       {
         fout << setw(8) << right << "-";
         continue;
       }
-
-      const map<string, unsigned>& smapDenom = itcDenom->second;
-      auto itsDenom = smapDenom.find(s);
-      if (itsDenom == smapDenom.end() || itsDenom->second == 0)
-      {
-        fout << setw(8) << right << "-";
-        continue;
-      }
-
-      auto itcNum = countNum.find(c);
-      if (itcNum == countNum.end())
-      {
-        fout << setw(8) << right << "-";
-        continue;
-      }
-
-      const map<string, unsigned>& smapNum = itcNum->second;
-      auto itsNum = smapNum.find(s);
-      if (itsNum == smapNum.end())
-      {
-        fout << setw(8) << right << "-";
-        continue;
-      }
-
-      const unsigned cDenom = itsDenom->second;
-      const unsigned cNum = itsNum->second;
 
       fout << setw(7) << right << fixed << setprecision(2) << 
         100. * cNum / static_cast<float>(cDenom) << "%";
@@ -615,22 +578,14 @@ void Words::printStatPercentTXT(
   fout << setw(8) << left << "Overall";
   for (auto &c: categories)
   {
-    auto itcDenom = catsumDenom.find(c);
-    if (itcDenom == catsumDenom.end() || itcDenom->second == 0)
-    {
-      fout << setw(8) << right << "-";
-      continue;
-    }
+    const unsigned cDenom = Words::lookup(catsumDenom, c);
+    const unsigned cNum = Words::lookup(catsumNum, c);
 
-    auto itcNum = catsumNum.find(c);
-    if (itcNum == catsumNum.end() || itcNum->second == 0)
-    {
+    if (cDenom == 0 || cNum == 0)
       fout << setw(8) << right << "-" << "\n";
-      continue;
-    }
-
-    fout << setw(8) << right << fixed << setprecision(2) <<
-      100. * itcNum->second / static_cast<float>(itcDenom->second) << "\n";
+    else
+      fout << setw(8) << right << fixed << setprecision(2) <<
+        100. * cNum / static_cast<float>(cDenom) << "\n";
   }
 
   fout << "\n";
@@ -711,22 +666,14 @@ void Words::printStatPercentCSV(
   fout << ",Overall";
   for (auto &c: categories)
   {
-    auto itcDenom = catsumDenom.find(c);
-    if (itcDenom == catsumDenom.end() || itcDenom->second == 0)
-    {
-      fout << ",0";
-      continue;
-    }
+    const unsigned cDenom = Words::lookup(catsumDenom, c);
+    const unsigned cNum = Words::lookup(catsumNum, c);
 
-    auto itcNum = catsumNum.find(c);
-    if (itcNum == catsumNum.end())
-    {
-      fout << ",0";
-      continue;
-    }
-
-    fout << "," << fixed << setprecision(4) <<
-      itcNum->second / static_cast<float>(itcNum->second) << "\n";
+    if (cDenom == 0 || cNum == 0)
+      fout << ",0\n";
+    else
+      fout << "," << fixed << setprecision(4) <<
+        cNum / static_cast<float>(cDenom) << "\n";
   }
 
   fout << "\n";
