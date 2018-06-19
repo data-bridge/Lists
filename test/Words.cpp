@@ -56,6 +56,7 @@ const vector<vector<string>> PronList =
   {"n", "N", "N", "N", "N"},
   {"p", "P", "P", "P", "P"},
   {"r", "R", "R", "R", "R"},
+  {"R", "R", "R", "R", "R"},
   {"S", "X", "X", "X", "X"},
   {"s", "S", "S", "S", "S"},
   {"T", "0", "0", "0", "0"}, // Zero
@@ -129,7 +130,7 @@ void Words::rewind()
 
 char const * Words::next()
 {
-  if (indexNextRead > words.size())
+  if (indexNextRead >= words.size())
     return nullptr;
   else
     return words[indexNextRead++].wordp;
@@ -153,6 +154,7 @@ void Words::pronToMeta(
 
   const unsigned c = countDelimiters(realpron, "/");
   vector<string> tokens(c+1);
+  tokens.clear();
   tokenize(realpron, tokens, "/");
 
   mpron = "";
@@ -161,7 +163,7 @@ void Words::pronToMeta(
     auto it = metapronMap[i].find(t);
     if (it == metapronMap[i].end())
     {
-      cout << "realpron " << realpron << ": Cannot match " << t << "\n";
+      cout << "realpron '" << realpron << "': Cannot match " << t << "\n";
       continue;
     }
 
@@ -184,17 +186,19 @@ void Words::fnameToTags(
   }
 
   vector<string> tokens(c+1);
+  tokens.clear();
   tokenize(fname, tokens, "/");
 
-  if (c == 1)
+  const unsigned p = tokens[c].find_first_of(".");
+  if (p == string::npos)
   {
-    cat = tokens[0];
-    sub = "none";
+    cat = tokens[c-1];
+    sub = fname;
   }
   else
   {
-    cat = tokens[c-2];
-    sub = tokens[c-1];
+    cat = tokens[c-1];
+    sub = tokens[c].substr(0, p);
   }
 }
 
@@ -212,7 +216,8 @@ bool Words::lineToComps(
     return false;
 
   vector<string> tokens(c+1);
-  tokenize(line, tokens, "/");
+  tokens.clear();
+  tokenize(line, tokens, " ");
 
   w = tokens[0];
   lno = tokens[1];
@@ -227,6 +232,9 @@ void Words::ingestFile(const string& fname)
 {
   string cat, sub;
   Words::fnameToTags(fname, cat, sub);
+
+  categories.insert(cat);
+  subcats.insert(sub);
 
   ifstream fin;
   fin.open(fname);
@@ -416,6 +424,8 @@ void Words::printStatTXT(
     fout << setw(8) << left << Words::shorten(s);
     for (auto &c: categories)
     {
+      // TODO: Make into a function that return the value.
+      // Just test for == 0 then.
       auto itc = count.find(c);
       if (itc == count.end())
       {
@@ -452,7 +462,7 @@ void Words::printStatTXT(
     fout << setw(8) << right << itc->second;
   }
 
-  fout << "\n";
+  fout << "\n\n";
 }
 
 
@@ -512,7 +522,7 @@ void Words::printStatCSV(
     fout << "," << itc->second;
   }
 
-  fout << "\n";
+  fout << "\n\n";
 }
 
 
@@ -562,7 +572,7 @@ void Words::printStatPercentTXT(
 
       const map<string, unsigned>& smapDenom = itcDenom->second;
       auto itsDenom = smapDenom.find(s);
-      if (itsDenom == smapDenom.end())
+      if (itsDenom == smapDenom.end() || itsDenom->second == 0)
       {
         fout << setw(8) << right << "-";
         continue;
@@ -594,24 +604,28 @@ void Words::printStatPercentTXT(
       catsumDenom[c] += cDenom;
       catsumNum[c] += cNum;
     }
-    fout << setw(8) << right << right << fixed << setprecision(2) <<
-      100. * sumNum / static_cast<float>(sumDenom) << "\n";
+
+    if (sumDenom == 0)
+      fout << setw(8) << "-" << "\n";
+    else
+      fout << setw(8) << right << right << fixed << setprecision(2) <<
+        100. * sumNum / static_cast<float>(sumDenom) << "\n";
   }
 
   fout << setw(8) << left << "Overall";
   for (auto &c: categories)
   {
     auto itcDenom = catsumDenom.find(c);
-    if (itcDenom == catsumDenom.end())
+    if (itcDenom == catsumDenom.end() || itcDenom->second == 0)
     {
       fout << setw(8) << right << "-";
       continue;
     }
 
     auto itcNum = catsumNum.find(c);
-    if (itcNum == catsumNum.end())
+    if (itcNum == catsumNum.end() || itcNum->second == 0)
     {
-      fout << setw(8) << right << "-";
+      fout << setw(8) << right << "-" << "\n";
       continue;
     }
 
@@ -655,7 +669,7 @@ void Words::printStatPercentCSV(
 
       const map<string, unsigned>& smapDenom = itcDenom->second;
       auto itsDenom = smapDenom.find(s);
-      if (itsDenom == smapDenom.end())
+      if (itsDenom == smapDenom.end() || itsDenom->second == 0)
       {
         fout << ",0";
         continue;
@@ -687,15 +701,18 @@ void Words::printStatPercentCSV(
       catsumDenom[c] += cDenom;
       catsumNum[c] += cNum;
     }
-    fout << "," << fixed << setprecision(4) << 
-      sumNum / static_cast<float>(sumDenom) << "\n";
+    if (sumDenom == 0)
+      fout << "0\n";
+    else
+      fout << "," << fixed << setprecision(4) << 
+        sumNum / static_cast<float>(sumDenom) << "\n";
   }
 
   fout << ",Overall";
   for (auto &c: categories)
   {
     auto itcDenom = catsumDenom.find(c);
-    if (itcDenom == catsumDenom.end())
+    if (itcDenom == catsumDenom.end() || itcDenom->second == 0)
     {
       fout << ",0";
       continue;
@@ -740,9 +757,10 @@ void Words::printStats(
   Words::printStat(fout, "Error counts", errorsCount1, format);
   Words::printStat(fout, "Error counts with alt", errorsCount2, format);
 
-  Words::printStatPercent(fout, "Error counts", wordsCount, errorsCount1, format);
-  Words::printStatPercent(fout, "Error counts with alt", wordsCount, errorsCount2,
-    format);
+  Words::printStatPercent(fout, "Error ratios", wordsCount, 
+    errorsCount1, format);
+  Words::printStatPercent(fout, "Error ratios with alt", wordsCount, 
+    errorsCount2, format);
   fout.close();
 }
 

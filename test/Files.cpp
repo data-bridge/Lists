@@ -57,6 +57,9 @@ bool Files::fillEntry(
   smatch match;
   if (regex_search(text, match, re) && match.size() >= 2)
   {
+    if (match.str(1) == "doubles" || match.str(1) == "nosplits")
+      return false;
+
     entry.fullName = text;
     entry.base = match.str(1);
     entry.format = ext2format(match.str(2));

@@ -25,9 +25,9 @@ void tokenize(
 
 
 int STDCALL metaword(
-  char * word,
-  bool encodeVowels,
-  bool encodeExact,
+  char const * word,
+  const bool encodeVowels,
+  const bool encodeExact,
   char * best,
   char * alt)
 {
@@ -46,9 +46,9 @@ int STDCALL metaword(
 
 
 int STDCALL metaphrase(
-  char * word,
-  bool encodeVowels,
-  bool encodeExact,
+  char const * word,
+  const bool encodeVowels,
+  const bool encodeExact,
   char * best,
   char * alt)
 {
@@ -86,10 +86,10 @@ int STDCALL metaphrase(
 
 
 int STDCALL metalist(
-  char ** words,
-  unsigned number,
-  bool encodeVowels,
-  bool encodeExact,
+  char const ** words,
+  const unsigned number,
+  const bool encodeVowels,
+  const bool encodeExact,
   char ** bests,
   char ** alts)
 {

@@ -7,8 +7,8 @@
    See LICENSE and README.
 */
 
-#ifndef PRON_FILES_H
-#define PRON_FILES_H
+#ifndef PRON_WORDS_H
+#define PRON_WORDS_H
 
 #include <string>
 #include <vector>
