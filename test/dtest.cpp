@@ -98,7 +98,8 @@ int main(int argc, char * argv[])
   timer.reset();
   timer.start();
   words.findErrors();
-  words.printStats("stats.txt", PRON_FORMAT_TXT);
+  const string fout = "stats." + FORMAT_NAMES[options.format];
+  words.printStats(fout, options.format);
   words.printMetapronErrors("errors.txt");
   timer.stop();
   cout << setw(12) << left << "Errors" << 

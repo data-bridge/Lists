@@ -680,23 +680,23 @@ void Words::printStatPercentCSV(
       catsumNum[c] += cNum;
     }
     if (sumDenom == 0)
-      fout << "0\n";
+      fout << ",0\n";
     else
       fout << "," << fixed << setprecision(4) << 
         sumNum / static_cast<float>(sumDenom) << "\n";
   }
 
-  fout << ",Overall";
+  fout << "Overall";
   for (auto &c: categories)
   {
     const unsigned cDenom = Words::lookup(catsumDenom, c);
     const unsigned cNum = Words::lookup(catsumNum, c);
 
     if (cDenom == 0 || cNum == 0)
-      fout << ",0\n";
+      fout << ",0";
     else
       fout << "," << fixed << setprecision(4) <<
-        cNum / static_cast<float>(cDenom) << "\n";
+        cNum / static_cast<float>(cDenom);
   }
 
   fout << "\n";

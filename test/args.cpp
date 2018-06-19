@@ -82,7 +82,7 @@ void usage(
     "-e, --exact        Enable output.\n" <<
     "                   (Default: not set)\n\n" <<
     "-f, --format s     Output format (default: txt).\n" <<
-    "                   Values txt, csv.\n\n" <<
+    "                   Values TXT, CSV.\n\n" <<
     "-c, --collisions   Output specific collisions.\n" <<
     "                   (Default: not set)\n\n" <<
     endl;
