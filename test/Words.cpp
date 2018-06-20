@@ -147,6 +147,7 @@ void Words::setEncoding(
 
 
 void Words::pronToMeta(
+  const string& word,
   const string& realpron,
   string& mpron) const
 {
@@ -158,7 +159,7 @@ void Words::pronToMeta(
   tokenize(realpron, tokens, "/");
 
   mpron = "";
-  string prev = "";
+  string prevChar = "";
 
   if (! encodeVowelsVal)
   {
@@ -173,7 +174,7 @@ void Words::pronToMeta(
     if (it->second == "") // Vowel
     {
       mpron = "A";
-      prev = "A";
+      prevChar = "A";
     }
   }
 
@@ -187,9 +188,36 @@ void Words::pronToMeta(
     }
 
     // Don't repeat.
-    if (it->second != prev)
+    const string& nextChunk = it->second;
+    if (nextChunk != prevChar)
+    {
+      // adherend, anharmonic, backhanded, bathhouse.
+      if (nextChunk == "H" && 
+         (prevChar == "T" || prevChar == "N" ||
+          prevChar == "K" || prevChar == "0"))
+        continue;
+
       mpron += it->second;
-    prev = it->second.back();
+      prevChar = nextChunk.back();
+    }
+  }
+
+  // seance: SNS -> SNTS in Metapron3.
+  const unsigned l = mpron.size();
+  if (l >= 3 && mpron.substr(l-2) == "NS")
+  {
+    const unsigned lw = word.size();
+    const string& end = word.substr(lw-3);
+    if (lw >= 4 && 
+       (end == "nce" || end == "ncy"))
+    {
+      // This assumes encodeVowels == false.
+    // TODO Look up better C++ solution.
+ // cout << "before '" << mpron << "'\n";
+    mpron.erase(l-1);
+    mpron += "TS";
+ // cout << "after  '" << mpron << "'\n";
+    }
   }
 }
 
@@ -310,7 +338,7 @@ void Words::addReal(
   PronEntry& pe = entryp->prons.back();
 
   pe.pron = realpron;
-  Words::pronToMeta(realpron, pe.metaconv);
+  Words::pronToMeta(word, realpron, pe.metaconv);
   pe.category = cat;
   pe.subcat = sub;
   pe.lines = lno;

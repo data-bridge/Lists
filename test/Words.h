@@ -99,6 +99,7 @@ class Words
     void setTable();
 
     void pronToMeta(
+      const string& word,
       const string& realpron,
       string& mpron) const;
 
