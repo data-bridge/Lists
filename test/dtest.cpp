@@ -87,7 +87,11 @@ int main(int argc, char * argv[])
   while (char const * w = words.next())
   {
     metaword(w, options.vowelsFlag, options.exactFlag, best, alt);
-    words.addMeta(string(w), string(best), string(alt));
+    if (! words.addMeta(string(w), string(best), string(alt)))
+    {
+      cout << "Failed to add " << string(w) << ", " <<
+        string(best) << ", " << string(alt) << endl;
+    }
 // cout << "Added " << string(w) << ", " <<
   // string(best) << ", " << string(alt) << endl;
   }

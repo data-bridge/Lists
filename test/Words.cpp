@@ -294,12 +294,12 @@ void Words::addReal(
   {
     i = words.size();
     words.emplace_back(WordEntry());
-    wordsMap[word] = words.size()-1;
+    wordsMap[word] = i;
   }
   else
     i = it->second;
 
-  WordEntry * entryp = &words.back();
+  WordEntry * entryp = &words[i];
 
   entryp->word = word;
   strcpy(entryp->wordp, word.c_str());
