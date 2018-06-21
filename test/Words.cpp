@@ -195,7 +195,8 @@ void Words::pronToMeta(
       if (nextChunk == "H" && 
          (prevChar == "T" || prevChar == "N" ||
           prevChar == "K" || prevChar == "0" ||
-          prevChar == "L"))
+          prevChar == "L" || prevChar == "S" ||
+          prevChar == "P" || prevChar == "R"))
         continue;
 
       mpron += nextChunk;
