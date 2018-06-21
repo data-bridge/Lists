@@ -194,10 +194,11 @@ void Words::pronToMeta(
       // adherend, anharmonic, backhanded, bathhouse.
       if (nextChunk == "H" && 
          (prevChar == "T" || prevChar == "N" ||
-          prevChar == "K" || prevChar == "0"))
+          prevChar == "K" || prevChar == "0" ||
+          prevChar == "L"))
         continue;
 
-      mpron += it->second;
+      mpron += nextChunk;
       prevChar = nextChunk.back();
     }
   }
