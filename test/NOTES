@@ -1,3 +1,22 @@
+2018-06-21
+----------
+Don't show upper/lower case collisions if the same realpron
+Why do words make it that have different prons only?
+  Because metapron maps them to the same mpron.
+Eliminate duplicates for one word, e.g. "the"
+Propose lines for identical pronunciations to copy to top,
+  avoiding allowed collisions ("X therefor therefore" for
+  easy filtering afterwards)
+When printing collisions, empty line after each group
+
+When mapping written words to realpron, divide into runs
+of consonants and non-consonants.  Have a list of realprons
+for each run.  Recursively try to decompose realpron.
+Expand the lists until we've got them all.  Count how many
+of each we get.  Print.  Use the strong favorites in Metapron
+to map vowels to A, E, I, O, U, Y, 1-9 or so.
+
+
 2018-06-19
 ----------
 ending on -ence etc:

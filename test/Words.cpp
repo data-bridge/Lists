@@ -102,11 +102,11 @@ void Words::reset()
 
 void Words::setTable()
 {
-  // The index is 2*encodeVowels + encodeExact, so
+  // The index is 2*encodeExact + encodeVowels, so
   //     vowels  exact
   // 0:   false  false
-  // 1:   false   true
-  // 2:    true  false
+  // 1:    true  false
+  // 2:   false   true
   // 3:    true   true
 
   metapronMap.resize(4);
@@ -151,7 +151,7 @@ void Words::pronToMeta(
   const string& realpron,
   string& mpron) const
 {
-  const unsigned i = 2*encodeVowelsVal + encodeExactVal;
+  const unsigned i = 2*encodeExactVal + encodeVowelsVal;
 
   const unsigned c = countDelimiters(realpron, "/");
   vector<string> tokens(c+1);
@@ -817,8 +817,18 @@ void Words::printCollision(
     for (auto &itc: cmap)
     {
       const WordEntry& we = words[itc];
-      fout << "  " << we.word << ", " <<
-        we.metapron << ", " << we.metapronAlt << "\n";
+
+      fout << "  " << we.word << ", " << we.metapron;
+      if (we.metapronAlt != "")
+        fout << ", " << we.metapronAlt;
+      fout << ":";
+      
+      for (auto &itl: we.prons)
+      {
+        // if (itl.metaconv == it.first)
+          fout << " " << itl.pron;
+      }
+      fout << "\n";
     }
   }
 
