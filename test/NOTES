@@ -16,6 +16,8 @@ Expand the lists until we've got them all.  Count how many
 of each we get.  Print.  Use the strong favorites in Metapron
 to map vowels to A, E, I, O, U, Y, 1-9 or so.
 
+make the list in Extract.cpp a file to read in?
+
 
 Likely errors in mpron.txt
 --------------------------
