@@ -27,7 +27,14 @@ unsigned countDelimiters(
   const string& text,
   const string& delimiters);
 
+unsigned levenshtein(
+  const string& s1,
+  const string& s2);
+
 void toUpper(
+  string& text);
+
+void toLower(
   string& text);
 
 Format ext2format(

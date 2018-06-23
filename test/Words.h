@@ -65,6 +65,7 @@ class Words
 
     vector<WordEntry> words;
     unsigned indexNextRead;
+    unsigned indexNextPronRead;
 
     // wordsMap{aardvark} is the words index of that word.
     map<string, unsigned> wordsMap;
@@ -184,6 +185,9 @@ class Words
 
     void rewind();
     char const * next();
+    bool nextPair(
+      string& word,
+      string& pron);
 
     void setEncoding(
       const bool encodeVowels,

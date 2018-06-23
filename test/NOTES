@@ -17,6 +17,35 @@ of each we get.  Print.  Use the strong favorites in Metapron
 to map vowels to A, E, I, O, U, Y, 1-9 or so.
 
 
+Likely errors in mpron.txt
+--------------------------
+
+XX 6 Neanderthaloid: NNTR0LT
+n/i/p, NP, knowledge, animal, 106848
+
+XX 4 shtreimel: XTRML
+S/u, X, jewish, wear, 142216
+
+XX 4 Samuelson: SMLSN
+S/E/l, XL, british, last, 135353
+
+XX 4 myoglobinuria: MKLPNR
+m/aI/@/g/r/&/f, MKRF, knowledge, disease, 106164
+
+XX 3 ninetieth: NNT0
+n/aI, N, british, number, 108190
+
+XX 2 Brengun: PRNKN
+b/r/E/n, PRN, british, brand, 21672
+
+XX 2 rayonny: RN
+r/eI/v/I/l, RFL, british, lower, 129035
+
+XX 2 Wakayama: AKM
+w/E/p, AP, japanese, city, 170407
+
+
+
 2018-06-19
 ----------
 ending on -ence etc:

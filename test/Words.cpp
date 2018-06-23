@@ -89,6 +89,7 @@ void Words::reset()
 
   words.clear();
   indexNextRead = 0;
+  indexNextPronRead = 0;
 
   wordsMap.clear();
   metaMap.clear();
@@ -125,6 +126,7 @@ void Words::setTable()
 void Words::rewind()
 {
   indexNextRead = 0;
+  indexNextPronRead = 0;
 }
 
 
@@ -134,6 +136,32 @@ char const * Words::next()
     return nullptr;
   else
     return words[indexNextRead++].wordp;
+}
+
+
+bool Words::nextPair(
+  string& word,
+  string& pron)
+{
+  const unsigned lw = words.size();
+  if (indexNextRead >= lw)
+    return false;
+
+  const unsigned lp = words[indexNextRead].prons.size();
+  if (indexNextRead+1 == lw && indexNextPronRead >= lp)
+    return false;
+
+  word = words[indexNextRead].word;
+  pron = words[indexNextRead].prons[indexNextPronRead].pron;
+
+  indexNextPronRead++;
+  if (indexNextPronRead == lp)
+  {
+    indexNextRead++;
+    indexNextPronRead = 0;
+  }
+
+  return true;
 }
 
 
@@ -778,8 +806,9 @@ void Words::printMetapronError(
     const WordEntry& we = words[ee.wordIndex];
     const PronEntry& le = we.prons[ee.listIndex];
 
-    fout << we.word << ":\n";
-    fout << setw(16) << left << we.metapron <<
+    fout << "XX " << levenshtein(we.metapron, le.metaconv) << " ";
+    fout << we.word << ": " << 
+      setw(16) << left << we.metapron <<
       setw(16) << left << we.metapronAlt << "\n";
     fout << le.pron << ", " <<
       le.metaconv << ", " <<

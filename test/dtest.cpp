@@ -13,6 +13,7 @@
 
 #include "args.h"
 #include "Words.h"
+#include "Extract.h"
 #include "Files.h"
 #include "Timer.h"
 
@@ -122,5 +123,10 @@ int main(int argc, char * argv[])
       setw(10) << right << timer.str() << "\n";
   }
 
+  Extract extract;
+  words.rewind();
+  string word, pron;
+  while (words.nextPair(word, pron))
+    extract.enter(word, pron);
 }
 

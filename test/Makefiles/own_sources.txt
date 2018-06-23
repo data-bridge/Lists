@@ -1,5 +1,6 @@
 DTEST_SOURCE_FILES 	=	\
         args.cpp                \
+        Extract.cpp             \
         Files.cpp               \
         parse.cpp               \
         Timer.cpp               \
