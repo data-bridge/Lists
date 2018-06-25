@@ -27,6 +27,8 @@ class Extract
 
     map<string, bool> isVowelMap;
 
+    map<string, bool> skipsMap;
+
     map<string, map<string, unsigned>> histoMap;
 
 

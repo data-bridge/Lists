@@ -16,6 +16,7 @@
 #include "parse.h"
 
 #define EXTRACT_FILE "pieces.dat"
+#define SKIP_FILE "skips.dat"
 
 
 const vector<string> Consonants =
@@ -74,6 +75,25 @@ void Extract::setTable()
         pronMap[part].push_back(tokens[i]);
     }
 
+  }
+
+  fin.close();
+
+  fin.open(SKIP_FILE);
+
+  while (getline(fin, line))
+  {
+    if (line == "" || line.front() == '#')
+      continue;
+
+    const unsigned c = countDelimiters(line, "/");
+    tokens.resize(c+1);
+    tokens.clear();
+    tokenize(line, tokens, " ");
+
+    string& part = tokens[0];
+    toLower(part);
+    skipsMap[part] = true;
   }
 
   fin.close();
@@ -197,12 +217,12 @@ void Extract::enter(
 
   if (wlower.size() == 0)
     return;
-  else 
+  else if (skipsMap.find(wlower) == skipsMap.end())
   {
     const string& r = Extract::recurse(wlower, pron, isVowelMap[wlower.substr(0, 1)]);
     if (r != "")
-      cout << r;
-      // cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
+      // cout << r;
+      cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
   }
 }
 

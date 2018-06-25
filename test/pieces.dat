@@ -338,7 +338,7 @@ dv d/v
 dz dZ d/z
 dzh dZ d/Z Z
 
-e eI I E @ i - A (@) j/E i/@ U aI/E & E/@ O j/O .
+e eI I E @ i - A (@) j/E i/@ U aI/E & E/@ O j/O j/I .
 ea (@) & A E eI i j/@ O i/@ eI/A eI/@ I/j/@ j/A j/I i/& 
 ea eI/@ i/@ i/O E/@ @ i/A @
 eae i/@ i/i
@@ -1561,7 +1561,7 @@ rstn r/s/t/n
 rstpr r/s/t/p/r
 rstr r/s/t/r
 rsv r/S/v r/z/v
-rt r/t R/t R
+rt r/t R/t R r/tS
 rtb r/t/b
 rtbr r/t/b/r
 rtc r/t/k
@@ -2202,3 +2202,4 @@ rtthr r/t/T/r
 thd T/d
 thsm T/S/m
 dph d/f
+je @
