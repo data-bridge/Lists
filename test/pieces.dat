@@ -1,9 +1,9 @@
 ' .
 
 a & @ A E eI I O oU U - E/@ aI/j/eI aI h/A j/@ j/A
-aa & @ A eI O oU
+aa & @ A eI O oU eI/@
 aaiu aI/@
-ae & (@) @ A aI E eI i aI/E A/E
+ae & (@) @ A aI E eI i aI/E A/E E/@ A/j/E i/@ E/@
 aea i i/@
 aeae i/i
 aeaea i/i/@
@@ -17,7 +17,7 @@ aeoi i/Oi
 aeu AU i/@
 aewi eI/w/aI
 aeye eI/@
-ai & @ A aI E eI i j A/E A/I A/i eI/I E/@ @/I Oi
+ai & @ A aI E eI i j A/E A/I A/i eI/I E/@ @/I Oi i/I aI/E
 aia aI/& eI/@ eI/j A/j/@ aI/@
 aiae eI/i eI/j/i
 aie aI/@ aI/A aI/E aI/i E
@@ -89,7 +89,7 @@ awy A/w/i O/i
 awye O/j/@/r
 ay aI E/@ E eI eI/@ i
 aya A/j/@ A/j/A eI/& eI/@ aI/@ aI/j/A @/j/A aI/A j/@ eI/j/@
-aye A/j/E eI A/i @/j/eI eI/@
+aye A/j/E eI A/i @/j/eI eI/@ eI/I
 ayeau A/j/U
 ayee eI/i
 ayey A/j/E/i eI/i
@@ -166,7 +166,7 @@ c k s S tS t/s
 c' s
 cb k/b
 cc k k/s tS
-cch k t/tS
+cch k t/tS k/tS
 ccl k/l
 ccr k/r
 cd k/d
@@ -275,20 +275,20 @@ ctn k/t/n
 ctr k/t/r
 cts k/t/s
 cv k/v s/v
-cz tS z
+cz tS z t/s
 czm S/m tS/m
 
 d' d D
-d d t dZ T .
+d d t dZ T D .
 'd d
-db d/b
+db d/b v
 dbl d/b/l
 dbr d/b/r
 dc d/k
 dch d/tS
 dcl d/k/l
 dcr d/k/r
-dd d
+dd d d/d
 ddb d/b
 ddf d/f D/v
 ddh d
@@ -303,7 +303,7 @@ dg dZ d/g
 dgl dZ/l
 dgm dZ/m
 dgr d/g/r
-dh d d/h D
+dh d d/h D .
 d'h d
 dhp d/p
 dhr d/r d/R
@@ -338,13 +338,14 @@ dv d/v
 dz dZ d/z
 dzh dZ d/Z Z
 
-e eI I E @ i - A (@) j/E i/@ U .
-ea (@) & A E eI i j/@ O i/@ eI/A eI/@ I/j/@ j/A j/I i/& eI/@ i/@ i/O E/@
+e eI I E @ i - A (@) j/E i/@ U aI/E & E/@ O j/O .
+ea (@) & A E eI i j/@ O i/@ eI/A eI/@ I/j/@ j/A j/I i/& 
+ea eI/@ i/@ i/O E/@ @ i/A @
 eae i/@ i/i
 eao i/O i/oU
 eau oU y
 eaujo oU/Z/@
-eaway @/w/eI
+eaway @/w/eI i/@/w/eI i/w/eI
 eawo i/w/(@)
 eawoo i/w/U
 ee i eI @ E i/E i/@ i/I
@@ -359,13 +360,13 @@ eeway i/w/eI
 eewee i/w/i
 eewi i/w/I
 eewo i/w/U
-ei @ aI E eI i I i/I eI/I
+ei @ aI E eI i I i/I eI/I E/@
 eia E/j/A eI/@ eI/j/A i/@ t/aI/@
 eie aI
 eii i/aI
 eij aI E
 eiji eI/dZ/I
-eijo eI/dZ/O
+eijo eI/dZ/O eI/dZ/oU eI/h/oU
 eio eI/O i/@ i/aI I/j/oU aI/oU aI/A
 eiwa eI/w/A
 eiwi aI/v/I
@@ -399,7 +400,7 @@ eway w/eI @/w/eI
 ewe j/u/@ j/u/E j/u w/E @/w/E u/@ u u/E u/I
 ewee w/i i/w/i
 ewei w/eI
-ewey @/v/aI
+ewey @/v/aI u/i
 ewi eI/w/i i/w/aI I/w/I i/w/I j/u/I u/I
 ewo w/(@) w/oU w/U w/oU
 ewoo -/r/w/U
@@ -470,7 +471,7 @@ ftsm f/t/s/m
 ftt f/t/t
 fz f/z
 
-g g dZ Z g/j x k
+g g dZ Z g/j x k h
 gb g/b
 gc dZ
 gch g/tS
@@ -489,7 +490,7 @@ ggpl g/p/l
 ggr g/r
 ggs g/z
 ggsh g/S
-gh g x f .
+gh g x f h .
 ghb b
 ghbr b/r
 ghd g/d
@@ -544,9 +545,10 @@ gtr g/t/r
 gv g/v
 gz g/z
 
-h h .
+h h x .
 'h h
 hch tS
+h'd d
 hd d
 hf f
 hg r
@@ -576,10 +578,10 @@ hth t/h
 hv k/v v x/v
 hz z
 
-i i I @ (@) aI E j/i
+i i I @ (@) aI E j/i aI/@ aI/-
 ia @ i/& i/@ i/A i j/A j/@ aI/@ j/U A eI I/A I i/j/A i/E
 iaa i/A
-iae i/@ i/i
+iae i/@ i/i i/E
 iai A/i aI i/E/@ i/eI
 iao A/O i/O j/AU
 iaou AU
@@ -587,9 +589,11 @@ iaow i/AU
 iaoya j/AU/j/A
 iau i/AU i/O i/oU j/A j/oU j/u aI/O
 iaui j/AU/i
-iawa i/A/w/A
+iawa i/A/w/A i/@/w/A
 iaye i aI/j/E
-ie i j/(@) aI eI I j/@ E aI/i i/@ i/& i/E aI/I aI/@ - @ i/A
+ie i j/(@) aI eI I j/@ E aI/i i/@ i/& i/E aI/I aI/@ aI/E j/A
+ie j/eI i/I - 
+ie @ i/A j/E i/eI j/&
 ieo i/oU
 ieu j/y u
 ieuwe u/I
@@ -639,10 +643,10 @@ iyeya i/j/E/j/A
 iyi i/j/i
 iyo i/j/O i/j/oU i/O
 
-j dZ/u dZ/eI j/-
+j dZ/u dZ/eI j/- dZ .
 ja & dZ/& dZ/A dZ/eI Z/A d/j/@ dZ/@ j/A
 jaa dZ/@
-jae dZ/eI h/A/E j/eI S/E
+jae dZ/eI h/A/E j/eI S/E dZ/eI/@
 jai aI h/aI
 jaoui dZ/A/w/i
 jau dZ/A dZ/O j/AU j/oU Z/O Z/oU
@@ -654,8 +658,8 @@ jay dZ/eI
 jaya dZ/A/j/A
 jayewa dZ/A/v/A
 jaywa dZ/eI/w/O
-je dZ/@ dZ/E j/eI i dZ/i j/@ j/E E
-jea Z/A dZ/i
+je dZ/@ dZ/E j/eI i dZ/i j/@ j/E E @
+jea Z/A dZ/i dZ/
 jee dZ/i
 jeju dZ/I/dZ/u
 jeo dZ/E
@@ -670,7 +674,7 @@ jie Z/i/E
 jiji dZ/I/dz/i
 jiuji dZ/u/dZ/I
 jo dZ/A dZ/O dZ/oU h/O h/oU oU j/O
-joa dZ/oU h/w/A j/oU/A j/oU Z/O
+joa dZ/oU h/w/A j/oU/A j/oU Z/O dZ/oU/&
 joao dZ/oU/A/oU
 joe dZ/oU/@ dZ/oU j/(@) j/O/(@)
 joey dZ/oU/i
@@ -732,8 +736,9 @@ kt k/t
 kthr k/T/r
 kv k/v
 
-l l
+l l .
 l' l
+'l l
 lb l/b
 lbl l/b/l
 lbr l/b/r l/b/R
@@ -784,7 +789,7 @@ lft l/f/t
 lg l/dZ l/g l/@/g
 lgh l/g
 lgr l/g/r l/g/R
-lh l
+lh l l/h
 l'h l
 lk l/k k
 lkb k/b
@@ -860,7 +865,7 @@ lpt l/p/t l/p/tS
 lptr l/p/t/r
 lq l/k
 lr l/r
-ls l/s l/S l/z
+ls l/s l/S l/z l s .
 l's l/z
 lsb l/z/b
 lsc l/S l/s l/z/k
@@ -876,7 +881,7 @@ lsp l/s/p
 lss l/s
 lst l/s/t
 lstr l/s/t/r
-lt l/t
+lt l/t .
 ltb l/t/b
 ltch l/tS
 ltd l/t/d
@@ -899,7 +904,7 @@ lx l/k/s
 lz l/z l/t/s
 
 'm m
-m m
+m m N
 mb m/b m
 m'b m/b
 mbd m/d
@@ -975,8 +980,10 @@ mptb m/p/t
 mptr n/t/r
 mq m/k
 mr m/r
+m's m/@/s
 ms m/s m/z
 msb m/z/b
+msc m/s
 msch m/S
 mscr m/s/k/r
 msh m/S
@@ -1002,7 +1009,7 @@ n n N n/j
 nb n/b
 nbl n/b/l
 nbr n/b/r
-nc n/k N/k N
+nc n/k N/k N n/t/s N/s
 nch n/tS N/k n/S
 nchb n/tS/b
 nchc n/tS/k
@@ -1024,7 +1031,7 @@ ncr n/k/r
 ncs N
 nct n/k/S n/k/t N/k/t
 ncx N/k/s
-nd n/d N n/t n
+nd n/d N n/t n N/d
 n'd n/dZ
 ndb n/d/b
 ndbl n/d/b/l
@@ -1104,12 +1111,12 @@ ngspr N/s/p/r
 ngst N/s/t N/k/s/t
 ngstr N/s/t/r
 ngsv N/z/v
-ngt N/t
+ngt N/t N/k n/k
 ngtr N/t/r
 ngtz N/s
 ngv N/v
 ngz N/z
-nh n/j N n
+nh n/j N n n/h
 nk N/k n/k
 nkb N/k/b
 nkbl n/k/b/l
@@ -1123,7 +1130,7 @@ nkn n/k/@/n N/k/n n/n
 nkp N/k/p
 nkpl N/k/p/l
 nkr n/k/r
-nks N/k/s
+nks N/k/s n/k/s
 nksg N/k/s/g
 nksh N/k/S N/k/s
 nksm N/k/s/m
@@ -1150,7 +1157,7 @@ nps n/s
 nq N/k
 nr n/r n/R
 nrr n/r
-ns n/s n/z N n
+ns n/s n/z N n n/S
 n's n/z
 nsb n/z/b
 nsc n/s n/S n/s/k
@@ -1179,8 +1186,8 @@ nst n/s/t n/z/t
 nstl n/s/t/l
 nstr n/s/t/r
 nsv n/s/v n/z/v
-nsz n/s
-nt n/t N/t N
+nsz n/s n/z
+nt n/t N/t N n/tS
 n't n/t
 ntb n/t/b
 ntbr n/b/r n/t/b/r
@@ -1189,7 +1196,7 @@ ntcl n/t/k/l
 ntd n/t/d
 ntf n/t/f
 ntg n/t/g
-nth n/T n/t
+nth n/T n/t n/t/h
 nthl n/T/l
 nthr n/T/r
 ntl n/t/l
@@ -1220,8 +1227,8 @@ nz n/z n/t/s
 nzb n/z/b
 nzh n/Z
 
-o A oU O @ u U j/oU y
-oa oU/@ oU/A oU O/A w/A oU/& O/A oU/eI
+o A oU O @ u U j/oU y AU
+oa oU/@ oU/A oU O/A w/A oU/& O/A oU/eI oU/&
 oae oU/E/@ oU/i
 oai w/aI
 oaia oU/@/aI/@
@@ -1239,7 +1246,7 @@ oewy oU/i
 oey oU/i
 oi oU/i w/A Oi oU/I oU/j w/A
 oia O/j/A Oi/@ Oi/A oU/aI
-oie Oi/@ Oi/i
+oie Oi/@ Oi/i w/A
 oio Oi/@ Oi/A
 oja A/dZ/I O/h/A Oi/A oU/dZ/@ oU/h/A
 ojai oU/h/aI
@@ -1247,12 +1254,12 @@ oje @/dZ/E Oi/@ oU/dZ/E oU/h/i
 ojeju oU/dZ/I/dZ/u
 oji oU/dZ/I O/dZ/i
 ojou @/dZ/u
-oo u oU oU/A U
+oo u oU oU/A U oU/O U/@ oU/@
 ooee u/i
 ooey u/i
 ooie u/i
 oowoo @/w/U
-ou u w/A AU @ oU
+ou u w/A AU @ oU oU/j/U
 oua U/A u/A w/A
 oue w/@ w/i u/eI u
 ouei u/eI/I
@@ -1265,14 +1272,14 @@ ouwe AU/@
 ouy u/i
 ouy w/i
 ouye oU/w/eI
-ow AU oU @ O/f O
+ow AU oU @ O/f O oU/@
 owa U/w/A O/v/A oU/w/A
 owaway oU/@/w/eI
 oway @/w/eI oU/w/eI
 owe oU/@ oU/w/E A/w AU oU AU/@ oU/i AU/I
 owee oU/w/i
 owei oU/w/eI
-owi oU/I oU/aI oU/v/I oU/w/aI oU/w/I oU/aI
+owi oU/I oU/aI oU/v/I oU/w/aI oU/w/I oU/aI/@
 owia oU/v/i/&
 owie oU/i AU/i
 owju oU/dZ/@
@@ -1283,7 +1290,7 @@ owwee oU/w/i
 owwo oU/w/(@)
 owwoo oU/w/U
 owwow AU/w/AU
-owy oU/I oU/i
+owy oU/I oU/i AU/i
 owya oU/j/&
 owye oU/j/@
 oy Oi y/i
@@ -1295,7 +1302,7 @@ oyo O/j/O Oi/oU
 oyu O/j/u oU/j/u
 
 p' p
-p p
+p p b .
 pb p/b b
 pbr p/b/r
 pc p/k
@@ -1303,11 +1310,11 @@ pch p/tS
 pcr p/k/r
 pd p/d
 pdr p/d/r
-pf p/f f
+pf p/f f p
 pfr p/f/r
 pg p/g
 pgr p/g/r
-ph f p
+ph f p p/h
 phl f/l
 phn n
 phr f/r
@@ -1327,7 +1334,7 @@ ppr p/r
 pps p/s
 ppv p/v
 pr p/r p/@/R
-ps p/s s z
+ps p/s p/S s z .
 p's p/s
 psb p/s/b
 psc p/s/k
@@ -1341,7 +1348,7 @@ pst p/s/t
 pstr p/s/t/r
 pt p/S p/t
 ptf t/f
-pth f/T
+pth f/T p/T
 pthr p/T/r
 ptl p/t/l
 ptn p/t/n
@@ -1425,6 +1432,7 @@ rgm r/g/m
 rgn r/n
 rgr r/g/r
 rgs r/g/s
+rgsk r/g/s/k
 rgt r/g/r
 rh r/h r
 rk r/k R/k
@@ -1468,7 +1476,7 @@ rlsh r/l/S
 rlsr r/l/s/r
 rlst r/l/s/t
 rlt r/l/t
-rm r/m R/m
+rm r/m R/m m
 rmb r/m/b
 rmbr r/m/b/r
 rmch r/m/tS
@@ -1514,6 +1522,7 @@ rpr r/p/r
 rps r/p/s r
 rpsb r/p/s/b
 rpsh r/p/S
+rpsm r/m
 rpsv r/p/s/v
 rpt r/p/S r/p/t
 rq r/k
@@ -1523,7 +1532,7 @@ rrh r
 rrk R/tS
 rrs r/z
 rrst r/s/t
-rs r/s r/z R/s r R/z R z
+rs r/s r/z R/s r R/z R z r/Z .
 rsb r/z/b
 rsc r/s/k
 rsch r/S R/S
@@ -1676,7 +1685,7 @@ spt s/p/t
 sq s/k
 sr s/r s/R z/r
 srh s/r
-ss s
+ss s s/s z
 s's z/I/z
 ssb s/b
 ssbl s/b/l
@@ -1697,7 +1706,7 @@ sssh s/S
 sst s/t
 sstr s/t/r
 ssv s/v
-st s/t S/t
+st s/t S/t t s .
 stb s/t/b
 stbr s/t/b/r
 stc s/t/k
@@ -1736,7 +1745,7 @@ szk S/k s/k
 szt s/t
 
 t' t d
-t t S tS .
+t t S tS d s .
 tb t/b t/@/b t/i/b
 tbl t/b/l
 tbr t/b/r
@@ -1768,7 +1777,7 @@ tfl t/f/l
 tfr t/f/r
 tg t/g
 tgr t/g/r t/dZ
-th T t D h s
+th T t D h s t/h
 thb D/b T/b
 thbr T/b/r
 thchl T/k/l
@@ -1800,7 +1809,7 @@ tpl t/p/l
 tpr t/p/r
 tq t/k
 tr t/r t/@/r t/@/R
-ts t/s z tS
+ts t/s z tS .
 t's t/s
 tsb t/s/b
 tsch tS
@@ -1816,7 +1825,7 @@ tspr t/s/p/r
 tst t/s/t
 tstr t/s/t/r
 tsv t/s/v
-tt t
+tt t t/t
 ttb t/b
 ttd t/d
 ttfr t/f/r
@@ -1854,9 +1863,9 @@ tzst t/s/s/t t/s/S/t
 tzt t/s/t
 tzv t/s/v
 
-u u U @ (@) Y j/u oU
+u u U @ (@) Y j/u oU U/@
 ua w/A w/eI u/A u/@ u/E u/& w/@ j/u/@ w/&
-uae w/aI w/E w/i
+uae w/aI w/E w/i u/aI
 uai E eI w/aI w/eI
 uaia w/aI/& w/aI/@
 uaji w/A/h/i
@@ -1868,7 +1877,8 @@ uay i w/aI
 uaya w/A/j/A w/aI/@ w/aI/A w/aI/j/A
 uayo w/eI/oU
 uayu w/A/j/u
-ue u w/E w/eI E eI @ (@) j/u/@ u/@ w/@ w/I Oi Y/E u/E v/E j/u/E w/(@) u/I .
+ue u w/E w/eI E eI @ (@) j/u/@ u/@ w/@ w/I Oi Y/E u/E v/E 
+ue j/u/E w/(@) u/I w/i j/u .
 uea w/i
 uee w/i w/E
 uei eI j/u u/I w/i j/u/I
@@ -1878,11 +1888,11 @@ ueu (@)/r w/i/@ y
 ueue j/u
 uewee u/w/i
 uewoo u/w/U
-uey i u/i w/eI
+uey i u/i w/eI j/u/i
 ueye w/i/d
 ui u w/I w/i Y j/u/I j/u/aI @ aI i I u/i u/I u/aI w/eI u/aI
 uia i/@ u/j/@ w/i/A
-uie j/eI w/aI/I w/aI/i w/i/E w/i/j/E
+uie j/eI w/aI/I w/aI/i w/i/E w/i/j/E u/i
 uiejo u/j/eI/h/oU
 uija i/h/A
 uio i/oU
@@ -1921,7 +1931,7 @@ vd b/d v/d
 vg v/g
 vgr f/g/r
 vk f/k v/k
-vl v/l
+vl v/l l
 vlt v/-/l/t
 vn v/n
 vp f/p
@@ -1935,7 +1945,7 @@ vv v
 vz v/z
 vzh v/Z
 
-w w/I w/i w/E/@ w/aI w/aI/@ w/A w/@ w/(@)
+w w/I w/i w/E/@ w/aI w/aI/@ w/A w/@ w/(@) v w
 wa w/O w/A w/@ w/eI
 waa v/a w/& w/O
 wae w/eI
@@ -1962,11 +1972,11 @@ wi w/I w/aI w/@ w/(@) v/I v/I w/i
 wia w/i/j/A
 wie v/aI v/i w/aI w/i
 wijaya v/i/dZ/@/j/A
-wo w/oU
+wo w/oU u
 woa w/oU
 woe w/oU v/@
 woj v/Oi
-woo w/U w/oU
+woo w/U w/oU w/u
 wooe w/u
 wou w/AU w/oU w/U w/u
 wow w/AU
@@ -2010,7 +2020,7 @@ xtl k/s/t/l
 xtr k/s/t/r
 xv k/s
 
-y aI i I @ - (@) j/i
+y aI i I @ - (@) j/i Y .
 ya j/@ j/A j/& I/j/A i/A i/@ aI/@ aI/A aI/& j/E
 yae aI/i h/aI/i j/i
 yaeu aI/i
@@ -2063,7 +2073,7 @@ ywi I/w/I
 ywo aI/v/oU aI/w/(@) i/w/(@) i/w/A i/w/U
 ywoo aI/w/U
 
-z z t/s T s Z .
+z z t/s T s Z S .
 zb z/b
 zc z/k z/dZ s/k
 zd z/d
@@ -2083,8 +2093,112 @@ zs Z
 zsv Z/v
 zt z/t
 zth z/T
-zv z/v t/s
+zv z/v t/s t/s/v
 zz z tS t/s t/z d/z
 zzb z/b
 zzl z/l z/@/l
 zzm z/m
+
+
+eai i/@/I
+eaw i/w
+rsf r/z/f r/s/f
+rmfr r/m/f/r
+r'n r/n
+rgschr r/k/S/r
+rspr r/s/p/r R/S/p/r
+pthl p/T/l
+ptc p/t/s
+oujou u/Z/u
+gzh g/Z
+nssl n/s/l
+ooe u/E
+npf n/f
+ntr' n/t/r
+phz f/z
+hrm r/m
+nn' n
+kstr k/s/t/r
+lzn l/z/n
+lpf l/p/f
+ngth N/k/T n/k
+ojo oU/dZ/oU oU/j/oU oU/h/oU
+ooi u/I u/Oi
+ouai u/eI
+ouay u/eI
+ppm p/m
+ph's f/s
+ouw AU
+rfd r/f/d
+r's r/z
+woye w/Oi/@
+eawa @/w/eI i/w/@ i/w/A i/w/E/@
+ldsk l/t/s/k
+eiu i/@
+ejoi I/dZ/Oi
+joye dZ/Oi/d
+ggh g/h
+rzg R/t/s/g
+hrst r/s/t
+rmpr r/m/p/r
+jayuya h/aI/u/j/A
+jaou dZ/A/w/i
+oou oU
+msstr m/S/t/r
+llsch l/S
+lfn l/f/n
+lkt l/k/t
+ioua u/@
+ghtpr t/p/r
+hrk r/k
+hrl R/l
+iiu i/u
+lmh l/m/h
+ijua @/w/A i/@/w/A
+lmn l/m/n
+smn s/n
+rrv r/v
+rshr r/S/r
+ngthm N/k/T/m
+rgsm r/g/z/m
+rdsm r/d/z/m
+ndthr n/d/T/r
+lmsm l/m/z/m m/z/m
+lmsf l/m/z/f
+stschr s/t/S/r
+rrm r/m
+gk k
+hlh l/h
+eywoo eI/w/U/d
+hmbr m/b/R
+eweya u/i/@
+gfr g/f/r
+eejay i/dZ/eI
+eawee i/w/i
+rrnh r/n/h
+rzl R/t/s
+hrh r/h
+waiya w/aI/j/A
+hmg m/g
+stk s/t
+krz S
+rfs r
+eyey eI/i
+nhs n/S
+ktr k/t/r
+rpn r/p/n
+n'r n/@/r
+n'd n/@/d
+iaea i/i/@
+n'll n/@/l
+th's T/s
+thbl T/b/l
+lthf l/T/f
+thtr T/t/r
+dsq d/s/k
+rths r/T/s
+rtstr r/t/s/t/r
+rtthr r/t/T/r
+thd T/d
+thsm T/S/m
+dph d/f

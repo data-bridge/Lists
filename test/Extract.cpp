@@ -201,8 +201,8 @@ void Extract::enter(
   {
     const string& r = Extract::recurse(wlower, pron, isVowelMap[wlower.substr(0, 1)]);
     if (r != "")
-      // cout << r;
-      cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
+      cout << r;
+      // cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
   }
 }
 
