@@ -224,6 +224,8 @@ void Extract::enter(
       // cout << r;
       cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
   }
+
+  collisionMap[pron].insert(wlower);
 }
 
 
@@ -231,6 +233,28 @@ void Extract::print(const string& fname) const
 {
   ofstream fout;
   fout.open(fname);
+  fout.close();
+}
+
+
+
+void Extract::printCollisions(const string& fname) const
+{
+  ofstream fout;
+  fout.open(fname);
+
+  for (auto &it: collisionMap)
+  {
+    auto &words = it.second;
+    if (words.size() == 1)
+      continue;
+
+    fout << "# pron " << it.first << "\n";
+    for (auto &word: words)
+      fout << word << " ";
+    fout << "\n\n";
+  }
+
   fout.close();
 }
 

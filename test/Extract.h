@@ -29,6 +29,8 @@ class Extract
 
     map<string, bool> skipsMap;
 
+    map<string, set<string>> collisionMap;
+
     map<string, map<string, unsigned>> histoMap;
 
 
@@ -58,6 +60,8 @@ class Extract
     void enter(const string& fname);
 
     void print(const string& fname) const;
+
+    void printCollisions(const string& fname) const;
 };
 
 #endif

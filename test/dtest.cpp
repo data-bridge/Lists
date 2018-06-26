@@ -128,5 +128,7 @@ int main(int argc, char * argv[])
   string word, pron;
   while (words.nextPair(word, pron))
     extract.enter(word, pron);
+  
+  extract.printCollisions("collreal.txt");
 }
 
