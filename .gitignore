@@ -41,4 +41,5 @@ test/Makefile
 src/tmp/*.txt
 src/*.txt
 test/*.txt
+test/data/*.txt
 scripts/*.txt

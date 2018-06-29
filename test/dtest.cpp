@@ -126,8 +126,12 @@ int main(int argc, char * argv[])
   Extract extract;
   words.rewind();
   string word, pron;
-  while (words.nextPair(word, pron))
+  // while (words.nextPair(word, pron))
+  while (words.nextMeta(word, pron))
+  {
+// cout << "extract " << word << ", " << pron << endl;
     extract.enter(word, pron);
+  }
   
   extract.printCollisions("collreal.txt");
 }

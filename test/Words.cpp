@@ -139,6 +139,22 @@ char const * Words::next()
 }
 
 
+bool Words::nextMeta(
+  string& word,
+  string& mpron)
+{
+  if (indexNextRead >= words.size())
+    return nullptr;
+  else
+  {
+    word = words[indexNextRead].word;
+    mpron = words[indexNextRead].metapron;
+    indexNextRead++;
+    return true;
+  }
+}
+
+
 bool Words::nextPair(
   string& word,
   string& pron)

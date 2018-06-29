@@ -184,7 +184,13 @@ class Words
     void reset();
 
     void rewind();
+
     char const * next();
+
+    bool nextMeta(
+      string& word,
+      string& pron);
+
     bool nextPair(
       string& word,
       string& pron);

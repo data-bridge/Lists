@@ -61,7 +61,7 @@ void Extract::setTable()
     if (line == "" || line.front() == '#')
       continue;
 
-    const unsigned c = countDelimiters(line, "/");
+    const unsigned c = countDelimiters(line, " ");
     tokens.resize(c+1);
     tokens.clear();
     tokenize(line, tokens, " ");
@@ -86,7 +86,7 @@ void Extract::setTable()
     if (line == "" || line.front() == '#')
       continue;
 
-    const unsigned c = countDelimiters(line, "/");
+    const unsigned c = countDelimiters(line, " ");
     tokens.resize(c+1);
     tokens.clear();
     tokenize(line, tokens, " ");
@@ -190,7 +190,9 @@ string Extract::recurse(
       else
       {
 // cout << "General pron\n";
-        ret = recurse(word.substr(i), pron.substr(lpron+1), ! state);
+        // +1 if realpron, to skip over slash
+        ret = recurse(word.substr(i), pron.substr(lpron), ! state);
+        // ret = recurse(word.substr(i), pron.substr(lpron+1), ! state);
         if (ret == "")
         {
           histoMap[part][candToLog]++;
@@ -221,8 +223,8 @@ void Extract::enter(
   {
     const string& r = Extract::recurse(wlower, pron, isVowelMap[wlower.substr(0, 1)]);
     if (r != "")
-      // cout << r;
-      cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
+      cout << r;
+      // cout << "FAIL " << word << ", " << pron << ":\n" << r << "\n";
   }
 
   collisionMap[pron].insert(wlower);
