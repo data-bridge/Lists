@@ -18,10 +18,18 @@
 
 using namespace std;
 
+enum PronType
+{
+  EXTRACT_REAL = 0,
+  EXTRACT_META = 1
+};
+
 
 class Extract
 {
   private:
+
+    PronType prontype;
 
     map<string, vector<string>> pronMap;
 
@@ -33,8 +41,6 @@ class Extract
 
     map<string, map<string, unsigned>> histoMap;
 
-
-    void setTable();
 
     string recurseMatch(
       const string& part,
@@ -52,6 +58,7 @@ class Extract
     Extract();
     ~Extract();
     void reset();
+    void setType(const PronType t);
 
     void enter(
       const string& word,

@@ -15,26 +15,27 @@
 #include "Extract.h"
 #include "parse.h"
 
-#define EXTRACT_FILE "data/pieces_meta.dat"
+#define EXTRACT_FILE_REAL "data/pieces_real.dat"
+#define EXTRACT_FILE_META "data/pieces_meta.dat"
+
 #define SKIP_FILE "skips.dat"
 
 
 const vector<string> Consonants =
 {
-  "b", "c", "d", "f", "g", "h", "k", "l", "m", 
+  "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", 
   "n", "p", "q", "r", "s", "t", "v", "x", "z", "'"
 };
 
 const vector<string> Vowels =
 {
-  "a", "e", "i", "j", "o", "u", "w", "y"
+  "a", "e", "i", "o", "u", "w", "y"
 };
 
 
 Extract::Extract()
 {
   Extract::reset();
-  Extract::setTable();
 }
 
 
@@ -45,13 +46,19 @@ Extract::~Extract()
 
 void Extract::reset()
 {
+  prontype = EXTRACT_REAL;
 }
 
 
-void Extract::setTable()
+void Extract::setType(const PronType t)
 {
+  prontype = t;
+
   ifstream fin;
-  fin.open(EXTRACT_FILE);
+  if (prontype == EXTRACT_REAL)
+    fin.open(EXTRACT_FILE_REAL);
+  else
+    fin.open(EXTRACT_FILE_META);
 
   string line;
   vector<string> tokens;
@@ -125,7 +132,7 @@ string Extract::recurseMatch(
     }
     else if (lpron <= pron.size() && candPron == pron.substr(0, lpron))
     {
-      // Found a match.  Skip over '/' in pron.
+      // Found a match.
       histoMap[part][candPron]++;
       return "";
     }
@@ -190,9 +197,11 @@ string Extract::recurse(
       else
       {
 // cout << "General pron\n";
-        // +1 if realpron, to skip over slash
-        ret = recurse(word.substr(i), pron.substr(lpron), ! state);
-        // ret = recurse(word.substr(i), pron.substr(lpron+1), ! state);
+        if (prontype == EXTRACT_REAL)
+          ret = recurse(word.substr(i), pron.substr(lpron+1), ! state);
+        else
+          ret = recurse(word.substr(i), pron.substr(lpron), ! state);
+
         if (ret == "")
         {
           histoMap[part][candToLog]++;

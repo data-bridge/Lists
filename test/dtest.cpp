@@ -123,16 +123,32 @@ int main(int argc, char * argv[])
       setw(10) << right << timer.str() << "\n";
   }
 
-  Extract extract;
   words.rewind();
   string word, pron;
-  // while (words.nextPair(word, pron))
-  while (words.nextMeta(word, pron))
+
+  Extract extract;
+  // const PronType t = EXTRACT_REAL;
+  const PronType t = EXTRACT_META;
+
+  if (t == EXTRACT_REAL)
   {
+    extract.setType(EXTRACT_REAL);
+    while (words.nextPair(word, pron))
+    {
 // cout << "extract " << word << ", " << pron << endl;
-    extract.enter(word, pron);
+      extract.enter(word, pron);
+    }
   }
-  
+  else
+  {
+    extract.setType(EXTRACT_META);
+    while (words.nextMeta(word, pron))
+    {
+// cout << "extract " << word << ", " << pron << endl;
+      extract.enter(word, pron);
+    }
+  }
+
   extract.printCollisions("collreal.txt");
 }
 

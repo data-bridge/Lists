@@ -2,7 +2,6 @@
 ----------
 Sort out pieces into vowels and consonants in data/
 Add comment lines with counts
-Look at making j a consonant
 
 Collisions vet
 - real
@@ -32,34 +31,13 @@ P0S vs P0HS
 2018-06-14
 ----------
 
-Something like Files.cpp from Build:
-- Filename with whole path, starting from a directory
-- All txt files other than doubles and nosplits
-- Annotated by category (may be none) and sub
-
-Should do timing
-
 Direct call at string level
 
 Could perhaps multi-thread, but probably fast enough as it is
 
-Words class
-- store(word, cat, sub, mpron, metaphone1..4)
-- All kinds of stats
-- counts{cat}{sub} number, right1..4
-- marginal counts{cat}, {sub}
-- Collisions{cat}{meta1..4}: List of words and sub
-- Count these as measure of quality
-
-
-
-
 
 * Metaphone itself
   - Maybe some special characters should get pronunciation!
-
-* Turn pronunciation into Metaphone3.
-* Run C++ against pronunciation.
 
 * Try other files from web (also BBODB output).
 * Which extended/UTF8 characters occur at all?
