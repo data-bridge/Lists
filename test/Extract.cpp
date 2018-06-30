@@ -15,7 +15,7 @@
 #include "Extract.h"
 #include "parse.h"
 
-#define EXTRACT_FILE "pieces.dat"
+#define EXTRACT_FILE "data/pieces_meta.dat"
 #define SKIP_FILE "skips.dat"
 
 
