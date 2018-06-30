@@ -63,6 +63,39 @@ unsigned countDelimiters(
 }
 
 
+void splitIntoWords(
+  const string& text,
+  vector<string>& words)
+{
+  // Split into words (split on \s+, effectively).
+  unsigned pos = 0;
+  unsigned startPos = 0;
+  bool isSpace = true;
+  const unsigned l = static_cast<unsigned>(text.length());
+
+  while (pos < l)
+  {
+    if (text.at(pos) == ' ')
+    {
+      if (! isSpace)
+      {
+        words.push_back(text.substr(startPos, pos-startPos));
+        isSpace = true;
+      }
+    }
+    else if (isSpace)
+    {
+      isSpace = false;
+      startPos = pos;
+    }
+    pos++;
+  }
+
+  if (! isSpace)
+    words.push_back(text.substr(startPos, pos-startPos));
+}
+
+
 // https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#C.2B.2B
 unsigned levenshtein(
   const string& s1,

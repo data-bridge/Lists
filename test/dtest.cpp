@@ -149,6 +149,7 @@ int main(int argc, char * argv[])
     }
   }
 
+  extract.printData();
   extract.printCollisions("collreal.txt");
 }
 

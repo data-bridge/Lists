@@ -27,6 +27,10 @@ unsigned countDelimiters(
   const string& text,
   const string& delimiters);
 
+void splitIntoWords(
+  const string& text,
+  vector<string>& words);
+
 unsigned levenshtein(
   const string& s1,
   const string& s2);

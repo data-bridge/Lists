@@ -1,0 +1,5214 @@
+#       22      
+'       .       
+
+#       2       
+'b      P       
+
+#       2       
+'c      K       
+
+#       1       
+'c's'l  KS      
+
+#       9       
+'d      T       
+
+#       2       
+'f      F       
+
+#       3       
+'h      .       
+
+#       2       
+'k      K       
+
+#       1       
+'l      L       
+
+#       8       
+'ll     L       
+
+#       2       
+'m      M       
+
+#       1       
+'n      N       
+
+#       1       
+'p      P       
+
+#       2       
+'r      R       
+
+#       18      
+'s      S       
+
+#       1       
+'s'n    SN      
+
+#       1       
+'sh     X       
+
+#       5       
+'v      F       
+
+#       8388    
+b       P       
+
+#       2       
+b'      P       
+
+#       1       
+b'n     PN      
+
+#       1       
+b'r     PR      
+
+#       2       
+b's     PS      
+
+#       284     
+bb      P       
+
+#       50      25      
+bbl     PAL     PL      
+
+#       10      
+bbr     PR      
+
+#       3       
+bbs     PS      
+
+#       38      
+bc      PK      
+
+#       5       
+bch     PX      
+
+#       1       
+bchl    PKL     
+
+#       6       
+bcl     PKL     
+
+#       2       
+bcr     PKR     
+
+#       77      
+bd      PT      
+
+#       1       
+bdd     PT      
+
+#       1       
+bdr     PTR     
+
+#       11      
+bf      PF      
+
+#       2       
+bfl     PFL     
+
+#       3       
+bfr     PFR     
+
+#       3       
+bg      PK      
+
+#       1       
+bgl     PKL     
+
+#       2       
+bgr     PKR     
+
+#       55      
+bh      P       
+
+#       47      
+bj      PJ      
+
+#       6       
+bk      PK      
+
+#       2       
+bkh     PK      
+
+#       1       
+bkn     PKN     
+
+#       1433    761     
+bl      PAL     PL      
+
+#       1       
+blj     PL      
+
+#       37      
+bm      PM      
+
+#       1       
+bmh     PM      
+
+#       36      
+bn      PN      
+
+#       4       
+bp      P       
+
+#       1       
+bph     PF      
+
+#       2       
+bpl     PL      
+
+#       2       
+bpr     PR      
+
+#       3       
+bq      PK      
+
+#       1371    16      
+br      PR      PAR     
+
+#       1       
+br'     PR      
+
+#       1       
+brn     PRN     
+
+#       3       
+brz     PRS     
+
+#       132     
+bs      PS      
+
+#       1       
+bsb     PSP     
+
+#       12      8       
+bsc     PSK     PS      
+
+#       7       
+bscr    PSKR    
+
+#       3       
+bsh     PX      
+
+#       1       
+bshr    PXR     
+
+#       2       
+bsk     PSK     
+
+#       2       1       
+bsl     PSAL    PSL     
+
+#       2       
+bsp     PSP     
+
+#       67      
+bst     PST     
+
+#       32      
+bstr    PSTR    
+
+#       34      19      
+bt      PT      T       
+
+#       1       
+btf     TF      
+
+#       5       1       
+btl     TAL     TL      
+
+#       13      
+btr     PTR     
+
+#       1       
+bts     PTS     
+
+#       16      
+bv      PF      
+
+#       2       
+bz      PS      
+
+#       13899   3829    729     
+c       K       S       X       
+
+#       1       
+c'      K       
+
+#       4       
+cb      KP      
+
+#       277     113     39      
+cc      K       KS      X       
+
+#       56      
+cch     K       
+
+#       29      
+ccl     KL      
+
+#       11      
+ccr     KR      
+
+#       16      
+cd      KT      
+
+#       1       
+cf      KF      
+
+#       1       
+cfl     KFL     
+
+#       1757    1182    17      
+ch      X       K       H       
+
+#       11      
+ch'     X       
+
+#       4       
+chb     XP      
+
+#       2       
+chbl    XPL     
+
+#       1       
+chc     XK      
+
+#       1       1       
+chch    KX      XX      
+
+#       2       
+chcl    XKL     
+
+#       1       
+chcr    XKR     
+
+#       2       
+chd     XT      
+
+#       1       
+chdr    XTR     
+
+#       3       
+chf     XF      
+
+#       1       
+chg     XJ      
+
+#       2       1       
+chh     K       X       
+
+#       8       
+chk     XK      
+
+#       144     15      
+chl     KL      XL      
+
+#       16      12      5       
+chm     KM      XM      M       
+
+#       52      2       
+chn     KN      XN      
+
+#       322     3       2       
+chr     KR      XR      KAR     
+
+#       9       
+chs     KS      
+
+#       1       
+chsb    KSP     
+
+#       1       
+chsf    KSF     
+
+#       3       
+chsh    KX      
+
+#       2       
+chsm    KSM     
+
+#       4       
+chst    KST     
+
+#       1       
+chsth   KS0     
+
+#       1       
+chstr   KSTR    
+
+#       1       
+chsv    KSF     
+
+#       42      2       
+cht     KT      T       
+
+#       38      
+chth    K0      
+
+#       2       
+chtl    KTL     
+
+#       1       
+chtp    KTP     
+
+#       1       
+chts    TS      
+
+#       1       
+chtsm   TSM     
+
+#       2       
+chz     KS      
+
+#       1325    
+ck      K       
+
+#       1       
+ck's    KS      
+
+#       49      
+ckb     KP      
+
+#       1       
+ckbl    KPL     
+
+#       8       
+ckbr    KPR     
+
+#       7       
+ckc     K       
+
+#       3       
+ckch    KX      
+
+#       3       
+ckcl    KL      
+
+#       3       
+ckcr    KR      
+
+#       9       
+ckd     KT      
+
+#       2       
+ckdr    KTR     
+
+#       23      
+ckf     KF      
+
+#       2       
+ckfl    KFL     
+
+#       2       
+ckfr    KFR     
+
+#       3       
+ckg     K       
+
+#       1       
+ckgr    KR      
+
+#       35      
+ckh     K       
+
+#       6       
+ckj     KJ      
+
+#       1       
+ckk     K       
+
+#       2       
+ckkn    KN      
+
+#       86      65      
+ckl     KL      KAL     
+
+#       19      
+ckm     KM      
+
+#       36      
+ckn     KN      
+
+#       22      
+ckp     KP      
+
+#       3       
+ckpl    KPL     
+
+#       1       
+ckpr    KPR     
+
+#       16      
+ckr     KR      
+
+#       58      3       
+cks     KS      KX      
+
+#       3       
+cksb    KSP     
+
+#       2       
+cksc    KSK     
+
+#       2       
+ckscr   KSKR    
+
+#       1       
+cksf    KSF     
+
+#       14      
+cksh    KX      
+
+#       1       
+cksk    KSK     
+
+#       4       
+cksl    KSL     
+
+#       5       
+cksm    KSM     
+
+#       4       
+cksn    KSN     
+
+#       4       
+cksp    KSP     
+
+#       1       
+ckspl   KSPL    
+
+#       19      
+ckst    KST     
+
+#       7       
+ckstr   KSTR    
+
+#       2       
+cksv    KSF     
+
+#       18      
+ckt     KT      
+
+#       4       
+ckth    K0      
+
+#       1       
+ckthr   K0R     
+
+#       2       
+cktr    KTR     
+
+#       4       
+ckv     KF      
+
+#       1       
+ckx     KKS     
+
+#       1006    105     
+cl      KL      KAL     
+
+#       15      
+cm      KM      
+
+#       30      12      
+cn      KN      N       
+
+#       2       
+cp      KP      
+
+#       2       
+cph     KF      
+
+#       42      
+cq      K       
+
+#       1502    21      
+cr      KR      KAR     
+
+#       275     1       
+cs      KS      X       
+
+#       1       
+csk     KSK     
+
+#       1       
+cst     KS      
+
+#       1464    353     13      
+ct      KT      KX      T       
+
+#       8       
+ctf     KTF     
+
+#       2       
+cth     K0      
+
+#       22      
+ctl     KTL     
+
+#       3       
+ctm     KTM     
+
+#       6       
+ctn     KTN     
+
+#       240     
+ctr     KTR     
+
+#       1       
+ctz     KTS     
+
+#       2       
+cv      KF      
+
+#       17      3       
+cz      X       KS      
+
+#       1       
+czm     XM      
+
+#       14892   107     
+d       T       J       
+
+#       56      
+d'      T       
+
+#       2       
+d'h     T       
+
+#       3       
+d's     TS      
+
+#       51      
+db      TP      
+
+#       3       
+dbl     TPL     
+
+#       7       
+dbr     TPR     
+
+#       21      
+dc      TK      
+
+#       5       
+dch     TX      
+
+#       4       
+dcl     TKL     
+
+#       3       
+dcr     TKR     
+
+#       314     
+dd      T       
+
+#       1       
+ddb     TP      
+
+#       3       
+ddf     TF      
+
+#       8       
+ddh     T       
+
+#       94      19      
+ddl     TAL     TL      
+
+#       1       
+ddm     TM      
+
+#       7       
+ddr     TR      
+
+#       3       
+dds     TS      
+
+#       43      
+df      TF      
+
+#       5       
+dfl     TFL     
+
+#       6       
+dfr     TFR     
+
+#       227     15      
+dg      J       TK      
+
+#       1       
+dgl     JL      
+
+#       6       
+dgm     JM      
+
+#       1       
+dgs     JS      
+
+#       97      
+dh      T       
+
+#       3       
+dhp     TP      
+
+#       2       
+dhr     TR      
+
+#       82      
+dj      J       
+
+#       8       
+dk      TK      
+
+#       400     48      
+dl      TL      TAL     
+
+#       116     
+dm      TM      
+
+#       229     2       
+dn      TN      N       
+
+#       3       
+dn't    TNT     
+
+#       20      
+dp      TP      
+
+#       3       
+dpl     TPL     
+
+#       2       
+dpr     TPR     
+
+#       3       
+dq      TK      
+
+#       939     7       
+dr      TR      TAR     
+
+#       71      
+ds      TS      
+
+#       5       
+dsb     TSP     
+
+#       3       1       
+dsc     TS      TSK     
+
+#       2       
+dscr    TSKR    
+
+#       1       
+dsd     TST     
+
+#       1       
+dsf     TSF     
+
+#       14      
+dsh     TX      
+
+#       5       
+dsk     TSK     
+
+#       3       
+dsl     TSL     
+
+#       8       
+dsm     TSM     
+
+#       3       
+dsp     TSP     
+
+#       4       
+dspr    TSPR    
+
+#       36      
+dst     TST     
+
+#       8       
+dstr    TSTR    
+
+#       24      
+dt      T       
+
+#       13      
+dth     T0      
+
+#       1       
+dtj     TJ      
+
+#       101     
+dv      TF      
+
+#       21      
+dz      TS      
+
+#       7       
+dzh     TJ      
+
+#       4738    
+f       F       
+
+#       5       
+fb      FP      
+
+#       4       
+fc      FK      
+
+#       1       
+fch     FX      
+
+#       3       
+fd      FT      
+
+#       590     
+ff      F       
+
+#       2       
+ffb     FP      
+
+#       2       
+ffc     FK      
+
+#       1       
+ffch    FX      
+
+#       2       
+ffh     F       
+
+#       1       
+ffk     FK      
+
+#       40      29      
+ffl     FL      FAL     
+
+#       2       
+ffm     FM      
+
+#       3       
+ffn     FN      
+
+#       1       
+ffpr    FPR     
+
+#       37      
+ffr     FR      
+
+#       7       
+ffs     FS      
+
+#       1       
+ffsc    FSK     
+
+#       1       
+ffscr   FSKR    
+
+#       2       
+ffsh    FX      
+
+#       1       
+ffspr   FSPR    
+
+#       1       
+ffst    FST     
+
+#       4       
+fft     FT      
+
+#       1       
+fg      FK      
+
+#       5       
+fgh     FK      
+
+#       2       
+fh      F       
+
+#       3       
+fj      F       
+
+#       3       
+fk      FK      
+
+#       746     
+fl      FL      
+
+#       3       
+fm      FM      
+
+#       5       
+fn      FN      
+
+#       697     
+fr      FR      
+
+#       2       
+fs      FS      
+
+#       1       
+fsc     FSK     
+
+#       2       
+fsk     FSK     
+
+#       1       
+fss     FS      
+
+#       4       
+fst     FST     
+
+#       240     
+ft      FT      
+
+#       3       
+ftb     FTP     
+
+#       1       
+ftf     FTF     
+
+#       1       1       
+fth     F0      FT      
+
+#       1       
+fthl    F0L     
+
+#       7       
+ftl     FTL     
+
+#       3       
+ftm     FTM     
+
+#       1       
+ftp     FTP     
+
+#       1       
+ftpr    FTPR    
+
+#       4       
+fts     FTS     
+
+#       1       
+ftsh    FTX     
+
+#       6       
+ftsm    FTSM    
+
+#       1       
+ftt     FT      
+
+#       2       
+fz      FS      
+
+#       4399    3562    
+g       K       J       
+
+#       3       
+g's     KS      
+
+#       35      
+gb      KP      
+
+#       3       
+gc      K       
+
+#       2       
+gch     KX      
+
+#       37      
+gd      KT      
+
+#       13      
+gf      KF      
+
+#       1       
+gfl     KFL     
+
+#       1       
+gfr     KFR     
+
+#       303     26      9       
+gg      K       J       KJ      
+
+#       1       
+ggb     KP      
+
+#       1       
+ggc     K       
+
+#       1       
+ggcr    KR      
+
+#       2       
+ggdr    KTR     
+
+#       1       
+ggh     K       
+
+#       41      34      
+ggl     KAL     KL      
+
+#       1       
+ggm     KM      
+
+#       1       
+ggn     KN      
+
+#       24      
+ggr     KR      
+
+#       3       
+ggs     KS      
+
+#       1       
+ggsh    KX      
+
+#       118     99      29      
+gh      .       K       F       
+
+#       16      1       
+ghb     P       KP      
+
+#       2       2       
+ghbr    PAR     PR      
+
+#       1       
+ghc     FK      
+
+#       2       1       
+ghd     T       KT      
+
+#       4       
+ghf     F       
+
+#       2       
+ghfl    FL      
+
+#       3       
+ghg     K       
+
+#       2       
+ghh     F       
+
+#       1       
+ghk     K       
+
+#       12      3       1       
+ghl     L       KL      FL      
+
+#       4       
+ghm     M       
+
+#       3       1       
+ghn     N       FN      
+
+#       3       
+ghp     P       
+
+#       1       
+ghr     FR      
+
+#       1       
+ghs     S       
+
+#       2       1       
+ghsh    X       FX      
+
+#       1       
+ghstr   FSTR    
+
+#       314     5       
+ght     T       FT      
+
+#       1       
+ght's   TS      
+
+#       3       1       
+ghtb    TP      FTP     
+
+#       1       
+ghtc    TK      
+
+#       2       
+ghtcl   TKL     
+
+#       1       
+ghtdr   TR      
+
+#       18      
+ghtf    TF      
+
+#       1       
+ghtg    TK      
+
+#       6       2       
+ghth    T       0       
+
+#       1       
+ghthl   0L      
+
+#       1       
+ghtj    TJ      
+
+#       24      
+ghtl    TL      
+
+#       7       
+ghtm    TM      
+
+#       8       
+ghtn    TN      
+
+#       2       
+ghtn't  TNT     
+
+#       1       
+ghtp    TP      
+
+#       1       
+ghtpr   TPR     
+
+#       2       
+ghtr    TR      
+
+#       15      1       
+ghts    TS      FTS     
+
+#       1       
+ghtsb   FTSP    
+
+#       4       
+ghtsh   TX      
+
+#       1       
+ghtsm   FTSM    
+
+#       1       
+ghtsp   TSP     
+
+#       4       
+ghtst   TST     
+
+#       1       
+ghtt    T       
+
+#       6       
+gj      KJ      
+
+#       2       
+gk      K       
+
+#       571     32      30      
+gl      KL      KAL     L       
+
+#       146     6       
+gm      KM      M       
+
+#       370     227     
+gn      KN      N       
+
+#       1       
+gnb     NP      
+
+#       3       
+gnl     NL      
+
+#       7       
+gnm     NM      
+
+#       1       
+gnp     NP      
+
+#       1       
+gnt     NT      
+
+#       9       
+gp      KP      
+
+#       1803    12      
+gr      KR      KAR     
+
+#       15      
+gs      KS      
+
+#       4       
+gsb     KSP     
+
+#       1       
+gsch    KX      
+
+#       2       
+gsd     KST     
+
+#       6       
+gsh     KX      
+
+#       2       
+gsk     KSK     
+
+#       3       
+gsm     KSM     
+
+#       1       
+gsp     KSP     
+
+#       12      
+gst     KST     
+
+#       10      
+gt      KT      
+
+#       2       
+gth     K0      
+
+#       3       
+gtr     KTR     
+
+#       3       
+gv      KF      
+
+#       1       
+gzh     KJ      
+
+#       5692    780     
+h       H       .       
+
+#       1       
+h'd     T       
+
+#       2       
+hch     X       
+
+#       8       
+hd      T       
+
+#       1       
+hf      F       
+
+#       1       
+hg      K       
+
+#       2       
+hh      H       
+
+#       6       
+hj      J       
+
+#       31      
+hl      L       
+
+#       1       
+hlb     LP      
+
+#       1       
+hlgr    LKR     
+
+#       1       
+hlh     L       
+
+#       1       
+hlk     LK      
+
+#       1       
+hlr     LR      
+
+#       1       
+hlst    LST     
+
+#       58      
+hm      M       
+
+#       1       
+hmbr    MPR     
+
+#       1       
+hmm     M       
+
+#       1       
+hms     MS      
+
+#       31      
+hn      N       
+
+#       1       
+hn's    NS      
+
+#       1       
+hng     NJ      
+
+#       1       
+hnk     NK      
+
+#       4       
+hnn     N       
+
+#       5       
+hns     NS      
+
+#       2       
+hnst    NST     
+
+#       2       
+hp      P       
+
+#       1       
+hq      K       
+
+#       53      
+hr      R       
+
+#       1       
+hrb     RP      
+
+#       1       
+hrh     R       
+
+#       1       
+hrk     RK      
+
+#       1       
+hrl     RL      
+
+#       3       
+hrm     RM      
+
+#       1       
+hrst    RST     
+
+#       1       
+hrv     RF      
+
+#       2       
+hrz     RTS     
+
+#       16      6       
+hs      X       S       
+
+#       6       
+ht      T       
+
+#       1       
+hth     0       
+
+#       7       
+hv      F       
+
+#       2       
+hz      S       
+
+#       1427    81      26      
+j       J       H       .       
+
+#       1       
+j'b     JP      
+
+#       3       
+jb      JP      
+
+#       1       
+jc      S       
+
+#       5       
+jd      JT      
+
+#       3       
+jh      J       
+
+#       2       
+jj      J       
+
+#       1       
+jk      K       
+
+#       1       
+jkm     KM      
+
+#       1       
+jl      L       
+
+#       2       2       
+jm      JM      M       
+
+#       4       
+jn      JN      
+
+#       2       
+jp      JP      
+
+#       3       
+jr      JR      
+
+#       1       
+jsl     SL      
+
+#       2       
+jss     S       
+
+#       1       
+jt      T       
+
+#       1       
+jv      JF      
+
+#       3529    
+k       K       
+
+#       2       
+k'      K       
+
+#       10      
+kb      KP      
+
+#       1       
+kc      K       
+
+#       3       
+kch     KX      
+
+#       1       
+kcr     KR      
+
+#       8       
+kd      KT      
+
+#       4       
+kf      KF      
+
+#       1       
+kfr     KFR     
+
+#       136     
+kh      K       
+
+#       1       
+khb     KP      
+
+#       4       
+khl     KL      
+
+#       4       
+khm     KM      
+
+#       3       
+khn     KN      
+
+#       1       
+khp     KP      
+
+#       2       
+khr     KR      
+
+#       3       
+khsh    KX      
+
+#       1       
+khst    KST     
+
+#       4       
+kht     KT      
+
+#       1       
+khz     KS      
+
+#       6       
+kj      KJ      
+
+#       47      
+kk      K       
+
+#       1       
+kkh     K       
+
+#       1       
+kkr     KR      
+
+#       103     
+kl      KL      
+
+#       1       
+klj     KLJ     
+
+#       12      
+km      KM      
+
+#       126     13      
+kn      N       KN      
+
+#       5       
+kp      KP      
+
+#       1       
+kpl     KPL     
+
+#       128     
+kr      KR      
+
+#       27      
+ks      KS      
+
+#       1       
+ksd     KST     
+
+#       9       
+ksh     KX      
+
+#       1       
+kshm    AKXM    
+
+#       1       
+ksk     KSK     
+
+#       2       
+ksm     KSM     
+
+#       1       
+ksp     KSP     
+
+#       8       
+kst     KST     
+
+#       1       
+kstr    KSTR    
+
+#       2       
+ksv     KSF     
+
+#       30      
+kt      KT      
+
+#       1       
+kthr    K0R     
+
+#       6       
+kv      KF      
+
+#       21599   
+l       L       
+
+#       15      
+l'      L       
+
+#       1       
+l'h     L       
+
+#       7       
+l's     LS      
+
+#       220     
+lb      LP      
+
+#       2       1       
+lbl     LPL     LPAL    
+
+#       14      
+lbr     LPR     
+
+#       165     100     1       
+lc      LK      LS      LX      
+
+#       35      15      
+lch     LX      LK      
+
+#       1       
+lchl    LKL     
+
+#       4       
+lchr    LKR     
+
+#       3       
+lcl     LKL     
+
+#       3       
+lcm     LKM     
+
+#       4       
+lcr     LKR     
+
+#       1       
+lcsp    LKSP    
+
+#       1       
+lct     LKT     
+
+#       2       
+lcz     LX      
+
+#       656     6       
+ld      LT      T       
+
+#       10      
+ldb     LTP     
+
+#       1       
+ldbr    LTPR    
+
+#       1       
+ldc     LT      
+
+#       1       
+ldcr    LTKR    
+
+#       11      
+ldf     LTF     
+
+#       1       
+ldgl    LTKL    
+
+#       8       
+ldh     LT      
+
+#       10      
+ldl     LTL     
+
+#       5       
+ldm     LTM     
+
+#       2       
+ldn     LTN     
+
+#       3       
+ldn't   TNT     
+
+#       2       
+ldp     LTP     
+
+#       1       
+ldpr    LTPR    
+
+#       23      
+ldr     LTR     
+
+#       11      
+lds     LTS     
+
+#       3       
+ldsb    LTSP    
+
+#       1       
+ldschm  LTXM    
+
+#       1       
+ldsh    LTX     
+
+#       1       
+ldsk    LTSK    
+
+#       1       
+ldsl    LTSL    
+
+#       5       
+ldsm    LTSM    
+
+#       3       
+ldsp    LTSP    
+
+#       7       3       
+ldst    LTST    TST     
+
+#       1       
+ldstr   LTSTR   
+
+#       1       
+ldsv    LTSF    
+
+#       9       
+ldt     LT      
+
+#       1       
+ldthr   LT0R    
+
+#       1       
+ldv     LTF     
+
+#       220     9       
+lf      LF      F       
+
+#       2       
+lfb     FP      
+
+#       3       
+lfc     LFK     
+
+#       2       
+lff     LF      
+
+#       1       
+lfg     LFK     
+
+#       3       
+lfh     LF      
+
+#       8       
+lfl     LFL     
+
+#       1       
+lfm     LFM     
+
+#       1       
+lfn     LFN     
+
+#       3       1       
+lfp     FP      LFP     
+
+#       15      
+lfr     LFR     
+
+#       2       
+lfs     LFS     
+
+#       1       
+lfsb    LFSP    
+
+#       1       
+lfsk    LFSK    
+
+#       3       
+lft     LFT     
+
+#       1       
+lfth    LF0     
+
+#       1       
+lftht   LF0T    
+
+#       106     95      
+lg      LJ      LK      
+
+#       3       1       
+lgh     LK      LJ      
+
+#       10      
+lgr     LKR     
+
+#       71      
+lh      L       
+
+#       1       
+lhj     LJ      
+
+#       5       3       
+lj      L       LJ      
+
+#       1       
+ljk     LK      
+
+#       122     87      
+lk      LK      K       
+
+#       2       
+lkb     KP      
+
+#       1       1       
+lkf     KF      LKF     
+
+#       11      2       
+lkh     LK      K       
+
+#       1       
+lkk     LK      
+
+#       3       
+lkl     KL      
+
+#       3       
+lkm     LKM     
+
+#       1       1       
+lkn     KN      LKN     
+
+#       2       
+lkr     KR      
+
+#       2       1       
+lks     KS      LKS     
+
+#       1       
+lkscr   LKSKR   
+
+#       1       
+lksd    LKST    
+
+#       1       
+lkst    KST     
+
+#       1       
+lkt     LKT     
+
+#       4573    13      
+ll      L       .       
+
+#       2       
+ll'     L       
+
+#       2       
+ll's    LS      
+
+#       30      
+llb     LP      
+
+#       2       
+llbl    LPL     
+
+#       2       
+llbr    LPR     
+
+#       6       
+llc     LK      
+
+#       1       
+llch    LX      
+
+#       1       
+llcl    LKL     
+
+#       14      
+lld     LT      
+
+#       1       
+lldr    LTR     
+
+#       18      
+llf     LF      
+
+#       6       
+llfl    LFL     
+
+#       1       
+llfr    LFR     
+
+#       2       
+llg     LK      
+
+#       1       
+llgr    LKR     
+
+#       22      
+llh     L       
+
+#       1       
+llj     LJ      
+
+#       3       
+llk     LK      
+
+#       22      
+llm     LM      
+
+#       8       
+lln     LN      
+
+#       14      
+llp     LP      
+
+#       1       
+llpl    LPL     
+
+#       1       
+llpr    LPR     
+
+#       10      
+llr     LR      
+
+#       21      
+lls     LS      
+
+#       4       
+llsb    LSP     
+
+#       1       
+llsch   LX      
+
+#       2       
+llsh    LX      
+
+#       1       
+llsn    LSN     
+
+#       1       
+llsp    LSP     
+
+#       11      
+llst    LST     
+
+#       2       
+llstr   LSTR    
+
+#       4       
+llsv    LSF     
+
+#       6       
+llt     LT      
+
+#       2       
+lltr    LTR     
+
+#       6       
+llv     LF      
+
+#       275     52      
+lm      LM      M       
+
+#       1       
+lmb     MP      
+
+#       1       
+lmd     LMT     
+
+#       1       
+lmg     LMK     
+
+#       1       
+lmgr    MKR     
+
+#       2       
+lmh     LM      
+
+#       1       1       
+lml     LML     ML      
+
+#       4       2       
+lms     MS      LMS     
+
+#       1       
+lmsf    LMSF    
+
+#       1       
+lmsg    MSK     
+
+#       1       
+lmsh    MS      
+
+#       1       1       
+lmsm    LMSM    MSM     
+
+#       2       
+lmst    LMST    
+
+#       2       
+lmstr   LMSTR   
+
+#       174     5       
+ln      LN      N       
+
+#       1       
+lnsh    NX      
+
+#       1       
+lnt     NT      
+
+#       151     
+lp      LP      
+
+#       1       
+lpb     LP      
+
+#       5       
+lpf     LPF     
+
+#       104     
+lph     LF      
+
+#       9       
+lpl     LPL     
+
+#       3       
+lpm     LPM     
+
+#       5       1       
+lpr     LPR     LPAR    
+
+#       3       
+lps     LPS     
+
+#       3       
+lpt     LPT     
+
+#       1       
+lptr    LPTR    
+
+#       7       
+lq      LK      
+
+#       44      
+lr      LR      
+
+#       206     12      
+ls      LS      LX      
+
+#       2       
+lsb     LSP     
+
+#       4       
+lsc     LS      
+
+#       1       
+lschm   LXM     
+
+#       2       
+lsd     LST     
+
+#       2       
+lsgr    LSKR    
+
+#       23      
+lsh     LX      
+
+#       1       
+lshm    LXM     
+
+#       12      
+lsk     LSK     
+
+#       6       
+lsm     LSM     
+
+#       2       
+lsn     LSN     
+
+#       5       
+lsp     LSP     
+
+#       3       
+lss     LS      
+
+#       35      
+lst     LST     
+
+#       3       
+lstr    LSTR    
+
+#       601     52      12      
+lt      LT      LX      .       
+
+#       2       
+ltb     LTP     
+
+#       1       
+ltc     LTS     
+
+#       1       
+ltch    LX      
+
+#       3       
+ltd     LT      
+
+#       2       
+ltf     LTF     
+
+#       36      4       
+lth     L0      LT      
+
+#       2       
+lthf    L0F     
+
+#       1       
+lthr    L0R     
+
+#       2       
+ltj     LTJ     
+
+#       1       
+ltk     LTK     
+
+#       7       
+ltl     LTL     
+
+#       3       
+ltm     LTM     
+
+#       1       
+ltn     LTN     
+
+#       3       
+ltp     LTP     
+
+#       57      
+ltr     LTR     
+
+#       2       
+lts     LTS     
+
+#       1       
+ltschm  LTXMA   
+
+#       1       
+ltsf    LTSF    
+
+#       1       
+ltsh    LTX     
+
+#       3       
+ltst    LTST    
+
+#       7       
+ltz     LTS     
+
+#       1       
+ltzm    LTSM    
+
+#       285     9       
+lv      LF      F       
+
+#       3       
+lx      LKS     
+
+#       10      3       
+lz      LS      LTS     
+
+#       1       
+lzb     LSP     
+
+#       1       
+lzn     LSN     
+
+#       16235   
+m       M       
+
+#       1       
+m'b     MP      
+
+#       2       
+m's     MS      
+
+#       667     75      
+mb      MP      M       
+
+#       1       
+mb's    MS      
+
+#       1       
+mbb     MP      
+
+#       3       
+mbd     MT      
+
+#       2       
+mbf     MF      
+
+#       3       
+mbk     MK      
+
+#       58      56      
+mbl     MPL     MPAL    
+
+#       2       
+mbm     MPM     
+
+#       2       
+mbn     MN      
+
+#       2       
+mbpr    MPR     
+
+#       141     
+mbr     MPR     
+
+#       6       
+mbs     MS      
+
+#       1       
+mbscr   MSKR    
+
+#       1       
+mbsh    MX      
+
+#       2       
+mbsk    MSK     
+
+#       2       
+mbst    MST     
+
+#       2       
+mbstr   MSTR    
+
+#       9       
+mc      MK      
+
+#       2       
+mccl    MAKL    
+
+#       1       
+mccr    MAKR    
+
+#       1       
+mcd     MAKT    
+
+#       2       
+mcf     MAKF    
+
+#       4       
+mcg     MAK     
+
+#       1       
+mcgr    MAKR    
+
+#       8       
+mch     MX      
+
+#       7       
+mck     MAK     
+
+#       4       
+mcm     MAKM    
+
+#       4       
+mcn     MAKN    
+
+#       2       1       
+mcr     MKR     MAKR    
+
+#       1       
+mcsh    MAKX    
+
+#       1       
+mct     MAKT    
+
+#       1       
+mcz     MX      
+
+#       11      
+md      MT      
+
+#       1       
+mdl     MTL     
+
+#       1       
+mdn     MTN     
+
+#       3       
+mdr     MTR     
+
+#       41      
+mf      MF      
+
+#       5       
+mfl     MFL     
+
+#       7       
+mfr     MFR     
+
+#       2       
+mg      MK      
+
+#       18      
+mh      M       
+
+#       8       
+mj      MJ      
+
+#       5       
+mk      MK      
+
+#       3       
+mkh     MK      
+
+#       60      
+ml      ML      
+
+#       836     
+mm      M       
+
+#       1       
+mmh     M       
+
+#       1       
+mmk     MK      
+
+#       2       1       
+mml     ML      MAL     
+
+#       1       
+mmr     MR      
+
+#       1       
+mms     MS      
+
+#       184     25      8       
+mn      MN      M       N       
+
+#       1       
+mn't    MNT     
+
+#       900     
+mp      MP      
+
+#       7       
+mpb     MP      
+
+#       1       
+mpbl    MPL     
+
+#       1       
+mpc     MPK     
+
+#       1       
+mpcr    MPKR    
+
+#       2       
+mpd     MPT     
+
+#       5       
+mpf     MPF     
+
+#       1       
+mpgr    MPKR    
+
+#       194     
+mph     MF      
+
+#       3       
+mphl    MFL     
+
+#       6       
+mpk     MPK     
+
+#       1       
+mpkn    MPN     
+
+#       172     
+mpl     MPL     
+
+#       3       
+mpm     MPM     
+
+#       1       
+mpn     MPN     
+
+#       1       
+mpp     MP      
+
+#       1       
+mppr    MPR     
+
+#       121     
+mpr     MPR     
+
+#       13      13      2       
+mps     MP      MPS     MS      
+
+#       4       
+mpsh    MPX     
+
+#       6       
+mpst    MPST    
+
+#       1       
+mpstr   MPSTR   
+
+#       65      26      
+mpt     MPT     MPX     
+
+#       1       
+mptb    MPTP    
+
+#       1       1       
+mptr    MPTR    NTR     
+
+#       2       
+mq      MK      
+
+#       37      
+mr      MR      
+
+#       75      
+ms      MS      
+
+#       6       
+msb     MSP     
+
+#       2       
+msch    MX      
+
+#       1       
+msg     MSK     
+
+#       18      
+msh     MX      
+
+#       5       
+msk     MSK     
+
+#       1       
+msl     MSL     
+
+#       2       
+msm     MSM     
+
+#       6       
+msp     MSP     
+
+#       1       
+msq     MSK     
+
+#       1       
+msstr   MSTR    
+
+#       25      
+mst     MST     
+
+#       3       
+mstr    MSTR    
+
+#       2       
+mstv    MSTF    
+
+#       1       
+msv     MSF     
+
+#       25      
+mt      MT      
+
+#       1       
+mtr     MTR     
+
+#       15      
+mv      MF      
+
+#       1       
+mvr     MFR     
+
+#       3       
+mz      MS      
+
+#       1       
+mzl     MSL     
+
+#       26226   
+n       N       
+
+#       3       
+n'      N       
+
+#       1       
+n'd     NT      
+
+#       1       
+n'dj    NJ      
+
+#       1       
+n'g     NK      
+
+#       1       
+n'll    NL      
+
+#       1       
+n'r     NAR     
+
+#       13      
+n's     NS      
+
+#       14      
+n't     NT      
+
+#       208     
+nb      NP      
+
+#       8       
+nbl     NPL     
+
+#       25      
+nbr     NPR     
+
+#       770     584     534     21      
+nc      NTS     NK      NS      NX      
+
+#       259     106     
+nch     NX      NK      
+
+#       8       
+nchb    NXP     
+
+#       1       
+nchc    NXK     
+
+#       1       
+nchf    NXF     
+
+#       1       
+nchfl   NXFL    
+
+#       1       
+nchh    NX      
+
+#       5       
+nchl    NXL     
+
+#       8       
+nchm    NXM     
+
+#       6       
+nchn    NKN     
+
+#       2       
+nchp    NXP     
+
+#       18      
+nchr    NKR     
+
+#       1       
+nchs    NKS     
+
+#       1       
+ncht    NXT     
+
+#       8       
+nck     NK      
+
+#       2       
+nckn    NKN     
+
+#       75      
+ncl     NKL     
+
+#       1       
+ncm     NKM     
+
+#       73      3       
+ncr     NKR     NKAR    
+
+#       1       1       
+ncs     NK      NKS     
+
+#       66      59      
+nct     NKT     NKX     
+
+#       3       
+nctl    NKTL    
+
+#       1       
+ncx     NKKS    
+
+#       2964    13      
+nd      NT      NJ      
+
+#       2       
+nd's    NTS     
+
+#       25      
+ndb     NTP     
+
+#       2       
+ndbl    NTPL    
+
+#       8       
+ndbr    NTPR    
+
+#       7       
+ndc     NTK     
+
+#       3       
+ndch    NTX     
+
+#       2       
+ndcl    NTKL    
+
+#       4       
+ndd     NT      
+
+#       1       
+nddr    NTR     
+
+#       21      
+ndf     NTF     
+
+#       3       
+ndfl    NTFL    
+
+#       4       1       
+ndg     NTK     NJ      
+
+#       1       
+ndgl    NTKL    
+
+#       2       
+ndgr    NJR     
+
+#       35      
+ndh     NT      
+
+#       2       
+ndhj    NTJ     
+
+#       1       
+ndhr    NTR     
+
+#       3       
+ndj     NJ      
+
+#       2       
+ndk     NTK     
+
+#       72      46      
+ndl     NTL     NTAL    
+
+#       23      
+ndm     NTM     
+
+#       10      
+ndn     NTN     
+
+#       17      
+ndp     NTP     
+
+#       2       
+ndpl    NTPL    
+
+#       2       
+ndpr    NTPR    
+
+#       264     
+ndr     NTR     
+
+#       44      
+nds     NTS     
+
+#       1       
+ndsb    NTSP    
+
+#       3       
+ndsc    NTSK    
+
+#       1       
+ndscr   NTSKR   
+
+#       7       
+ndsh    NTX     
+
+#       2       
+ndsk    NTSK    
+
+#       1       
+ndskn   NTSKN   
+
+#       2       
+ndsl    NTSL    
+
+#       8       
+ndsm    NTSM    
+
+#       2       
+ndsp    NTSP    
+
+#       1       
+ndspr   NTSPR   
+
+#       1       
+ndss    NTS     
+
+#       15      
+ndst    NTST    
+
+#       1       
+ndsth   NTS0    
+
+#       1       
+ndstr   NTSTR   
+
+#       1       
+ndsv    NTSF    
+
+#       1       
+ndsz    NTS     
+
+#       7       
+ndt     NT      
+
+#       1       
+ndth    NT0     
+
+#       1       
+ndthr   NT0R    
+
+#       1       
+ndtr    NTR     
+
+#       8       
+ndv     NTF     
+
+#       1       
+ndz     NTS     
+
+#       1       
+ndzh    NTJ     
+
+#       458     
+nf      NF      
+
+#       1       
+nff     NF      
+
+#       1       
+nffsh   NFX     
+
+#       1       
+nfk     NFK     
+
+#       72      
+nfl     NFL     
+
+#       51      
+nfr     NFR     
+
+#       2753    491     
+ng      NK      NJ      
+
+#       27      
+ngb     NKP     
+
+#       1       
+ngbr    NKPR    
+
+#       3       
+ngc     NK      
+
+#       9       
+ngch    NKX     
+
+#       1       
+ngcl    NKL     
+
+#       1       
+ngcr    NKR     
+
+#       15      
+ngd     NKT     
+
+#       26      
+ngf     NKF     
+
+#       1       
+ngfr    NKFR    
+
+#       2       
+ngg     NK      
+
+#       55      
+ngh     NK      
+
+#       2       
+ngj     NKJ     
+
+#       18      
+ngk     NK      
+
+#       330     83      
+ngl     NKL     NKAL    
+
+#       13      
+ngm     NKM     
+
+#       67      
+ngn     NKN     
+
+#       7       
+ngp     NKP     
+
+#       1       
+ngpl    NKPL    
+
+#       1       
+ngq     NKK     
+
+#       116     
+ngr     NKR     
+
+#       1       
+ngrb    NKRP    
+
+#       69      
+ngs     NKS     
+
+#       1       
+ngsb    NKSP    
+
+#       1       
+ngsf    NKSF    
+
+#       1       
+ngsg    NKSK    
+
+#       10      
+ngsh    NKX     
+
+#       2       
+ngsl    NKSL    
+
+#       1       
+ngsm    NKSM    
+
+#       1       
+ngsn    NKSN    
+
+#       4       
+ngsp    NKSP    
+
+#       1       
+ngspr   NKSPR   
+
+#       25      
+ngst    NKST    
+
+#       6       
+ngstr   NKSTR   
+
+#       2       
+ngsv    NKSF    
+
+#       66      1       
+ngt     NKT     NT      
+
+#       9       
+ngth    NK0     
+
+#       1       
+ngthm   NK0M    
+
+#       2       
+ngtr    NKTR    
+
+#       2       
+ngtz    NKTS    
+
+#       2       
+ngv     NKF     
+
+#       2       
+ngz     NKS     
+
+#       277     
+nh      N       
+
+#       1       
+nhs     NS      
+
+#       115     
+nj      NJ      
+
+#       446     
+nk      NK      
+
+#       4       
+nkb     NKP     
+
+#       1       
+nkbl    NKPL    
+
+#       1       
+nkc     NK      
+
+#       14      
+nkf     NKF     
+
+#       1       
+nkg     NK      
+
+#       13      
+nkh     NK      
+
+#       27      20      
+nkl     NKL     NKAL    
+
+#       5       
+nkm     NKM     
+
+#       8       3       
+nkn     N       NKN     
+
+#       5       
+nkp     NKP     
+
+#       2       
+nkpl    NKPL    
+
+#       8       
+nkr     NKR     
+
+#       15      
+nks     NKS     
+
+#       2       
+nksg    NKSK    
+
+#       2       1       
+nksh    NKX     NKS     
+
+#       1       
+nksm    NKSM    
+
+#       6       
+nkst    NKST    
+
+#       9       
+nkt     NKT     
+
+#       242     
+nl      NL      
+
+#       143     
+nm      NM      
+
+#       1140    
+nn      N       
+
+#       1       
+nn'     N       
+
+#       1       
+nnb     NP      
+
+#       2       
+nnf     NF      
+
+#       4       
+nnh     N       
+
+#       1       
+nnk     NK      
+
+#       1       
+nnm     NM      
+
+#       1       
+nnr     NR      
+
+#       4       
+nns     NS      
+
+#       1       
+nnsbr   NSPR    
+
+#       1       
+nnst    NST     
+
+#       1       
+nnsth   NS0     
+
+#       3       
+nnv     NF      
+
+#       105     
+np      NP      
+
+#       2       
+npf     NPF     
+
+#       2       
+nph     NF      
+
+#       28      
+npl     NPL     
+
+#       59      
+npr     NPR     
+
+#       1       
+nps     NS      
+
+#       92      
+nq      NK      
+
+#       241     
+nr      NR      
+
+#       1       
+nrr     NR      
+
+#       1205    94      59      
+ns      NS      NX      NTS     
+
+#       18      
+nsb     NSP     
+
+#       22      19      
+nsc     NX      NSK     
+
+#       13      
+nsch    NX      
+
+#       1       
+nschl   NXL     
+
+#       26      
+nscr    NSKR    
+
+#       7       
+nsd     NST     
+
+#       31      
+nsf     NSF     
+
+#       1       1       
+nsg     NSJ     NSK     
+
+#       2       
+nsgr    NSKR    
+
+#       109     
+nsh     NX      
+
+#       6       
+nshr    NXR     
+
+#       1       
+nsj     NSJ     
+
+#       63      
+nsk     NSK     
+
+#       1       
+nskj    NX      
+
+#       1       
+nskr    NSKR    
+
+#       29      
+nsl     NSL     
+
+#       33      
+nsm     NSM     
+
+#       7       
+nsn     NSN     
+
+#       94      
+nsp     NSP     
+
+#       3       
+nsph    NSF     
+
+#       6       
+nspl    NSPL    
+
+#       2       
+nspr    NSPR    
+
+#       1       
+nsq     NSK     
+
+#       2       
+nsr     NSR     
+
+#       8       
+nss     NS      
+
+#       1       
+nssh    NSX     
+
+#       1       
+nssl    NSL     
+
+#       215     
+nst     NST     
+
+#       1       
+nstl    NSL     
+
+#       105     
+nstr    NSTR    
+
+#       23      
+nsv     NSF     
+
+#       2       
+nsz     NS      
+
+#       4993    285     
+nt      NT      NX      
+
+#       3       
+nt's    NTS     
+
+#       4       
+ntb     NTP     
+
+#       2       
+ntbr    NTPR    
+
+#       1       
+ntc     NTK     
+
+#       1       
+ntcl    NTKL    
+
+#       2       
+ntd     NT      
+
+#       8       
+ntf     NTF     
+
+#       20      1       
+ntg     NTK     NTJ     
+
+#       278     13      
+nth     N0      NT      
+
+#       3       
+nthl    N0L     
+
+#       102     
+nthr    N0R     
+
+#       2       
+ntj     NTJ     
+
+#       268     22      
+ntl     NTL     NTAL    
+
+#       14      
+ntm     NTM     
+
+#       33      
+ntn     NTN     
+
+#       4       
+ntp     NTP     
+
+#       432     10      
+ntr     NTR     NTAR    
+
+#       1       
+ntr'    NTR     
+
+#       28      
+nts     NTS     
+
+#       1       
+ntsf    NTSF    
+
+#       4       
+ntsh    NTX     
+
+#       1       
+ntshr   NTXR    
+
+#       3       
+ntsm    NTSM    
+
+#       2       
+ntst    NTST    
+
+#       2       
+ntsv    NTSF    
+
+#       1       
+ntt     NT      
+
+#       1       
+ntthr   NT0R    
+
+#       2       
+ntv     NTF     
+
+#       1       
+ntx     NTKS    
+
+#       7       
+ntz     NTS     
+
+#       1       
+ntzv    NTSF    
+
+#       338     
+nv      NF      
+
+#       26      5       
+nx      NKS     NKX     
+
+#       1       
+nxm     NKSM    
+
+#       1       
+nxr     NKSR    
+
+#       1       
+nxs     NKS     
+
+#       2       
+nxt     NKST    
+
+#       1       
+nxv     NKSF    
+
+#       173     1       
+nz      NS      NTS     
+
+#       1       
+nzb     NSP     
+
+#       1       
+nzh     NJ      
+
+#       1       
+nzk     NSK     
+
+#       1       
+nzl     NSL     
+
+#       10254   5       
+p       P       .       
+
+#       2       
+p'      P       
+
+#       1       
+p'n     PN      
+
+#       2       
+p's     PS      
+
+#       29      
+pb      P       
+
+#       5       
+pbr     PR      
+
+#       15      
+pc      PK      
+
+#       4       
+pch     PX      
+
+#       1       
+pcr     PKR     
+
+#       12      
+pd      PT      
+
+#       3       
+pdr     PTR     
+
+#       24      7       
+pf      PF      F       
+
+#       2       
+pfl     PFL     
+
+#       4       
+pfr     PFR     
+
+#       6       
+pg      PK      
+
+#       2       
+pgr     PKR     
+
+#       2610    36      
+ph      F       P       
+
+#       1       
+ph's    FS      
+
+#       40      
+phl     FL      
+
+#       7       
+phn     FN      
+
+#       134     
+phr     FR      
+
+#       1       
+phs     FS      
+
+#       6       
+pht     FT      
+
+#       52      10      
+phth    F0      0       
+
+#       1       
+phz     FS      
+
+#       7       
+pj      PJ      
+
+#       11      
+pk      PK      
+
+#       2       
+pkn     PN      
+
+#       888     64      
+pl      PL      PAL     
+
+#       1       
+plj     PLJ     
+
+#       1       
+plz     PLS     
+
+#       34      
+pm      PM      
+
+#       55      36      
+pn      PN      N       
+
+#       658     
+pp      P       
+
+#       7       
+pph     F       
+
+#       48      29      
+ppl     PL      PAL     
+
+#       1       
+ppm     PM      
+
+#       73      
+ppr     PR      
+
+#       3       
+pps     PS      
+
+#       1       
+ppv     PF      
+
+#       1876    
+pr      PR      
+
+#       285     167     
+ps      PS      S       
+
+#       3       
+psb     PSP     
+
+#       4       
+psc     PSK     
+
+#       1       
+psch    SK      
+
+#       15      1       
+psh     PX      X       
+
+#       3       1       
+psk     PSK     SK      
+
+#       1       
+psl     PSL     
+
+#       1       
+psm     PSM     
+
+#       1       
+psn     PSN     
+
+#       2       
+psp     PSP     
+
+#       2       
+pspr    PSPR    
+
+#       1       
+psq     PSK     
+
+#       36      
+pst     PST     
+
+#       5       
+pstr    PSTR    
+
+#       633     99      36      
+pt      PT      PX      T       
+
+#       1       
+ptb     PTP     
+
+#       2       
+ptc     PTS     
+
+#       2       
+ptf     PTF     
+
+#       2       
+pth     P0      
+
+#       1       
+pthl    P0L     
+
+#       2       
+pthr    P0R     
+
+#       4       
+ptl     PTL     
+
+#       1       
+ptm     PTM     
+
+#       1       
+ptn     PTN     
+
+#       12      
+ptr     PTR     
+
+#       2       
+pv      PF      
+
+#       2       
+pz      PS      
+
+#       962     
+q       K       
+
+#       2       
+qb      KP      
+
+#       1       
+qh      K       
+
+#       1       
+qq      K       
+
+#       1       
+qs      KS      
+
+#       24837   45      
+r       R       .       
+
+#       4       
+r'      R       
+
+#       2       
+r'n     RN      
+
+#       13      
+r's     RS      
+
+#       708     
+rb      RP      
+
+#       1       
+rbj     RPJ     
+
+#       22      10      
+rbl     RPL     RPAL    
+
+#       1       
+rbn     RPN     
+
+#       26      1       
+rbr     RPR     RPAR    
+
+#       1       
+rbs     RPS     
+
+#       2       
+rbst    RPST    
+
+#       418     279     16      1       
+rc      RK      RS      RX      RJ      
+
+#       1       
+rcf     RKF     
+
+#       206     137     
+rch     RK      RX      
+
+#       5       
+rchb    RXP     
+
+#       1       
+rchc    RXK     
+
+#       8       
+rchd    RXT     
+
+#       2       
+rchf    RXF     
+
+#       1       
+rchg    RXK     
+
+#       1       
+rchh    RK      
+
+#       8       7       
+rchl    RXL     RKL     
+
+#       5       
+rchm    RXM     
+
+#       1       
+rchn    RXN     
+
+#       1       
+rchp    RXP     
+
+#       1       
+rchpr   RXPR    
+
+#       2       
+rchr    RKR     
+
+#       1       
+rchs    RXS     
+
+#       3       
+rcht    RKT     
+
+#       6       
+rck     RK      
+
+#       1       
+rckh    RK      
+
+#       29      
+rcl     RKL     
+
+#       33      
+rcr     RKR     
+
+#       2       
+rcs     RKS     
+
+#       18      1       
+rct     RKT     RKX     
+
+#       1398    12      
+rd      RT      RJ      
+
+#       5       
+rd's    RTS     
+
+#       10      
+rdb     RTP     
+
+#       2       
+rdbr    RTPR    
+
+#       4       
+rdc     RTK     
+
+#       1       
+rdcr    RTKR    
+
+#       7       
+rdf     RTF     
+
+#       12      
+rdh     RT      
+
+#       1       
+rdj     RJ      
+
+#       52      
+rdl     RTL     
+
+#       9       
+rdm     RTM     
+
+#       16      
+rdn     RTN     
+
+#       1       
+rdp     RTP     
+
+#       1       
+rdph    RTF     
+
+#       3       
+rdpl    RTPL    
+
+#       33      
+rdr     RTR     
+
+#       1       
+rdrh    RTR     
+
+#       24      
+rds     RTS     
+
+#       2       
+rdsb    RTSP    
+
+#       1       
+rdscr   RTSKR   
+
+#       10      
+rdsh    RTX     
+
+#       2       
+rdsl    RTSL    
+
+#       6       
+rdsm    RTSM    
+
+#       5       
+rdst    RTST    
+
+#       11      
+rdt     RT      
+
+#       3       
+rdv     RTF     
+
+#       1       
+rdzh    RTJ     
+
+#       277     
+rf      RF      
+
+#       4       
+rfb     RFP     
+
+#       1       
+rfd     RFT     
+
+#       5       
+rff     RF      
+
+#       26      
+rfl     RFL     
+
+#       1       
+rfm     RFM     
+
+#       2       
+rfp     RFP     
+
+#       6       
+rfr     RFR     
+
+#       1       
+rfs     RFS     
+
+#       1       
+rfsk    RFSK    
+
+#       1       
+rfv     RFF     
+
+#       541     385     
+rg      RK      RJ      
+
+#       23      
+rgh     RK      
+
+#       1       
+rghsh   RKX     
+
+#       31      5       
+rgl     RKL     RKAL    
+
+#       1       
+rgm     RKM     
+
+#       3       1       
+rgn     RN      RKN     
+
+#       31      
+rgr     RKR     
+
+#       4       
+rgs     RKS     
+
+#       1       
+rgschr  RKXR    
+
+#       2       
+rgsk    RKSK    
+
+#       1       
+rgsm    RKSM    
+
+#       302     
+rh      R       
+
+#       45      
+rj      RJ      
+
+#       447     
+rk      RK      
+
+#       2       
+rk's    RKS     
+
+#       3       
+rkc     RK      
+
+#       1       
+rkch    RKX     
+
+#       2       
+rkd     RKT     
+
+#       2       
+rkf     RKF     
+
+#       10      
+rkh     RK      
+
+#       1       
+rkk     RK      
+
+#       14      
+rkl     RKL     
+
+#       11      
+rkm     RKM     
+
+#       4       
+rkn     RN      
+
+#       3       
+rkp     RKP     
+
+#       2       
+rkpl    RKPL    
+
+#       6       
+rkr     RKR     
+
+#       18      
+rks     RKS     
+
+#       1       
+rksb    RKSP    
+
+#       1       
+rkscr   RKSKR   
+
+#       1       
+rksd    RKST    
+
+#       7       
+rksh    RKX     
+
+#       1       
+rksk    RKSK    
+
+#       1       
+rksm    RKSM    
+
+#       2       
+rksp    RKSP    
+
+#       2       
+rkst    RKST    
+
+#       3       
+rksv    RKSF    
+
+#       4       
+rkt     RKT     
+
+#       3       
+rkv     RKF     
+
+#       712     
+rl      RL      
+
+#       3       
+rlb     RLP     
+
+#       9       
+rld     RLT     
+
+#       4       
+rldl    RLTL    
+
+#       2       
+rlf     RLF     
+
+#       1       
+rlfr    RLFR    
+
+#       1       
+rlh     RL      
+
+#       1       
+rlk     RLK     
+
+#       2       
+rlp     RLP     
+
+#       2       
+rls     RLS     
+
+#       2       
+rlsb    RLSP    
+
+#       1       
+rlsd    RLST    
+
+#       1       
+rlsh    RLX     
+
+#       1       
+rlsr    RLSR    
+
+#       2       
+rlst    RLST    
+
+#       3       
+rlt     RLT     
+
+#       1493    
+rm      RM      
+
+#       3       
+rmb     RMP     
+
+#       1       
+rmbr    RMPR    
+
+#       1       
+rmch    RMX     
+
+#       7       
+rmf     RMF     
+
+#       1       
+rmg     RMK     
+
+#       5       
+rmh     RM      
+
+#       20      
+rml     RML     
+
+#       3       
+rmn     RMN     
+
+#       2       
+rmp     RMP     
+
+#       3       
+rmr     RMR     
+
+#       4       
+rms     RMS     
+
+#       2       
+rmst    RMST    
+
+#       1       
+rmstr   RMSTR   
+
+#       1       
+rmth    RM0     
+
+#       1       
+rmv     RMF     
+
+#       1095    
+rn      RN      
+
+#       10      
+rnb     RNP     
+
+#       2       
+rnbr    RNPR    
+
+#       3       
+rnc     RNK     
+
+#       2       
+rncr    RNKR    
+
+#       6       
+rnd     RNT     
+
+#       1       
+rndl    RNTAL   
+
+#       1       
+rndt    RNT     
+
+#       9       
+rnf     RNF     
+
+#       5       
+rnfl    RNFL    
+
+#       2       
+rng     RNK     
+
+#       11      
+rnh     RN      
+
+#       2       
+rnk     RNK     
+
+#       6       
+rnl     RNL     
+
+#       13      
+rnm     RNM     
+
+#       3       
+rnn     RN      
+
+#       5       
+rnp     RNP     
+
+#       16      
+rns     RNS     
+
+#       2       
+rnsh    RNX     
+
+#       1       
+rnsl    RNSL    
+
+#       1       
+rnsp    RNSP    
+
+#       13      
+rnst    RNST    
+
+#       6       
+rnt     RNT     
+
+#       1       
+rnv     RNF     
+
+#       415     
+rp      RP      
+
+#       1       
+rpb     RP      
+
+#       167     
+rph     RF      
+
+#       1       
+rphr    RFR     
+
+#       32      
+rpl     RPL     
+
+#       1       
+rpn     RPN     
+
+#       52      
+rpr     RPR     
+
+#       7       2       
+rps     RPS     R       
+
+#       1       
+rpsb    RPSP    
+
+#       1       
+rpsh    RPX     
+
+#       1       
+rpsm    RM      
+
+#       1       
+rpsv    RPSF    
+
+#       11      
+rpt     RPX     
+
+#       48      
+rq      RK      
+
+#       1332    
+rr      R       
+
+#       1       
+rrf     RF      
+
+#       81      
+rrh     R       
+
+#       1       
+rrk     RK      
+
+#       1       
+rrm     RM      
+
+#       1       
+rrnh    RN      
+
+#       1       
+rrs     RS      
+
+#       1       
+rrst    RST     
+
+#       1       
+rrv     RF      
+
+#       925     38      6       
+rs      RS      RJ      RX      
+
+#       7       
+rsb     RSP     
+
+#       11      
+rsc     RSK     
+
+#       4       
+rsch    RX      
+
+#       1       
+rschl   RXL     
+
+#       1       
+rscht   RXT     
+
+#       8       
+rscr    RSKR    
+
+#       7       
+rsd     RST     
+
+#       5       
+rsf     RSF     
+
+#       84      
+rsh     RX      
+
+#       2       
+rshl    RXL     
+
+#       1       
+rshm    RXM     
+
+#       2       
+rshr    RXR     
+
+#       26      
+rsk     RSK     
+
+#       11      
+rsl     RSL     
+
+#       7       
+rsm     RSM     
+
+#       7       
+rsn     RSN     
+
+#       42      
+rsp     RSP     
+
+#       4       
+rsph    RSF     
+
+#       2       
+rspl    RSPL    
+
+#       5       
+rspr    RSPR    
+
+#       4       
+rsq     RSK     
+
+#       1       
+rsr     RSR     
+
+#       2       
+rss     RS      
+
+#       1       
+rssm    RSM     
+
+#       140     
+rst     RST     
+
+#       1       
+rstb    RSTP    
+
+#       1       
+rsth    RST     
+
+#       1       
+rstn    RSTN    
+
+#       1       
+rstpr   RSTPR   
+
+#       19      
+rstr    RSTR    
+
+#       18      
+rsv     RSF     
+
+#       1542    112     
+rt      RT      RX      
+
+#       1       
+rt's    RTS     
+
+#       7       
+rtb     RTP     
+
+#       7       
+rtbr    RTPR    
+
+#       4       
+rtc     RTK     
+
+#       1       
+rtcr    RTKR    
+
+#       12      
+rtf     RTF     
+
+#       4       
+rtg     RK      
+
+#       259     9       
+rth     R0      RT      
+
+#       4       
+rthb    R0P     
+
+#       2       
+rthc    R0K     
+
+#       1       
+rthcl   R0KL    
+
+#       2       
+rthd    R0T     
+
+#       3       
+rthf    R0F     
+
+#       11      
+rthl    R0L     
+
+#       6       
+rthm    R0M     
+
+#       2       
+rthn    R0N     
+
+#       2       
+rthp    R0P     
+
+#       1       
+rthpl   R0PL    
+
+#       1       
+rthq    R0K     
+
+#       48      
+rthr    R0R     
+
+#       4       
+rthsh   R0X     
+
+#       5       
+rthst   R0ST    
+
+#       1       
+rthv    R0F     
+
+#       1       
+rtj     RTJ     
+
+#       1       
+rtk     RTK     
+
+#       42      16      
+rtl     RTL     RTAL    
+
+#       25      
+rtm     RTM     
+
+#       15      
+rtn     RTN     
+
+#       46      
+rtr     RTR     
+
+#       29      
+rts     RTS     
+
+#       1       
+rtsc    RTSK    
+
+#       5       1       
+rtsh    RTX     RTS     
+
+#       1       
+rtsl    RTSL    
+
+#       5       
+rtsm    RTSM    
+
+#       1       
+rtst    RTST    
+
+#       1       
+rtsv    RTSF    
+
+#       2       
+rtt     RT      
+
+#       3       
+rtv     RTF     
+
+#       23      
+rtz     RTS     
+
+#       393     
+rv      RF      
+
+#       1       
+rvl     RFL     
+
+#       6       
+rx      RKS     
+
+#       35      7       
+rz      RS      RTS     
+
+#       1       
+rzb     RSP     
+
+#       1       
+rzf     RSF     
+
+#       1       
+rzg     RSJ     
+
+#       3       
+rzh     RS      
+
+#       1       
+rzl     RTSL    
+
+#       17837   383     100     27      
+s       S       J       .       X       
+
+#       1       
+s'nt    SNT     
+
+#       130     
+sb      SP      
+
+#       2       
+sbj     SPJ     
+
+#       5       
+sbr     SPR     
+
+#       972     429     14      
+sc      SK      S       X       
+
+#       118     108     8       
+sch     X       SK      SX      
+
+#       1       
+schb    XP      
+
+#       2       
+schk    XK      
+
+#       11      
+schl    XL      
+
+#       11      
+schm    XM      
+
+#       11      
+schn    XN      
+
+#       9       
+schr    XR      
+
+#       1       
+schsch  XX      
+
+#       1       
+schv    XF      
+
+#       54      7       
+scl     SKL     SKAL    
+
+#       202     
+scr     SKR     
+
+#       55      
+sd      ST      
+
+#       5       
+sdr     STR     
+
+#       40      
+sf      SF      
+
+#       2       
+sfl     SFL     
+
+#       4       
+sfr     SFR     
+
+#       30      12      
+sg      SK      SJ      
+
+#       1       
+sgl     SKL     
+
+#       1       
+sgn     SKN     
+
+#       11      
+sgr     SKR     
+
+#       1896    30      
+sh      X       S       
+
+#       23      
+shb     XP      
+
+#       5       
+shc     XK      
+
+#       7       
+shch    XX      
+
+#       3       
+shcl    XKL     
+
+#       2       
+shcr    XKR     
+
+#       7       
+shd     XT      
+
+#       1       
+shdr    XTR     
+
+#       9       
+shf     XF      
+
+#       5       2       
+shg     XJ      XK      
+
+#       6       
+shh     X       
+
+#       21      
+shk     XK      
+
+#       1       
+shkh    XK      
+
+#       88      
+shl     XL      
+
+#       44      2       
+shm     XM      JM      
+
+#       86      
+shn     XN      
+
+#       11      
+shp     XP      
+
+#       1       
+shpl    XPL     
+
+#       51      
+shr     XR      
+
+#       1       
+shst    XST     
+
+#       20      
+sht     XT      
+
+#       4       
+shtr    XTR     
+
+#       10      
+shv     XF      
+
+#       18      2       
+sj      SJ      X       
+
+#       404     
+sk      SK      
+
+#       1       
+skb     SKP     
+
+#       1       
+skh     SK      
+
+#       1       
+skj     SKJ     
+
+#       1       1       
+skl     SKAL    SKL     
+
+#       4       
+skm     SKM     
+
+#       2       
+skn     SN      
+
+#       6       
+skr     SKR     
+
+#       1       
+skt     SKT     
+
+#       1       
+skv     SKF     
+
+#       758     11      
+sl      SL      L       
+
+#       1549    
+sm      SM      
+
+#       1       
+smn     SMN     
+
+#       2       
+smr     SMR     
+
+#       497     
+sn      SN      
+
+#       4       
+sn't    SNT     
+
+#       1222    
+sp      SP      
+
+#       1       
+spb     SP      
+
+#       1       
+spbr    SPR     
+
+#       176     
+sph     SF      
+
+#       82      
+spl     SPL     
+
+#       4       
+spn     SPN     
+
+#       117     
+spr     SPR     
+
+#       1       
+spt     SPT     
+
+#       205     
+sq      SK      
+
+#       52      
+sr      SR      
+
+#       1       
+srh     SR      
+
+#       3889    176     4       
+ss      S       X       J       
+
+#       20      
+ssb     SP      
+
+#       1       
+ssbl    SPL     
+
+#       1       
+ssbr    SPAR    
+
+#       3       
+ssc     SK      
+
+#       1       
+sscr    SKR     
+
+#       18      
+ssf     SF      
+
+#       7       5       
+ssh     S       SX      
+
+#       1       
+ssj     SJ      
+
+#       5       
+ssk     SK      
+
+#       100     
+ssl     SL      
+
+#       28      
+ssm     SM      
+
+#       90      
+ssn     SN      
+
+#       1       
+ssn't   SNT     
+
+#       13      
+ssp     SP      
+
+#       1       
+sspl    SPL     
+
+#       1       
+sspr    SPR     
+
+#       1       
+ssq     SK      
+
+#       8       
+ssr     SR      
+
+#       1       
+sssh    SX      
+
+#       9       
+sst     ST      
+
+#       3       
+sstr    STR     
+
+#       3       
+ssv     SF      
+
+#       5000    127     18      
+st      ST      SX      S       
+
+#       1       
+st's    STS     
+
+#       19      
+stb     STP     
+
+#       1       
+stbr    STPR    
+
+#       9       
+stc     STK     
+
+#       2       
+stch    SX      
+
+#       2       
+stcl    STKL    
+
+#       2       
+stcr    STKR    
+
+#       5       
+std     ST      
+
+#       39      
+stf     STF     
+
+#       1       
+stfl    STFL    
+
+#       2       
+stg     STK     
+
+#       1       
+stgl    STKL    
+
+#       1       
+stgr    STKR    
+
+#       134     12      
+sth     S0      ST      
+
+#       1       
+sthl    S0L     
+
+#       7       
+sthm    SM      
+
+#       43      34      21      
+stl     STL     SAL     SL      
+
+#       32      3       
+stm     STM     SM      
+
+#       17      
+stn     STN     
+
+#       1       
+stn't   STNT    
+
+#       8       
+stp     STP     
+
+#       1       
+stph    STF     
+
+#       2       
+stpl    STPL    
+
+#       5       
+stpr    STPR    
+
+#       889     12      
+str     STR     STAR    
+
+#       1       1       
+strz    STR     STRS    
+
+#       5       
+sts     STS     
+
+#       1       
+stsc    STSK    
+
+#       1       
+stschr  STXR    
+
+#       1       
+stscr   STSKR   
+
+#       1       
+ststr   STSTR   
+
+#       6       
+stv     STF     
+
+#       48      
+sv      SF      
+
+#       23      
+sz      S       
+
+#       1       
+szc     SK      
+
+#       3       
+szcz    SX      
+
+#       4       
+szk     SK      
+
+#       3       
+szt     ST      
+
+#       19845   2052    54      
+t       T       X       .       
+
+#       4       
+t'      T       
+
+#       2       
+t'd     TT      
+
+#       1       
+t'l     TL      
+
+#       1       
+t'll    TL      
+
+#       8       
+t's     TS      
+
+#       60      
+tb      TP      
+
+#       3       
+tbl     TPL     
+
+#       12      
+tbr     TPR     
+
+#       1       
+tbz     TPS     
+
+#       18      5       
+tc      TK      TS      
+
+#       293     
+tch     X       
+
+#       13      
+tchb    XP      
+
+#       1       1       
+tchbl   XPAL    XPL     
+
+#       4       
+tchc    XK      
+
+#       1       
+tchcr   XKR     
+
+#       2       
+tchd    XT      
+
+#       7       
+tchf    XF      
+
+#       1       
+tchk    XK      
+
+#       10      
+tchl    XL      
+
+#       11      
+tchm    XM      
+
+#       1       
+tchn    XN      
+
+#       5       
+tchp    XP      
+
+#       1       
+tchpl   XPL     
+
+#       3       
+tchst   XST     
+
+#       1       
+tcht    XT      
+
+#       3       
+tcl     TKL     
+
+#       5       
+tcr     TKR     
+
+#       16      
+td      T       
+
+#       2       
+tdr     TR      
+
+#       67      
+tf      TF      
+
+#       5       
+tfl     TFL     
+
+#       1       
+tfr     TFR     
+
+#       16      
+tg      TK      
+
+#       6       
+tgr     TKR     
+
+#       2581    69      14      
+th      0       T       .       
+
+#       1       
+th's    0S      
+
+#       11      
+thb     0P      
+
+#       1       
+thbl    0PL     
+
+#       4       
+thbr    0PR     
+
+#       1       
+thchl   0KL     
+
+#       2       
+thd     0T      
+
+#       4       
+thdr    0TR     
+
+#       23      
+thf     0F      
+
+#       4       
+thg     0K      
+
+#       4       
+thh     0       
+
+#       1       
+thj     0J      
+
+#       1       
+thk     0K      
+
+#       42      
+thl     0L      
+
+#       38      
+thm     0M      
+
+#       32      
+thn     0N      
+
+#       7       
+thp     0P      
+
+#       1       
+thpl    0PL     
+
+#       1       
+thpr    0PR     
+
+#       178     
+thr     0R      
+
+#       26      
+ths     0S      
+
+#       1       
+thsch   0X      
+
+#       2       
+thsh    0X      
+
+#       1       
+thsk    0SK     
+
+#       1       
+thsm    0SM     
+
+#       1       
+thsp    0SP     
+
+#       4       
+thst    0ST     
+
+#       3       
+tht     0T      
+
+#       1       
+thtr    0TR     
+
+#       6       
+tj      TJ      
+
+#       19      
+tk      TK      
+
+#       1       
+tkn     TN      
+
+#       164     37      
+tl      TL      TAL     
+
+#       1       
+tll     TL      
+
+#       81      
+tm      TM      
+
+#       44      
+tn      TN      
+
+#       23      
+tp      TP      
+
+#       6       
+tpl     TPL     
+
+#       7       
+tpr     TPR     
+
+#       1       
+tq      TK      
+
+#       2469    31      
+tr      TR      TAR     
+
+#       196     20      
+ts      TS      S       
+
+#       4       
+tsb     TSP     
+
+#       15      2       
+tsch    X       TX      
+
+#       1       
+tschl   XL      
+
+#       2       
+tscr    TSKR    
+
+#       1       
+tsd     TST     
+
+#       17      
+tsh     TX      
+
+#       23      
+tsk     TSK     
+
+#       1       
+tsl     TSL     
+
+#       4       
+tsm     TSM     
+
+#       5       
+tsp     TSP     
+
+#       1       
+tspr    TSPR    
+
+#       22      
+tst     TST     
+
+#       4       
+tstr    TSTR    
+
+#       1       
+tsv     TSF     
+
+#       1410    
+tt      T       
+
+#       1       
+ttb     TP      
+
+#       2       
+ttd     TT      
+
+#       1       
+ttfr    TFR     
+
+#       3       1       
+ttg     TJ      TK      
+
+#       4       2       
+tth     T0      0       
+
+#       2       
+tthr    T0R     
+
+#       1       
+ttj     TJ      
+
+#       90      20      
+ttl     TAL     TL      
+
+#       2       
+ttm     TM      
+
+#       1       
+ttn     TN      
+
+#       36      3       
+ttr     TR      TAR     
+
+#       7       
+tts     TS      
+
+#       5       
+ttsb    TSP     
+
+#       1       
+ttsbl   TSPL    
+
+#       1       
+ttsch   TX      
+
+#       1       
+ttsd    TST     
+
+#       1       
+ttsf    TSF     
+
+#       1       
+ttsm    TSM     
+
+#       3       
+ttst    TST     
+
+#       1       
+ttstr   TSTR    
+
+#       6       
+ttsv    TSF     
+
+#       4       
+ttv     TF      
+
+#       12      
+tv      TF      
+
+#       124     
+tz      TS      
+
+#       2       
+tzb     TSP     
+
+#       2       
+tzg     TSJ     
+
+#       2       1       
+tzh     TJ      TS      
+
+#       5       
+tzk     TSK     
+
+#       1       
+tzkr    TSKR    
+
+#       3       
+tzl     TS      
+
+#       1       
+tzm     TSM     
+
+#       2       
+tzn     TSN     
+
+#       2       
+tzp     TSP     
+
+#       1       
+tzr     TSR     
+
+#       1       
+tzs     TSS     
+
+#       3       
+tzsch   X       
+
+#       2       
+tzst    TSST    
+
+#       1       
+tzt     TST     
+
+#       1       
+tzv     TSF     
+
+#       6873    
+v       F       
+
+#       4       
+vd      FT      
+
+#       1       1       
+vg      FJ      FK      
+
+#       1       
+vgr     FKR     
+
+#       12      
+vk      FK      
+
+#       14      
+vl      FL      
+
+#       1       
+vlt     FLT     
+
+#       8       
+vn      FN      
+
+#       2       
+vp      FP      
+
+#       31      11      
+vr      FR      FAR     
+
+#       37      
+vsk     FSK     
+
+#       2       
+vt      FT      
+
+#       1       
+vtz     FTS     
+
+#       10      
+vv      F       
+
+#       2       
+vz      FS      
+
+#       1       
+vzh     FJ      
+
+#       1428    100     70      50      8       5       
+x       KS      S       .       KX      KJ      X       
+
+#       1       
+x'      S       
+
+#       11      
+xb      KSP     
+
+#       1       
+xbl     KSPL    
+
+#       1       
+xbr     KSPR    
+
+#       60      44      
+xc      KS      KSK     
+
+#       4       
+xch     KSX     
+
+#       16      
+xcl     KSKL    
+
+#       19      
+xcr     KSKR    
+
+#       1       
+xd      KST     
+
+#       12      
+xf      KSF     
+
+#       1       
+xg      KSK     
+
+#       1       
+xgl     KSKL    
+
+#       1       
+xgr     KSKR    
+
+#       46      
+xh      KS      
+
+#       7       3       
+xl      KSL     KSAL    
+
+#       10      
+xm      KSM     
+
+#       3       
+xn      KSN     
+
+#       139     
+xp      KSP     
+
+#       56      
+xpl     KSPL    
+
+#       23      
+xpr     KSPR    
+
+#       3       
+xq      KSK     
+
+#       2       
+xr      KSR     
+
+#       16      
+xs      KS      
+
+#       1       
+xsc     KSS     
+
+#       1       
+xst     KST     
+
+#       150     20      
+xt      KST     KSX     
+
+#       2       
+xtb     KSTP    
+
+#       2       
+xth     KS0     
+
+#       1       
+xthl    KS0L    
+
+#       1       
+xtl     KST     
+
+#       122     
+xtr     KSTR    
+
+#       2       
+xv      KSF     
+
+#       2317    31      9       
+z       S       TS      .       
+
+#       8       
+zb      SP      
+
+#       10      
+zc      SK      
+
+#       5       
+zd      ST      
+
+#       1       
+zf      SF      
+
+#       1       
+zg      SJ      
+
+#       11      
+zh      J       
+
+#       1       
+zhd     JT      
+
+#       1       
+zhk     JK      
+
+#       2       
+zhn     JN      
+
+#       5       
+zk      SK      
+
+#       7       
+zl      SL      
+
+#       7       2       
+zm      SM      TSM     
+
+#       11      
+zn      SN      
+
+#       2       
+zp      SP      
+
+#       9       
+zr      SR      
+
+#       2       
+zs      SS      
+
+#       1       
+zsv     SSF     
+
+#       3       
+zt      ST      
+
+#       1       
+zth     S0      
+
+#       5       
+zv      SF      
+
+#       71      29      
+zz      S       TS      
+
+#       1       
+zzb     SP      
+
+#       27      3       1       
+zzl     S       SAL     SL      
+
+#       2       
+zzm     SM      
+

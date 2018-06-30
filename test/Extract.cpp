@@ -11,12 +11,19 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <algorithm>
 
 #include "Extract.h"
 #include "parse.h"
 
 #define EXTRACT_FILE_REAL "data/pieces_real.dat"
 #define EXTRACT_FILE_META "data/pieces_meta.dat"
+
+#define EXTRACT_CONS_REAL "data/cons_real.dat"
+#define EXTRACT_CONS_META "data/cons_meta.dat"
+
+#define EXTRACT_VOWEL_REAL "data/vowel_real.dat"
+#define EXTRACT_VOWEL_META "data/vowel_meta.dat"
 
 #define SKIP_FILE "skips.dat"
 
@@ -50,15 +57,10 @@ void Extract::reset()
 }
 
 
-void Extract::setType(const PronType t)
+void Extract::readComponent(const string& fname)
 {
-  prontype = t;
-
   ifstream fin;
-  if (prontype == EXTRACT_REAL)
-    fin.open(EXTRACT_FILE_REAL);
-  else
-    fin.open(EXTRACT_FILE_META);
+  fin.open(fname);
 
   string line;
   vector<string> tokens;
@@ -68,12 +70,55 @@ void Extract::setType(const PronType t)
     if (line == "" || line.front() == '#')
       continue;
 
-    const unsigned c = countDelimiters(line, " ");
-    tokens.resize(c+1);
     tokens.clear();
-    tokenize(line, tokens, " ");
+    splitIntoWords(line, tokens);
 
     const string& part = tokens[0];
+
+    for (unsigned i = 1; i < tokens.size(); i++)
+    {
+      if (tokens[i] == ".")
+        pronMap[part].push_back("");
+      else
+        pronMap[part].push_back(tokens[i]);
+    }
+  }
+
+  fin.close();
+}
+
+
+void Extract::setType(const PronType t)
+{
+  prontype = t;
+
+  if (prontype == EXTRACT_REAL)
+  {
+    Extract::readComponent(EXTRACT_FILE_REAL);
+    // Extract::readComponent(EXTRACT_CONS_REAL);
+    // Extract::readComponent(EXTRACT_VOWEL_REAL);
+  }
+  else
+  {
+    Extract::readComponent(EXTRACT_FILE_META);
+    // Extract::readComponent(EXTRACT_CONS_META);
+    // Extract::readComponent(EXTRACT_VOWEL_META);
+  }
+
+  /*
+  string line;
+  vector<string> tokens;
+
+  while (getline(fin, line))
+  {
+    if (line == "" || line.front() == '#')
+      continue;
+
+    tokens.clear();
+    splitIntoWords(line, tokens);
+
+    const string& part = tokens[0];
+
     for (unsigned i = 1; i < tokens.size(); i++)
     {
       if (tokens[i] == ".")
@@ -83,10 +128,15 @@ void Extract::setType(const PronType t)
     }
 
   }
-
   fin.close();
+  */
 
+
+  ifstream fin;
   fin.open(SKIP_FILE);
+
+  string line;
+  vector<string> tokens;
 
   while (getline(fin, line))
   {
@@ -161,18 +211,21 @@ string Extract::recurse(
     if (it == pronMap.end())
       return "part " + part + ", pron " + pron + ": no part\n";
     
-    string ret;
+    // Default
+    string ret = "part " + part + ", pron " + pron + ": no match\n";
+
     for (auto &candPron: it->second)
     {
       const unsigned lpron = candPron.size();
       string candToLog = "";
+// cout << "Trying candidate " << candPron << ", " << lpron << endl;
       if (lpron == 0)
         candToLog = ".";
       else if (lpron <= pron.size() && candPron == pron.substr(0, lpron))
         candToLog = candPron;
       else
         continue;
-// cout << "candidate " << candToLog << endl;
+// cout << "candidate " << candToLog << " for " << part << endl;
 
       if (lpron >= pron.size())
       {
@@ -180,6 +233,7 @@ string Extract::recurse(
         ret = recurse(word.substr(i), "", ! state);
         if (ret == "")
         {
+// cout << "Adding " << candToLog << endl;
           histoMap[part][candToLog]++;
           return "";
         }
@@ -190,6 +244,7 @@ string Extract::recurse(
         ret = recurse(word.substr(i), pron, ! state);
         if (ret == "")
         {
+// cout << "Adding " << candToLog << endl;
           histoMap[part][candToLog]++;
           return "";
         }
@@ -204,6 +259,7 @@ string Extract::recurse(
 
         if (ret == "")
         {
+// cout << "Adding " << candToLog << endl;
           histoMap[part][candToLog]++;
           return "";
         }
@@ -240,11 +296,73 @@ void Extract::enter(
 }
 
 
-void Extract::print(const string& fname) const
+void Extract::printData() const
 {
-  ofstream fout;
-  fout.open(fname);
-  fout.close();
+  ofstream fout_cons, fout_vowel;
+
+  if (prontype == EXTRACT_REAL)
+  {
+    fout_cons.open(EXTRACT_CONS_REAL);
+    fout_vowel.open(EXTRACT_VOWEL_REAL);
+  }
+  else
+  {
+    fout_cons.open(EXTRACT_CONS_META);
+    fout_vowel.open(EXTRACT_VOWEL_META);
+  }
+
+  struct Elem
+  {
+    string pron;
+    unsigned val;
+
+    // Elem(unsigned v, const string& p): val(v), pron(p) {}
+
+    bool operator < (const Elem& e) const
+    {
+      return (val < e.val);
+    }
+  };
+
+  Elem elem;
+  vector<Elem> elements;
+
+  for (auto &it: histoMap)
+  {
+    elements.clear();
+    const string& piece = it.first;
+    
+    for (auto &hit: it.second)
+    {
+      elem.pron = hit.first;
+      elem.val = hit.second;
+      elements.push_back(elem);
+    }
+
+    sort(elements.rbegin(), elements.rend());
+
+    auto vit = isVowelMap.find(piece.substr(0, 1));
+    if (vit == isVowelMap.end())
+    {
+      cout << "Error: " << piece << endl;
+      continue;
+    }
+
+    ofstream& fout = (vit->second ?  fout_vowel : fout_cons);
+
+    fout << setw(8) << left << "#";
+    for (unsigned i = 0; i < elements.size(); i++)
+      fout << setw(8) << left << elements[i].val;
+    fout << "\n";
+
+    fout << setw(8) << left << piece;
+    for (unsigned i = 0; i < elements.size(); i++)
+      fout << setw(8) << left << elements[i].pron;
+    fout << "\n\n";
+  }
+
+  fout_cons.close();
+  fout_vowel.close();
 }
 
 

@@ -42,6 +42,8 @@ class Extract
     map<string, map<string, unsigned>> histoMap;
 
 
+    void readComponent(const string& fname);
+
     string recurseMatch(
       const string& part,
       const string& pron,
@@ -66,7 +68,7 @@ class Extract
 
     void enter(const string& fname);
 
-    void print(const string& fname) const;
+    void printData() const;
 
     void printCollisions(const string& fname) const;
 };
