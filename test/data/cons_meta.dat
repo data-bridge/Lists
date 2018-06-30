@@ -4,11 +4,14 @@
 #       2       
 'b      P       
 
-#       2       
-'c      K       
+#       2       1       
+'c      K       S       
 
 #       1       
 'c's'l  KS      
+
+#       1       
+'cl     KL      
 
 #       9       
 'd      T       
@@ -52,7 +55,7 @@
 #       5       
 'v      F       
 
-#       8388    
+#       8416    
 b       P       
 
 #       2       
@@ -67,7 +70,7 @@ b'r     PR
 #       2       
 b's     PS      
 
-#       284     
+#       285     
 bb      P       
 
 #       50      25      
@@ -79,8 +82,8 @@ bbr     PR
 #       3       
 bbs     PS      
 
-#       38      
-bc      PK      
+#       38      6       
+bc      PK      PS      
 
 #       5       
 bch     PX      
@@ -112,8 +115,8 @@ bfl     PFL
 #       3       
 bfr     PFR     
 
-#       3       
-bg      PK      
+#       3       3       
+bg      PJ      PK      
 
 #       1       
 bgl     PKL     
@@ -124,8 +127,8 @@ bgr     PKR
 #       55      
 bh      P       
 
-#       47      
-bj      PJ      
+#       47      4       
+bj      PJ      P       
 
 #       6       
 bk      PK      
@@ -136,7 +139,7 @@ bkh     PK
 #       1       
 bkn     PKN     
 
-#       1433    761     
+#       1439    762     
 bl      PAL     PL      
 
 #       1       
@@ -166,7 +169,7 @@ bpr     PR
 #       3       
 bq      PK      
 
-#       1371    16      
+#       1375    16      
 br      PR      PAR     
 
 #       1       
@@ -178,7 +181,7 @@ brn     PRN
 #       3       
 brz     PRS     
 
-#       132     
+#       136     
 bs      PS      
 
 #       1       
@@ -211,8 +214,8 @@ bst     PST
 #       32      
 bstr    PSTR    
 
-#       34      19      
-bt      PT      T       
+#       34      20      1       
+bt      PT      T       PX      
 
 #       1       
 btf     TF      
@@ -229,11 +232,14 @@ bts     PTS
 #       16      
 bv      PF      
 
+#       1       
+bvr     PFAR    
+
 #       2       
 bz      PS      
 
-#       13899   3829    729     
-c       K       S       X       
+#       13934   3854    729     5       
+c       K       S       X       .       
 
 #       1       
 c'      K       
@@ -241,14 +247,14 @@ c'      K
 #       4       
 cb      KP      
 
-#       277     113     39      
-cc      K       KS      X       
+#       294     97      39      3       
+cc      K       KS      X       S       
 
 #       56      
 cch     K       
 
-#       29      
-ccl     KL      
+#       29      3       
+ccl     KL      KAL     
 
 #       11      
 ccr     KR      
@@ -262,7 +268,7 @@ cf      KF
 #       1       
 cfl     KFL     
 
-#       1757    1182    17      
+#       1766    1186    18      
 ch      X       K       H       
 
 #       11      
@@ -301,8 +307,8 @@ chg     XJ
 #       2       1       
 chh     K       X       
 
-#       8       
-chk     XK      
+#       8       2       
+chk     XK      KK      
 
 #       144     15      
 chl     KL      XL      
@@ -313,11 +319,14 @@ chm     KM      XM      M
 #       52      2       
 chn     KN      XN      
 
+#       1       
+chp     XP      
+
 #       322     3       2       
 chr     KR      XR      KAR     
 
-#       9       
-chs     KS      
+#       9       2       1       
+chs     KS      XS      X       
 
 #       1       
 chsb    KSP     
@@ -325,14 +334,14 @@ chsb    KSP
 #       1       
 chsf    KSF     
 
-#       3       
-chsh    KX      
+#       3       1       
+chsh    KX      KS      
 
 #       2       
 chsm    KSM     
 
-#       4       
-chst    KST     
+#       4       1       
+chst    KST     XST     
 
 #       1       
 chsth   KS0     
@@ -343,11 +352,11 @@ chstr   KSTR
 #       1       
 chsv    KSF     
 
-#       42      2       
-cht     KT      T       
+#       43      2       1       
+cht     KT      T       XT      
 
-#       38      
-chth    K0      
+#       38      1       
+chth    K0      KT      
 
 #       2       
 chtl    KTL     
@@ -364,7 +373,7 @@ chtsm   TSM
 #       2       
 chz     KS      
 
-#       1325    
+#       1333    
 ck      K       
 
 #       1       
@@ -379,7 +388,7 @@ ckbl    KPL
 #       8       
 ckbr    KPR     
 
-#       7       
+#       8       
 ckc     K       
 
 #       3       
@@ -424,7 +433,7 @@ ckk     K
 #       2       
 ckkn    KN      
 
-#       86      65      
+#       87      65      
 ckl     KL      KAL     
 
 #       19      
@@ -460,8 +469,8 @@ ckscr   KSKR
 #       1       
 cksf    KSF     
 
-#       14      
-cksh    KX      
+#       14      1       
+cksh    KX      KS      
 
 #       1       
 cksk    KSK     
@@ -526,20 +535,29 @@ cph     KF
 #       42      
 cq      K       
 
-#       1502    21      
+#       1511    21      
 cr      KR      KAR     
 
-#       275     1       
-cs      KS      X       
+#       275     1       1       
+cs      KS      S       X       
+
+#       1       
+csb     KSP     
 
 #       1       
 csk     KSK     
 
 #       1       
+css     KS      
+
+#       3       
 cst     KS      
 
-#       1464    353     13      
-ct      KT      KX      T       
+#       1       
+csv     KSF     
+
+#       1465    353     13      1       
+ct      KT      KX      T       X       
 
 #       8       
 ctf     KTF     
@@ -547,17 +565,23 @@ ctf     KTF
 #       2       
 cth     K0      
 
+#       1       
+cthl    K0L     
+
 #       22      
 ctl     KTL     
 
-#       3       
-ctm     KTM     
+#       3       1       
+ctm     KTM     TM      
 
 #       6       
 ctn     KTN     
 
-#       240     
-ctr     KTR     
+#       240     1       
+ctr     KTR     KTAR    
+
+#       2       
+cts     KTS     
 
 #       1       
 ctz     KTS     
@@ -565,14 +589,14 @@ ctz     KTS
 #       2       
 cv      KF      
 
-#       17      3       
-cz      X       KS      
+#       17      10      6       3       
+cz      X       S       TS      KS      
 
-#       1       
+#       2       
 czm     XM      
 
-#       14892   107     
-d       T       J       
+#       14954   109     8       
+d       T       J       .       
 
 #       56      
 d'      T       
@@ -641,10 +665,16 @@ dfr     TFR
 dg      J       TK      
 
 #       1       
+dgk     JK      
+
+#       1       
 dgl     JL      
 
 #       6       
 dgm     JM      
+
+#       1       
+dgr     TKR     
 
 #       1       
 dgs     JS      
@@ -664,13 +694,13 @@ dj      J
 #       8       
 dk      TK      
 
-#       400     48      
+#       403     48      
 dl      TL      TAL     
 
 #       116     
 dm      TM      
 
-#       229     2       
+#       232     2       
 dn      TN      N       
 
 #       3       
@@ -678,6 +708,9 @@ dn't    TNT
 
 #       20      
 dp      TP      
+
+#       1       
+dph     TF      
 
 #       3       
 dpl     TPL     
@@ -709,8 +742,8 @@ dsd     TST
 #       1       
 dsf     TSF     
 
-#       14      
-dsh     TX      
+#       14      1       
+dsh     TX      TS      
 
 #       5       
 dsk     TSK     
@@ -726,6 +759,9 @@ dsp     TSP
 
 #       4       
 dspr    TSPR    
+
+#       1       
+dsq     TSK     
 
 #       36      
 dst     TST     
@@ -751,7 +787,7 @@ dz      TS
 #       7       
 dzh     TJ      
 
-#       4738    
+#       4760    
 f       F       
 
 #       5       
@@ -766,7 +802,7 @@ fch     FX
 #       3       
 fd      FT      
 
-#       590     
+#       591     
 ff      F       
 
 #       2       
@@ -796,8 +832,8 @@ ffn     FN
 #       1       
 ffpr    FPR     
 
-#       37      
-ffr     FR      
+#       37      1       
+ffr     FR      FAR     
 
 #       7       
 ffs     FS      
@@ -835,8 +871,8 @@ fj      F
 #       3       
 fk      FK      
 
-#       746     
-fl      FL      
+#       749     6       
+fl      FL      FAL     
 
 #       3       
 fm      FM      
@@ -844,8 +880,14 @@ fm      FM
 #       5       
 fn      FN      
 
-#       697     
-fr      FR      
+#       1       
+fpr     FPR     
+
+#       1       
+fq      FK      
+
+#       700     2       
+fr      FR      FAR     
 
 #       2       
 fs      FS      
@@ -862,8 +904,8 @@ fss     FS
 #       4       
 fst     FST     
 
-#       240     
-ft      FT      
+#       243     4       1       
+ft      FT      F       FX      
 
 #       3       
 ftb     FTP     
@@ -904,8 +946,8 @@ ftt     FT
 #       2       
 fz      FS      
 
-#       4399    3562    
-g       K       J       
+#       4411    3579    1       
+g       K       J       H       
 
 #       3       
 g's     KS      
@@ -931,7 +973,7 @@ gfl     KFL
 #       1       
 gfr     KFR     
 
-#       303     26      9       
+#       304     26      9       
 gg      K       J       KJ      
 
 #       1       
@@ -958,6 +1000,9 @@ ggm     KM
 #       1       
 ggn     KN      
 
+#       1       
+ggpl    KPL     
+
 #       24      
 ggr     KR      
 
@@ -967,8 +1012,8 @@ ggs     KS
 #       1       
 ggsh    KX      
 
-#       118     99      29      
-gh      .       K       F       
+#       119     99      29      5       1       
+gh      .       K       F       J       H       
 
 #       16      1       
 ghb     P       KP      
@@ -978,6 +1023,9 @@ ghbr    PAR     PR
 
 #       1       
 ghc     FK      
+
+#       1       
+ghch    X       
 
 #       2       1       
 ghd     T       KT      
@@ -991,8 +1039,11 @@ ghfl    FL
 #       3       
 ghg     K       
 
+#       5       2       
+ghh     H       F       
+
 #       2       
-ghh     F       
+ghj     J       
 
 #       1       
 ghk     K       
@@ -1009,8 +1060,8 @@ ghn     N       FN
 #       3       
 ghp     P       
 
-#       1       
-ghr     FR      
+#       1       1       
+ghr     FR      R       
 
 #       1       
 ghs     S       
@@ -1019,10 +1070,13 @@ ghs     S
 ghsh    X       FX      
 
 #       1       
+ghsp    SP      
+
+#       1       
 ghstr   FSTR    
 
-#       314     5       
-ght     T       FT      
+#       315     5       4       
+ght     T       FT      X       
 
 #       1       
 ght's   TS      
@@ -1102,7 +1156,7 @@ gj      KJ
 #       2       
 gk      K       
 
-#       571     32      30      
+#       574     32      30      
 gl      KL      KAL     L       
 
 #       146     6       
@@ -1129,10 +1183,10 @@ gnt     NT
 #       9       
 gp      KP      
 
-#       1803    12      
+#       1806    12      
 gr      KR      KAR     
 
-#       15      
+#       16      
 gs      KS      
 
 #       4       
@@ -1144,8 +1198,8 @@ gsch    KX
 #       2       
 gsd     KST     
 
-#       6       
-gsh     KX      
+#       6       1       
+gsh     KX      KS      
 
 #       2       
 gsk     KSK     
@@ -1171,14 +1225,20 @@ gtr     KTR
 #       3       
 gv      KF      
 
+#       3       
+gz      KS      
+
 #       1       
 gzh     KJ      
 
-#       5692    780     
+#       5766    802     
 h       H       .       
 
 #       1       
 h'd     T       
+
+#       1       
+h's     S       
 
 #       2       
 hch     X       
@@ -1192,7 +1252,7 @@ hf      F
 #       1       
 hg      K       
 
-#       2       
+#       3       
 hh      H       
 
 #       6       
@@ -1226,6 +1286,9 @@ hm      M
 hmbr    MPR     
 
 #       1       
+hmg     MJ      
+
+#       1       
 hmm     M       
 
 #       1       
@@ -1239,6 +1302,9 @@ hn's    NS
 
 #       1       
 hng     NJ      
+
+#       1       
+hnhnm   NNM     
 
 #       1       
 hnk     NK      
@@ -1300,7 +1366,7 @@ hv      F
 #       2       
 hz      S       
 
-#       1427    81      26      
+#       1433    82      29      
 j       J       H       .       
 
 #       1       
@@ -1309,10 +1375,10 @@ j'b     JP
 #       3       
 jb      JP      
 
-#       1       
-jc      S       
+#       1       1       
+jc      JK      S       
 
-#       5       
+#       6       
 jd      JT      
 
 #       3       
@@ -1333,8 +1399,8 @@ jl      L
 #       2       2       
 jm      JM      M       
 
-#       4       
-jn      JN      
+#       4       1       
+jn      JN      N       
 
 #       2       
 jp      JP      
@@ -1348,13 +1414,13 @@ jsl     SL
 #       2       
 jss     S       
 
-#       1       
-jt      T       
+#       1       1       
+jt      JT      T       
 
 #       1       
 jv      JF      
 
-#       3529    
+#       3552    
 k       K       
 
 #       2       
@@ -1381,7 +1447,7 @@ kf      KF
 #       1       
 kfr     KFR     
 
-#       136     
+#       138     
 kh      K       
 
 #       1       
@@ -1414,8 +1480,8 @@ kht     KT
 #       1       
 khz     KS      
 
-#       6       
-kj      KJ      
+#       6       1       
+kj      KJ      K       
 
 #       47      
 kk      K       
@@ -1426,8 +1492,8 @@ kkh     K
 #       1       
 kkr     KR      
 
-#       103     
-kl      KL      
+#       103     4       
+kl      KL      KAL     
 
 #       1       
 klj     KLJ     
@@ -1444,11 +1510,17 @@ kp      KP
 #       1       
 kpl     KPL     
 
-#       128     
+#       130     
 kr      KR      
+
+#       1       
+krz     KRS     
 
 #       27      
 ks      KS      
+
+#       3       
+ksb     KSP     
 
 #       1       
 ksd     KST     
@@ -1483,11 +1555,17 @@ kt      KT
 #       1       
 kthr    K0R     
 
+#       1       
+ktr     KTR     
+
+#       1       
+ktss    KTS     
+
 #       6       
 kv      KF      
 
-#       21599   
-l       L       
+#       21687   32      
+l       L       .       
 
 #       15      
 l'      L       
@@ -1507,7 +1585,7 @@ lbl     LPL     LPAL
 #       14      
 lbr     LPR     
 
-#       165     100     1       
+#       166     100     1       
 lc      LK      LS      LX      
 
 #       35      15      
@@ -1516,8 +1594,8 @@ lch     LX      LK
 #       1       
 lchl    LKL     
 
-#       4       
-lchr    LKR     
+#       4       1       
+lchr    LKR     LKAR    
 
 #       3       
 lcl     LKL     
@@ -1537,8 +1615,8 @@ lct     LKT
 #       2       
 lcz     LX      
 
-#       656     6       
-ld      LT      T       
+#       659     6       1       
+ld      LT      T       LJ      
 
 #       10      
 ldb     LTP     
@@ -1546,8 +1624,8 @@ ldb     LTP
 #       1       
 ldbr    LTPR    
 
-#       1       
-ldc     LT      
+#       2       1       
+ldc     LTK     LT      
 
 #       1       
 ldcr    LTKR    
@@ -1567,8 +1645,8 @@ ldl     LTL
 #       5       
 ldm     LTM     
 
-#       2       
-ldn     LTN     
+#       2       1       
+ldn     LTN     TN      
 
 #       3       
 ldn't   TNT     
@@ -1639,14 +1717,14 @@ lff     LF
 #       1       
 lfg     LFK     
 
-#       3       
-lfh     LF      
+#       4       3       
+lfh     F       LF      
 
 #       8       
 lfl     LFL     
 
-#       1       
-lfm     LFM     
+#       1       1       
+lfm     FM      LFM     
 
 #       1       
 lfn     LFN     
@@ -1663,11 +1741,11 @@ lfs     LFS
 #       1       
 lfsb    LFSP    
 
-#       1       
-lfsk    LFSK    
+#       1       1       
+lfsk    FSK     LFSK    
 
-#       3       
-lft     LFT     
+#       3       1       
+lft     LFT     FT      
 
 #       1       
 lfth    LF0     
@@ -1681,8 +1759,11 @@ lg      LJ      LK
 #       3       1       
 lgh     LK      LJ      
 
-#       10      
-lgr     LKR     
+#       1       
+lgl     LKL     
+
+#       10      1       
+lgr     LKR     LKAR    
 
 #       71      
 lh      L       
@@ -1714,8 +1795,8 @@ lkk     LK
 #       3       
 lkl     KL      
 
-#       3       
-lkm     LKM     
+#       3       3       
+lkm     KM      LKM     
 
 #       1       1       
 lkn     KN      LKN     
@@ -1738,7 +1819,7 @@ lkst    KST
 #       1       
 lkt     LKT     
 
-#       4573    13      
+#       4592    13      
 ll      L       .       
 
 #       2       
@@ -1780,8 +1861,8 @@ llfl    LFL
 #       1       
 llfr    LFR     
 
-#       2       
-llg     LK      
+#       2       1       
+llg     LK      LJ      
 
 #       1       
 llgr    LKR     
@@ -1805,6 +1886,9 @@ lln     LN
 llp     LP      
 
 #       1       
+llph    LF      
+
+#       1       
 llpl    LPL     
 
 #       1       
@@ -1821,6 +1905,9 @@ llsb    LSP
 
 #       1       
 llsch   LX      
+
+#       1       
+llsd    LST     
 
 #       2       
 llsh    LX      
@@ -1870,6 +1957,9 @@ lmh     LM
 #       1       1       
 lml     LML     ML      
 
+#       1       
+lmn     LMN     
+
 #       4       2       
 lms     MS      LMS     
 
@@ -1909,8 +1999,11 @@ lpb     LP
 #       5       
 lpf     LPF     
 
-#       104     
-lph     LF      
+#       104     1       
+lph     LF      LP      
+
+#       2       
+lphth   L0      
 
 #       9       
 lpl     LPL     
@@ -1924,8 +2017,8 @@ lpr     LPR     LPAR
 #       3       
 lps     LPS     
 
-#       3       
-lpt     LPT     
+#       3       1       
+lpt     LPT     LPX     
 
 #       1       
 lptr    LPTR    
@@ -1933,8 +2026,8 @@ lptr    LPTR
 #       7       
 lq      LK      
 
-#       44      
-lr      LR      
+#       45      1       
+lr      LR      LAR     
 
 #       206     12      
 ls      LS      LX      
@@ -1946,6 +2039,9 @@ lsb     LSP
 lsc     LS      
 
 #       1       
+lsch    LX      
+
+#       1       
 lschm   LXM     
 
 #       2       
@@ -1954,8 +2050,8 @@ lsd     LST
 #       2       
 lsgr    LSKR    
 
-#       23      
-lsh     LX      
+#       23      1       
+lsh     LX      LS      
 
 #       1       
 lshm    LXM     
@@ -1999,6 +2095,9 @@ ltd     LT
 #       2       
 ltf     LTF     
 
+#       1       
+ltg     LTJ     
+
 #       36      4       
 lth     L0      LT      
 
@@ -2026,8 +2125,8 @@ ltn     LTN
 #       3       
 ltp     LTP     
 
-#       57      
-ltr     LTR     
+#       57      2       
+ltr     LTR     LTAR    
 
 #       2       
 lts     LTS     
@@ -2043,6 +2142,9 @@ ltsh    LTX
 
 #       3       
 ltst    LTST    
+
+#       1       
+ltv     LTF     
 
 #       7       
 ltz     LTS     
@@ -2065,7 +2167,7 @@ lzb     LSP
 #       1       
 lzn     LSN     
 
-#       16235   
+#       16289   
 m       M       
 
 #       1       
@@ -2074,7 +2176,7 @@ m'b     MP
 #       2       
 m's     MS      
 
-#       667     75      
+#       671     75      
 mb      MP      M       
 
 #       1       
@@ -2086,14 +2188,17 @@ mbb     MP
 #       3       
 mbd     MT      
 
-#       2       
-mbf     MF      
+#       2       1       
+mbf     MF      MPF     
+
+#       1       
+mbh     M       
 
 #       3       
 mbk     MK      
 
-#       58      56      
-mbl     MPL     MPAL    
+#       58      56      3       1       
+mbl     MPL     MPAL    ML      MAL     
 
 #       2       
 mbm     MPM     
@@ -2104,11 +2209,11 @@ mbn     MN
 #       2       
 mbpr    MPR     
 
-#       141     
-mbr     MPR     
+#       141     5       
+mbr     MPR     MPAR    
 
-#       6       
-mbs     MS      
+#       6       1       
+mbs     MS      MPS     
 
 #       1       
 mbscr   MSKR    
@@ -2119,14 +2224,20 @@ mbsh    MX
 #       2       
 mbsk    MSK     
 
-#       2       
-mbst    MST     
+#       2       1       
+mbst    MST     MPST    
 
 #       2       
 mbstr   MSTR    
 
-#       9       
-mc      MK      
+#       1       
+mbt     MT      
+
+#       9       8       3       
+mc      MK      MS      MAK     
+
+#       8       
+mcc     MAK     
 
 #       2       
 mccl    MAKL    
@@ -2146,11 +2257,14 @@ mcg     MAK
 #       1       
 mcgr    MAKR    
 
-#       8       
-mch     MX      
+#       8       1       
+mch     MX      MAK     
 
-#       7       
-mck     MAK     
+#       7       1       
+mck     MAK     MK      
+
+#       1       
+mcl     MKL     
 
 #       4       
 mcm     MAKM    
@@ -2191,8 +2305,8 @@ mfl     MFL
 #       7       
 mfr     MFR     
 
-#       2       
-mg      MK      
+#       3       2       
+mg      MJ      MK      
 
 #       18      
 mh      M       
@@ -2206,10 +2320,10 @@ mk      MK
 #       3       
 mkh     MK      
 
-#       60      
-ml      ML      
+#       60      2       
+ml      ML      MAL     
 
-#       836     
+#       838     
 mm      M       
 
 #       1       
@@ -2233,7 +2347,7 @@ mn      MN      M       N
 #       1       
 mn't    MNT     
 
-#       900     
+#       901     
 mp      MP      
 
 #       7       
@@ -2257,11 +2371,14 @@ mpf     MPF
 #       1       
 mpgr    MPKR    
 
-#       194     
-mph     MF      
+#       194     1       
+mph     MF      MP      
 
 #       3       
 mphl    MFL     
+
+#       1       
+mphr    MFR     
 
 #       6       
 mpk     MPK     
@@ -2269,8 +2386,8 @@ mpk     MPK
 #       1       
 mpkn    MPN     
 
-#       172     
-mpl     MPL     
+#       172     25      
+mpl     MPL     MPAL    
 
 #       3       
 mpm     MPM     
@@ -2284,10 +2401,10 @@ mpp     MP
 #       1       
 mppr    MPR     
 
-#       121     
-mpr     MPR     
+#       122     2       
+mpr     MPR     MPAR    
 
-#       13      13      2       
+#       17      9       2       
 mps     MP      MPS     MS      
 
 #       4       
@@ -2299,8 +2416,8 @@ mpst    MPST
 #       1       
 mpstr   MPSTR   
 
-#       65      26      
-mpt     MPT     MPX     
+#       65      26      3       1       
+mpt     MPT     MPX     MT      NT      
 
 #       1       
 mptb    MPTP    
@@ -2311,8 +2428,8 @@ mptr    MPTR    NTR
 #       2       
 mq      MK      
 
-#       37      
-mr      MR      
+#       37      2       
+mr      MR      MAR     
 
 #       75      
 ms      MS      
@@ -2320,8 +2437,17 @@ ms      MS
 #       6       
 msb     MSP     
 
+#       1       
+msc     MS      
+
 #       2       
 msch    MX      
+
+#       2       
+mscr    MSKR    
+
+#       3       
+msd     MST     
 
 #       1       
 msg     MSK     
@@ -2363,6 +2489,9 @@ msv     MSF
 mt      MT      
 
 #       1       
+mth     M0      
+
+#       2       
 mtr     MTR     
 
 #       15      
@@ -2377,7 +2506,7 @@ mz      MS
 #       1       
 mzl     MSL     
 
-#       26226   
+#       26314   
 n       N       
 
 #       3       
@@ -2407,16 +2536,19 @@ n't     NT
 #       208     
 nb      NP      
 
-#       8       
-nbl     NPL     
+#       8       3       
+nbl     NPL     NPAL    
 
-#       25      
-nbr     NPR     
+#       25      1       
+nbr     NPR     NPAR    
 
-#       770     584     534     21      
+#       772     584     541     21      
 nc      NTS     NK      NS      NX      
 
-#       259     106     
+#       1       
+ncb     NKP     
+
+#       261     106     
 nch     NX      NK      
 
 #       8       
@@ -2446,8 +2578,8 @@ nchn    NKN
 #       2       
 nchp    NXP     
 
-#       18      
-nchr    NKR     
+#       18      2       
+nchr    NKR     NXR     
 
 #       1       
 nchs    NKS     
@@ -2461,8 +2593,8 @@ nck     NK
 #       2       
 nckn    NKN     
 
-#       75      
-ncl     NKL     
+#       75      10      
+ncl     NKL     NKAL    
 
 #       1       
 ncm     NKM     
@@ -2473,16 +2605,19 @@ ncr     NKR     NKAR
 #       1       1       
 ncs     NK      NKS     
 
-#       66      59      
+#       67      59      
 nct     NKT     NKX     
 
 #       3       
 nctl    NKTL    
 
+#       2       
+nctn    NKTN    
+
 #       1       
 ncx     NKKS    
 
-#       2964    13      
+#       2989    13      
 nd      NT      NJ      
 
 #       2       
@@ -2506,6 +2641,9 @@ ndch    NTX
 #       2       
 ndcl    NTKL    
 
+#       2       
+ndcr    NTKR    
+
 #       4       
 ndd     NT      
 
@@ -2524,8 +2662,8 @@ ndg     NTK     NJ
 #       1       
 ndgl    NTKL    
 
-#       2       
-ndgr    NJR     
+#       2       2       
+ndgr    NJR     NTKR    
 
 #       35      
 ndh     NT      
@@ -2539,10 +2677,10 @@ ndhr    NTR
 #       3       
 ndj     NJ      
 
-#       2       
-ndk     NTK     
+#       2       1       
+ndk     NTK     NK      
 
-#       72      46      
+#       72      48      
 ndl     NTL     NTAL    
 
 #       23      
@@ -2560,11 +2698,14 @@ ndpl    NTPL
 #       2       
 ndpr    NTPR    
 
-#       264     
-ndr     NTR     
+#       2       
+ndq     NTK     
 
-#       44      
-nds     NTS     
+#       265     7       
+ndr     NTR     NTAR    
+
+#       44      5       
+nds     NTS     NS      
 
 #       1       
 ndsb    NTSP    
@@ -2635,7 +2776,7 @@ ndz     NTS
 #       1       
 ndzh    NTJ     
 
-#       458     
+#       459     
 nf      NF      
 
 #       1       
@@ -2647,14 +2788,17 @@ nffsh   NFX
 #       1       
 nfk     NFK     
 
-#       72      
-nfl     NFL     
+#       72      2       
+nfl     NFL     NFAL    
 
 #       51      
 nfr     NFR     
 
-#       2753    491     
-ng      NK      NJ      
+#       2756    491     3       
+ng      NK      NJ      N       
+
+#       1       
+ng'     NK      
 
 #       27      
 ngb     NKP     
@@ -2686,6 +2830,9 @@ ngfr    NKFR
 #       2       
 ngg     NK      
 
+#       1       
+nggr    NKR     
+
 #       55      
 ngh     NK      
 
@@ -2713,13 +2860,13 @@ ngpl    NKPL
 #       1       
 ngq     NKK     
 
-#       116     
-ngr     NKR     
+#       116     2       
+ngr     NKR     NKAR    
 
 #       1       
 ngrb    NKRP    
 
-#       69      
+#       70      
 ngs     NKS     
 
 #       1       
@@ -2731,8 +2878,8 @@ ngsf    NKSF
 #       1       
 ngsg    NKSK    
 
-#       10      
-ngsh    NKX     
+#       10      1       
+ngsh    NKX     NKS     
 
 #       2       
 ngsl    NKSL    
@@ -2779,16 +2926,19 @@ ngv     NKF
 #       2       
 ngz     NKS     
 
-#       277     
+#       279     
 nh      N       
 
 #       1       
 nhs     NS      
 
-#       115     
-nj      NJ      
+#       115     1       
+nj      NJ      NH      
 
-#       446     
+#       1       
+njsk    NSK     
+
+#       449     
 nk      NK      
 
 #       4       
@@ -2845,13 +2995,13 @@ nkst    NKST
 #       9       
 nkt     NKT     
 
-#       242     
-nl      NL      
+#       242     4       
+nl      NL      NAL     
 
 #       143     
 nm      NM      
 
-#       1140    
+#       1147    
 nn      N       
 
 #       1       
@@ -2911,23 +3061,26 @@ nps     NS
 #       92      
 nq      NK      
 
-#       241     
-nr      NR      
+#       243     1       
+nr      NR      NAR     
+
+#       1       
+nrh     NR      
 
 #       1       
 nrr     NR      
 
-#       1205    94      59      
-ns      NS      NX      NTS     
+#       1207    94      59      2       
+ns      NS      NX      NTS     S       
 
 #       18      
 nsb     NSP     
 
-#       22      19      
-nsc     NX      NSK     
+#       22      19      10      
+nsc     NX      NSK     NS      
 
-#       13      
-nsch    NX      
+#       14      5       
+nsch    NX      NSK     
 
 #       1       
 nschl   NXL     
@@ -2965,8 +3118,8 @@ nskj    NX
 #       1       
 nskr    NSKR    
 
-#       29      
-nsl     NSL     
+#       29      2       
+nsl     NSL     NSAL    
 
 #       33      
 nsm     NSM     
@@ -3016,7 +3169,7 @@ nsv     NSF
 #       2       
 nsz     NS      
 
-#       4993    285     
+#       5017    285     
 nt      NT      NX      
 
 #       3       
@@ -3058,7 +3211,7 @@ ntj     NTJ
 #       268     22      
 ntl     NTL     NTAL    
 
-#       14      
+#       15      
 ntm     NTM     
 
 #       33      
@@ -3067,7 +3220,7 @@ ntn     NTN
 #       4       
 ntp     NTP     
 
-#       432     10      
+#       434     11      
 ntr     NTR     NTAR    
 
 #       1       
@@ -3148,7 +3301,7 @@ nzk     NSK
 #       1       
 nzl     NSL     
 
-#       10254   5       
+#       10286   8       
 p       P       .       
 
 #       2       
@@ -3166,8 +3319,8 @@ pb      P
 #       5       
 pbr     PR      
 
-#       15      
-pc      PK      
+#       15      3       
+pc      PK      PS      
 
 #       4       
 pch     PX      
@@ -3196,7 +3349,7 @@ pg      PK
 #       2       
 pgr     PKR     
 
-#       2610    36      
+#       2615    36      
 ph      F       P       
 
 #       1       
@@ -3247,13 +3400,13 @@ pm      PM
 #       55      36      
 pn      PN      N       
 
-#       658     
+#       660     
 pp      P       
 
 #       7       
 pph     F       
 
-#       48      29      
+#       48      31      
 ppl     PL      PAL     
 
 #       1       
@@ -3268,10 +3421,10 @@ pps     PS
 #       1       
 ppv     PF      
 
-#       1876    
-pr      PR      
+#       1877    6       
+pr      PR      PAR     
 
-#       285     167     
+#       286     167     
 ps      PS      S       
 
 #       3       
@@ -3283,8 +3436,8 @@ psc     PSK
 #       1       
 psch    SK      
 
-#       15      1       
-psh     PX      X       
+#       15      1       1       
+psh     PX      PS      X       
 
 #       3       1       
 psk     PSK     SK      
@@ -3313,7 +3466,7 @@ pst     PST
 #       5       
 pstr    PSTR    
 
-#       633     99      36      
+#       634     100     36      
 pt      PT      PX      T       
 
 #       1       
@@ -3343,8 +3496,8 @@ ptm     PTM
 #       1       
 ptn     PTN     
 
-#       12      
-ptr     PTR     
+#       12      1       
+ptr     PTR     PTAR    
 
 #       2       
 pv      PF      
@@ -3352,8 +3505,8 @@ pv      PF
 #       2       
 pz      PS      
 
-#       962     
-q       K       
+#       974     1       
+q       K       X       
 
 #       2       
 qb      KP      
@@ -3367,7 +3520,7 @@ qq      K
 #       1       
 qs      KS      
 
-#       24837   45      
+#       24927   49      
 r       R       .       
 
 #       4       
@@ -3379,7 +3532,7 @@ r'n     RN
 #       13      
 r's     RS      
 
-#       708     
+#       710     
 rb      RP      
 
 #       1       
@@ -3400,13 +3553,13 @@ rbs     RPS
 #       2       
 rbst    RPST    
 
-#       418     279     16      1       
+#       429     281     16      1       
 rc      RK      RS      RX      RJ      
 
 #       1       
 rcf     RKF     
 
-#       206     137     
+#       206     138     
 rch     RK      RX      
 
 #       5       
@@ -3457,8 +3610,8 @@ rck     RK
 #       1       
 rckh    RK      
 
-#       29      
-rcl     RKL     
+#       29      7       
+rcl     RKL     RKAL    
 
 #       33      
 rcr     RKR     
@@ -3469,7 +3622,10 @@ rcs     RKS
 #       18      1       
 rct     RKT     RKX     
 
-#       1398    12      
+#       1       
+rcz     RX      
+
+#       1405    12      
 rd      RT      RJ      
 
 #       5       
@@ -3494,10 +3650,13 @@ rdf     RTF
 rdh     RT      
 
 #       1       
+rdhr    RTR     
+
+#       1       
 rdj     RJ      
 
-#       52      
-rdl     RTL     
+#       52      4       
+rdl     RTL     RTAL    
 
 #       9       
 rdm     RTM     
@@ -3514,8 +3673,8 @@ rdph    RTF
 #       3       
 rdpl    RTPL    
 
-#       33      
-rdr     RTR     
+#       33      2       
+rdr     RTR     RTAR    
 
 #       1       
 rdrh    RTR     
@@ -3541,6 +3700,9 @@ rdsm    RTSM
 #       5       
 rdst    RTST    
 
+#       2       
+rdsv    RTSF    
+
 #       11      
 rdt     RT      
 
@@ -3562,8 +3724,11 @@ rfd     RFT
 #       5       
 rff     RF      
 
-#       26      
-rfl     RFL     
+#       1       
+rfj     RFJ     
+
+#       26      1       
+rfl     RFL     RFAL    
 
 #       1       
 rfm     RFM     
@@ -3583,7 +3748,7 @@ rfsk    RFSK
 #       1       
 rfv     RFF     
 
-#       541     385     
+#       543     386     
 rg      RK      RJ      
 
 #       23      
@@ -3628,6 +3793,9 @@ rk      RK
 #       2       
 rk's    RKS     
 
+#       8       
+rkb     RKP     
+
 #       3       
 rkc     RK      
 
@@ -3646,14 +3814,14 @@ rkh     RK
 #       1       
 rkk     RK      
 
-#       14      
-rkl     RKL     
+#       15      4       
+rkl     RKL     RKAL    
 
 #       11      
 rkm     RKM     
 
-#       4       
-rkn     RN      
+#       4       2       
+rkn     RN      RKN     
 
 #       3       
 rkp     RKP     
@@ -3700,7 +3868,7 @@ rkt     RKT
 #       3       
 rkv     RKF     
 
-#       712     
+#       719     
 rl      RL      
 
 #       3       
@@ -3748,7 +3916,7 @@ rlst    RLST
 #       3       
 rlt     RLT     
 
-#       1493    
+#       1497    
 rm      RM      
 
 #       3       
@@ -3764,6 +3932,9 @@ rmch    RMX
 rmf     RMF     
 
 #       1       
+rmfr    RMFR    
+
+#       1       
 rmg     RMK     
 
 #       5       
@@ -3777,6 +3948,9 @@ rmn     RMN
 
 #       2       
 rmp     RMP     
+
+#       1       
+rmpr    RMPR    
 
 #       3       
 rmr     RMR     
@@ -3796,11 +3970,14 @@ rmth    RM0
 #       1       
 rmv     RMF     
 
-#       1095    
+#       1102    
 rn      RN      
 
 #       10      
 rnb     RNP     
+
+#       1       
+rnbl    RNPAL   
 
 #       2       
 rnbr    RNPR    
@@ -3847,8 +4024,11 @@ rnn     RN
 #       5       
 rnp     RNP     
 
-#       16      
+#       17      
 rns     RNS     
+
+#       1       
+rnsb    RNSP    
 
 #       2       
 rnsh    RNX     
@@ -3862,13 +4042,16 @@ rnsp    RNSP
 #       13      
 rnst    RNST    
 
+#       1       
+rnstj   RNST    
+
 #       6       
 rnt     RNT     
 
 #       1       
 rnv     RNF     
 
-#       415     
+#       416     
 rp      RP      
 
 #       1       
@@ -3880,8 +4063,11 @@ rph     RF
 #       1       
 rphr    RFR     
 
-#       32      
-rpl     RPL     
+#       32      5       
+rpl     RPL     RPAL    
+
+#       1       
+rpm     RPM     
 
 #       1       
 rpn     RPN     
@@ -3904,13 +4090,13 @@ rpsm    RM
 #       1       
 rpsv    RPSF    
 
-#       11      
-rpt     RPX     
+#       11      8       
+rpt     RPX     RPT     
 
 #       48      
 rq      RK      
 
-#       1332    
+#       1336    
 rr      R       
 
 #       1       
@@ -3937,8 +4123,8 @@ rrst    RST
 #       1       
 rrv     RF      
 
-#       925     38      6       
-rs      RS      RJ      RX      
+#       930     38      6       1       1       
+rs      RS      RJ      RX      .       R       
 
 #       7       
 rsb     RSP     
@@ -3946,11 +4132,14 @@ rsb     RSP
 #       11      
 rsc     RSK     
 
-#       4       
-rsch    RX      
+#       4       2       
+rsch    RX      RSK     
 
 #       1       
 rschl   RXL     
+
+#       1       
+rschm   RXM     
 
 #       1       
 rscht   RXT     
@@ -3964,7 +4153,7 @@ rsd     RST
 #       5       
 rsf     RSF     
 
-#       84      
+#       86      
 rsh     RX      
 
 #       2       
@@ -3979,8 +4168,11 @@ rshr    RXR
 #       26      
 rsk     RSK     
 
-#       11      
-rsl     RSL     
+#       1       
+rskj    RX      
+
+#       11      2       
+rsl     RSL     RSAL    
 
 #       7       
 rsm     RSM     
@@ -4012,14 +4204,17 @@ rss     RS
 #       1       
 rssm    RSM     
 
-#       140     
-rst     RST     
+#       141     1       
+rst     RST     ST      
 
 #       1       
 rstb    RSTP    
 
-#       1       
-rsth    RST     
+#       2       1       
+rsth    RS0     RST     
+
+#       3       1       
+rstl    RSTL    RSAL    
 
 #       1       
 rstn    RSTN    
@@ -4033,8 +4228,11 @@ rstr    RSTR
 #       18      
 rsv     RSF     
 
-#       1542    112     
-rt      RT      RX      
+#       1       
+rsz     RS      
+
+#       1551    112     3       
+rt      RT      RX      R       
 
 #       1       
 rt's    RTS     
@@ -4054,10 +4252,10 @@ rtcr    RTKR
 #       12      
 rtf     RTF     
 
-#       4       
-rtg     RK      
+#       4       2       1       
+rtg     RK      RTK     RTJ     
 
-#       259     9       
+#       261     9       
 rth     R0      RT      
 
 #       4       
@@ -4096,6 +4294,9 @@ rthq    R0K
 #       48      
 rthr    R0R     
 
+#       1       
+rths    R0S     
+
 #       4       
 rthsh   R0X     
 
@@ -4120,8 +4321,8 @@ rtm     RTM
 #       15      
 rtn     RTN     
 
-#       46      
-rtr     RTR     
+#       46      4       
+rtr     RTR     RTAR    
 
 #       29      
 rts     RTS     
@@ -4138,8 +4339,14 @@ rtsl    RTSL
 #       5       
 rtsm    RTSM    
 
+#       2       
+rtsp    RTSP    
+
 #       1       
 rtst    RTST    
+
+#       1       
+rtstr   RTSTR   
 
 #       1       
 rtsv    RTSF    
@@ -4147,13 +4354,16 @@ rtsv    RTSF
 #       2       
 rtt     RT      
 
+#       1       
+rtthr   RT0R    
+
 #       3       
 rtv     RTF     
 
 #       23      
 rtz     RTS     
 
-#       393     
+#       395     
 rv      RF      
 
 #       1       
@@ -4180,11 +4390,17 @@ rzh     RS
 #       1       
 rzl     RTSL    
 
-#       17837   383     100     27      
+#       17913   386     105     27      
 s       S       J       .       X       
 
 #       1       
+s'      S       
+
+#       1       
 s'nt    SNT     
+
+#       2       
+s's     SS      
 
 #       130     
 sb      SP      
@@ -4195,10 +4411,10 @@ sbj     SPJ
 #       5       
 sbr     SPR     
 
-#       972     429     14      
-sc      SK      S       X       
+#       975     433     14      4       
+sc      SK      S       X       K       
 
-#       118     108     8       
+#       119     108     8       
 sch     X       SK      SX      
 
 #       1       
@@ -4213,10 +4429,10 @@ schl    XL
 #       11      
 schm    XM      
 
-#       11      
+#       12      
 schn    XN      
 
-#       9       
+#       10      
 schr    XR      
 
 #       1       
@@ -4225,10 +4441,10 @@ schsch  XX
 #       1       
 schv    XF      
 
-#       54      7       
-scl     SKL     SKAL    
+#       54      7       4       
+scl     SKL     SKAL    SAL     
 
-#       202     
+#       203     
 scr     SKR     
 
 #       55      
@@ -4246,7 +4462,7 @@ sfl     SFL
 #       4       
 sfr     SFR     
 
-#       30      12      
+#       31      12      
 sg      SK      SJ      
 
 #       1       
@@ -4258,7 +4474,7 @@ sgn     SKN
 #       11      
 sgr     SKR     
 
-#       1896    30      
+#       1903    30      
 sh      X       S       
 
 #       23      
@@ -4297,10 +4513,10 @@ shk     XK
 #       1       
 shkh    XK      
 
-#       88      
+#       89      
 shl     XL      
 
-#       44      2       
+#       45      2       
 shm     XM      JM      
 
 #       86      
@@ -4312,8 +4528,8 @@ shp     XP
 #       1       
 shpl    XPL     
 
-#       51      
-shr     XR      
+#       52      1       
+shr     XR      XAR     
 
 #       1       
 shst    XST     
@@ -4330,7 +4546,7 @@ shv     XF
 #       18      2       
 sj      SJ      X       
 
-#       404     
+#       407     
 sk      SK      
 
 #       1       
@@ -4360,10 +4576,10 @@ skt     SKT
 #       1       
 skv     SKF     
 
-#       758     11      
-sl      SL      L       
+#       761     13      11      
+sl      SL      SAL     L       
 
-#       1549    
+#       1556    
 sm      SM      
 
 #       1       
@@ -4372,13 +4588,13 @@ smn     SMN
 #       2       
 smr     SMR     
 
-#       497     
-sn      SN      
+#       498     3       
+sn      SN      N       
 
 #       4       
 sn't    SNT     
 
-#       1222    
+#       1225    
 sp      SP      
 
 #       1       
@@ -4389,6 +4605,9 @@ spbr    SPR
 
 #       176     
 sph     SF      
+
+#       1       
+sphr    SFR     
 
 #       82      
 spl     SPL     
@@ -4402,7 +4621,7 @@ spr     SPR
 #       1       
 spt     SPT     
 
-#       205     
+#       206     
 sq      SK      
 
 #       52      
@@ -4411,7 +4630,7 @@ sr      SR
 #       1       
 srh     SR      
 
-#       3889    176     4       
+#       3907    176     4       
 ss      S       X       J       
 
 #       20      
@@ -4420,8 +4639,8 @@ ssb     SP
 #       1       
 ssbl    SPL     
 
-#       1       
-ssbr    SPAR    
+#       1       1       
+ssbr    SPAR    SPR     
 
 #       3       
 ssc     SK      
@@ -4432,7 +4651,7 @@ sscr    SKR
 #       18      
 ssf     SF      
 
-#       7       5       
+#       9       3       
 ssh     S       SX      
 
 #       1       
@@ -4441,8 +4660,8 @@ ssj     SJ
 #       5       
 ssk     SK      
 
-#       100     
-ssl     SL      
+#       100     2       
+ssl     SL      SAL     
 
 #       28      
 ssm     SM      
@@ -4480,7 +4699,7 @@ sstr    STR
 #       3       
 ssv     SF      
 
-#       5000    127     18      
+#       5015    127     18      
 st      ST      SX      S       
 
 #       1       
@@ -4522,8 +4741,8 @@ stgl    STKL
 #       1       
 stgr    STKR    
 
-#       134     12      
-sth     S0      ST      
+#       134     12      1       
+sth     S0      ST      SX      
 
 #       1       
 sthl    S0L     
@@ -4531,7 +4750,10 @@ sthl    S0L
 #       7       
 sthm    SM      
 
-#       43      34      21      
+#       1       
+stk     STK     
+
+#       43      35      21      
 stl     STL     SAL     SL      
 
 #       32      3       
@@ -4555,7 +4777,7 @@ stpl    STPL
 #       5       
 stpr    STPR    
 
-#       889     12      
+#       890     12      
 str     STR     STAR    
 
 #       1       1       
@@ -4579,10 +4801,10 @@ ststr   STSTR
 #       6       
 stv     STF     
 
-#       48      
-sv      SF      
+#       48      2       
+sv      SF      F       
 
-#       23      
+#       24      
 sz      S       
 
 #       1       
@@ -4594,11 +4816,14 @@ szcz    SX
 #       4       
 szk     SK      
 
+#       1       
+szl     SAL     
+
 #       3       
 szt     ST      
 
-#       19845   2052    54      
-t       T       X       .       
+#       19885   2055    59      4       
+t       T       X       .       J       
 
 #       4       
 t'      T       
@@ -4630,7 +4855,7 @@ tbz     TPS
 #       18      5       
 tc      TK      TS      
 
-#       293     
+#       294     
 tch     X       
 
 #       13      
@@ -4650,6 +4875,12 @@ tchd    XT
 
 #       7       
 tchf    XF      
+
+#       1       
+tchfl   XFL     
+
+#       1       
+tchh    X       
 
 #       1       
 tchk    XK      
@@ -4696,13 +4927,13 @@ tfl     TFL
 #       1       
 tfr     TFR     
 
-#       16      
-tg      TK      
+#       16      1       
+tg      TK      TJ      
 
 #       6       
 tgr     TKR     
 
-#       2581    69      14      
+#       2585    69      14      
 th      0       T       .       
 
 #       1       
@@ -4789,8 +5020,11 @@ tht     0T
 #       1       
 thtr    0TR     
 
-#       6       
-tj      TJ      
+#       1       
+thv     0F      
+
+#       6       1       
+tj      TJ      X       
 
 #       19      
 tk      TK      
@@ -4798,7 +5032,7 @@ tk      TK
 #       1       
 tkn     TN      
 
-#       164     37      
+#       165     37      
 tl      TL      TAL     
 
 #       1       
@@ -4810,8 +5044,8 @@ tm      TM
 #       44      
 tn      TN      
 
-#       23      
-tp      TP      
+#       23      1       
+tp      TP      P       
 
 #       6       
 tpl     TPL     
@@ -4822,7 +5056,7 @@ tpr     TPR
 #       1       
 tq      TK      
 
-#       2469    31      
+#       2480    31      
 tr      TR      TAR     
 
 #       196     20      
@@ -4831,7 +5065,7 @@ ts      TS      S
 #       4       
 tsb     TSP     
 
-#       15      2       
+#       16      2       
 tsch    X       TX      
 
 #       1       
@@ -4842,6 +5076,9 @@ tscr    TSKR
 
 #       1       
 tsd     TST     
+
+#       1       
+tsf     TSF     
 
 #       17      
 tsh     TX      
@@ -4870,7 +5107,7 @@ tstr    TSTR
 #       1       
 tsv     TSF     
 
-#       1410    
+#       1412    
 tt      T       
 
 #       1       
@@ -4942,8 +5179,8 @@ ttv     TF
 #       12      
 tv      TF      
 
-#       124     
-tz      TS      
+#       126     9       
+tz      TS      S       
 
 #       2       
 tzb     TSP     
@@ -4990,8 +5227,11 @@ tzt     TST
 #       1       
 tzv     TSF     
 
-#       6873    
+#       6897    
 v       F       
+
+#       1       
+vc      FS      
 
 #       4       
 vd      FT      
@@ -5011,7 +5251,7 @@ vl      FL
 #       1       
 vlt     FLT     
 
-#       8       
+#       10      
 vn      FN      
 
 #       2       
@@ -5019,6 +5259,9 @@ vp      FP
 
 #       31      11      
 vr      FR      FAR     
+
+#       1       
+vrd     FRT     
 
 #       37      
 vsk     FSK     
@@ -5038,8 +5281,8 @@ vz      FS
 #       1       
 vzh     FJ      
 
-#       1428    100     70      50      8       5       
-x       KS      S       .       KX      KJ      X       
+#       1434    100     69      50      8       5       2       
+x       KS      S       .       KX      KJ      X       H       
 
 #       1       
 x'      S       
@@ -5053,7 +5296,7 @@ xbl     KSPL
 #       1       
 xbr     KSPR    
 
-#       60      44      
+#       64      43      
 xc      KS      KSK     
 
 #       4       
@@ -5086,8 +5329,8 @@ xh      KS
 #       7       3       
 xl      KSL     KSAL    
 
-#       10      
-xm      KSM     
+#       10      1       
+xm      KSM     SM      
 
 #       3       
 xn      KSN     
@@ -5137,8 +5380,8 @@ xtr     KSTR
 #       2       
 xv      KSF     
 
-#       2317    31      9       
-z       S       TS      .       
+#       2324    31      10      3       
+z       S       TS      J       .       
 
 #       8       
 zb      SP      
@@ -5167,11 +5410,11 @@ zhk     JK
 #       2       
 zhn     JN      
 
-#       5       
-zk      SK      
+#       5       1       
+zk      SK      TSK     
 
-#       7       
-zl      SL      
+#       7       6       
+zl      SL      SAL     
 
 #       7       2       
 zm      SM      TSM     
@@ -5185,8 +5428,8 @@ zp      SP
 #       9       
 zr      SR      
 
-#       2       
-zs      SS      
+#       2       1       
+zs      SS      J       
 
 #       1       
 zsv     SSF     
@@ -5197,8 +5440,8 @@ zt      ST
 #       1       
 zth     S0      
 
-#       5       
-zv      SF      
+#       5       1       
+zv      SF      F       
 
 #       71      29      
 zz      S       TS      
@@ -5206,7 +5449,7 @@ zz      S       TS
 #       1       
 zzb     SP      
 
-#       27      3       1       
+#       29      1       1       
 zzl     S       SAL     SL      
 
 #       2       

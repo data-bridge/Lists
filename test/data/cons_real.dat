@@ -1,0 +1,5163 @@
+#       23      
+'       .       
+
+#       2       
+'b      b       
+
+#       2       
+'c      k       
+
+#       1       
+'c's'l  k/s     
+
+#       1       
+'cl     k/l     
+
+#       9       
+'d      d       
+
+#       2       
+'f      f       
+
+#       3       
+'h      h       
+
+#       2       
+'k      k       
+
+#       1       
+'l      l       
+
+#       8       
+'ll     l       
+
+#       2       
+'m      m       
+
+#       1       
+'n      n       
+
+#       5       
+'r      r       
+
+#       16      
+'s      z       
+
+#       1       
+'s'n    s/@/n   
+
+#       1       
+'sh     S       
+
+#       5       
+'v      v       
+
+#       8446    19      5       
+b       b       v       p       
+
+#       2       
+b'      b       
+
+#       1       
+b'n     b/-/n   
+
+#       1       
+b'r     b/r     
+
+#       2       
+b's     b/z     
+
+#       283     
+bb      b       
+
+#       49      26      
+bbl     b/@/l   b/l     
+
+#       8       
+bbr     b/r     
+
+#       3       
+bbs     b/z     
+
+#       38      5       
+bc      b/k     b/s     
+
+#       5       
+bch     b/tS    
+
+#       6       
+bcl     b/k/l   
+
+#       75      1       1       
+bd      b/d     p/d     v/d     
+
+#       1       
+bdd     b/d     
+
+#       1       
+bdr     b/d/r   
+
+#       11      
+bf      b/f     
+
+#       2       
+bfl     b/f/l   
+
+#       3       
+bfr     b/f/r   
+
+#       3       3       
+bg      b/dZ    b/g     
+
+#       40      13      
+bh      b       b/h     
+
+#       43      5       2       1       1       
+bj      b/dZ    b/j     b/Z     b/A/dZ  b/A/j   
+
+#       5       
+bk      b/k     
+
+#       1       1       
+bkh     b/k     b/x     
+
+#       1       
+bkn     p/k/n   
+
+#       1413    795     2       1       
+bl      b/@/l   b/l     b/-/l   v/l     
+
+#       1       
+blj     b/l/j   
+
+#       36      1       
+bm      b/m     b/i/m   
+
+#       1       
+bmh     b/m     
+
+#       33      2       
+bn      b/n     b/@/n   
+
+#       4       
+bp      b/p     
+
+#       2       
+bpl     b/p/l   
+
+#       3       
+bq      b/k     
+
+#       1310    89      5       4       1       
+br      b/r     b/R     v/R     b/@/r   b/@/R   
+
+#       1       
+br'     b/r     
+
+#       1       
+brn     b/(@)/r/n
+
+#       1       1       
+brz     b/Z     b/r/E/Z 
+
+#       102     30      1       
+bs      b/s     b/z     p/s     
+
+#       1       
+bsb     p/s/b   
+
+#       12      7       
+bsc     b/s/k   b/s     
+
+#       7       
+bscr    b/s/k/r 
+
+#       3       
+bsh     b/S     
+
+#       2       
+bsk     p/s/k   
+
+#       3       
+bsl     b/s/l   
+
+#       2       
+bsp     b/s/p   
+
+#       67      
+bst     b/s/t   
+
+#       32      
+bstr    b/s/t/r 
+
+#       35      19      
+bt      b/t     t       
+
+#       1       
+btf     t/f     
+
+#       5       
+btl     t/-/l   
+
+#       13      
+btr     b/t/r   
+
+#       1       
+bts     p/t/s   
+
+#       16      
+bv      b/v     
+
+#       2       
+bz      b/z     
+
+#       13946   3778    714     105     19      15      3       
+c       k       s       S       tS      t/s     T       dZ      
+
+#       2       
+c'      s       
+
+#       4       
+cb      k/b     
+
+#       280     108     42      1       
+cc      k       k/s     tS      k/S     
+
+#       53      1       1       
+cch     k       k/tS    t/tS    
+
+#       31      
+ccl     k/l     
+
+#       11      
+ccr     k/r     
+
+#       16      
+cd      k/d     
+
+#       1       
+cf      k/f     
+
+#       1       
+cfl     k/f/l   
+
+#       1271    1124    460     123     12      5       
+ch      tS      k       S       x       dZ      h       
+
+#       11      
+ch'     tS      
+
+#       4       
+chb     tS/b    
+
+#       2       
+chbl    tS/b/l  
+
+#       1       
+chc     tS/k    
+
+#       1       1       
+chch    k/tS    tS      
+
+#       2       
+chcl    tS/k/l  
+
+#       1       
+chcr    tS/k/r  
+
+#       2       
+chd     tS/d    
+
+#       1       
+chdr    tS/d/r  
+
+#       3       
+chf     tS/f    
+
+#       2       1       
+chh     k/h     tS/h    
+
+#       6       1       
+chk     tS/k    s/k     
+
+#       138     14      3       1       
+chl     k/l     tS/l    x/@/l   tS/@/l  
+
+#       14      11      5       1       1       1       
+chm     k/m     tS/m    m       S/I/m   S/m     x/m     
+
+#       49      2       2       1       
+chn     k/n     tS/n    x/n     S/n     
+
+#       1       
+chp     x/p     
+
+#       326     6       2       
+chr     k/r     k/R     k/@/r   
+
+#       8       2       1       1       
+chs     k/s     tS/s    S       x/z     
+
+#       1       
+chsb    k/s/b   
+
+#       1       
+chsf    x/S/f   
+
+#       2       1       1       
+chsh    x/S     k/s     k/s/h   
+
+#       1       
+chsm    k/s/m   
+
+#       3       1       
+chst    k/s/t   tS/s/t  
+
+#       1       
+chsth   k/s/t   
+
+#       1       
+chstr   k/S/t/r 
+
+#       1       
+chsv    k/s/v   
+
+#       31      9       2       1       1       
+cht     x/t     k/t     t       S/t     s/t     
+
+#       35      3       1       
+chth    k/T     T       x/t/h   
+
+#       2       
+chtl    tS/t/l  
+
+#       1       
+chtp    x/t/p   
+
+#       1       
+chts    t/s     
+
+#       1       
+chtsm   t/s/m   
+
+#       2       
+chz     x/z     
+
+#       1330    3       
+ck      k       tS      
+
+#       1       
+ck's    k/s     
+
+#       49      
+ckb     k/b     
+
+#       1       
+ckbl    k/b/l   
+
+#       8       
+ckbr    k/b/r   
+
+#       6       1       
+ckc     k/k     k       
+
+#       3       
+ckch    k/tS    
+
+#       3       
+ckcl    k/k/l   
+
+#       3       
+ckcr    k/k/r   
+
+#       9       
+ckd     k/d     
+
+#       2       
+ckdr    k/d/r   
+
+#       23      
+ckf     k/f     
+
+#       2       
+ckfl    k/f/l   
+
+#       2       
+ckfr    k/f/r   
+
+#       3       
+ckg     k/g     
+
+#       1       
+ckgr    k/g/r   
+
+#       28      7       
+ckh     k/h     k       
+
+#       6       
+ckj     k/dZ    
+
+#       1       
+ckk     k/k     
+
+#       2       
+ckkn    k/n     
+
+#       89      63      
+ckl     k/l     k/@/l   
+
+#       19      
+ckm     k/m     
+
+#       33      
+ckn     k/n     
+
+#       22      
+ckp     k/p     
+
+#       3       
+ckpl    k/p/l   
+
+#       1       
+ckpr    k/p/r   
+
+#       16      
+ckr     k/r     
+
+#       56      3       
+cks     k/s     k/S     
+
+#       3       
+cksb    k/s/b   
+
+#       2       
+cksc    k/s/k   
+
+#       2       
+ckscr   k/s/k/r 
+
+#       1       
+cksf    k/s/f   
+
+#       12      1       
+cksh    k/S     k/s/h   
+
+#       1       
+cksk    k/s/k   
+
+#       4       
+cksl    k/s/l   
+
+#       5       
+cksm    k/s/m   
+
+#       4       
+cksn    k/s/n   
+
+#       4       
+cksp    k/s/p   
+
+#       1       
+ckspl   k/s/p/l 
+
+#       19      
+ckst    k/s/t   
+
+#       7       
+ckstr   k/s/t/r 
+
+#       2       
+cksv    k/s/v   
+
+#       18      
+ckt     k/t     
+
+#       4       
+ckth    k/T     
+
+#       1       
+ckthr   k/T/r   
+
+#       2       
+cktr    k/t/r   
+
+#       3       1       
+ckv     k/v     k/f     
+
+#       1       
+ckx     k/s     
+
+#       1023    91      
+cl      k/l     k/@/l   
+
+#       15      
+cm      k/m     
+
+#       29      12      
+cn      k/n     n       
+
+#       2       
+cp      k/p     
+
+#       2       
+cph     k/f     
+
+#       43      
+cq      k       
+
+#       1485    38      17      
+cr      k/r     k/R     k/@/r   
+
+#       271     2       1       
+cs      k/s     tS      dZ      
+
+#       1       
+csk     tS/k    
+
+#       1       
+css     k/s     
+
+#       3       
+cst     k/s/t   
+
+#       1477    262     86      17      
+ct      k/t     k/S     k/tS    t       
+
+#       8       
+ctf     k/t/f   
+
+#       2       
+cth     k/T     
+
+#       1       
+cthl    k/T/l   
+
+#       22      
+ctl     k/t/l   
+
+#       1       
+ctm     t/m     
+
+#       6       
+ctn     k/t/n   
+
+#       235     1       
+ctr     k/t/r   k/t/@/r 
+
+#       2       
+cts     k/t/s   
+
+#       1       1       
+cv      k/v     s/v     
+
+#       12      12      3       1       1       
+cz      tS      z       g/z     k/s     t/s     
+
+#       1       1       
+czm     S/m     tS/m    
+
+#       14501   348     153     106     34      5       
+d       d       t       .       dZ      D       T       
+
+#       56      
+d'      d       
+
+#       2       
+d'h     d       
+
+#       3       
+d's     d/z     
+
+#       48      2       1       
+db      d/b     t/b     v       
+
+#       3       
+dbl     d/b/l   
+
+#       5       
+dbr     d/b/r   
+
+#       20      
+dc      d/k     
+
+#       5       
+dch     d/tS    
+
+#       4       
+dcl     d/k/l   
+
+#       3       
+dcr     d/k/r   
+
+#       309     5       
+dd      d       d/d     
+
+#       1       
+ddb     d/b     
+
+#       2       1       
+ddf     D/v     d/f     
+
+#       9       
+ddh     d       
+
+#       81      18      13      
+ddl     d/-/l   d/l     d/@/l   
+
+#       1       
+ddm     d/m     
+
+#       6       
+ddr     d/r     
+
+#       2       1       
+dds     d/z     d/s     
+
+#       42      1       
+df      d/f     d/v     
+
+#       5       
+dfl     d/f/l   
+
+#       5       1       
+dfr     d/f/r   f/R     
+
+#       224     15      
+dg      dZ      d/g     
+
+#       1       
+dgk     dZ/k    
+
+#       1       
+dgl     dZ/l    
+
+#       5       
+dgm     dZ/m    
+
+#       1       
+dgr     d/g/r   
+
+#       1       
+dgs     dZ/s    
+
+#       59      32      2       2       
+dh      d       d/h     .       D       
+
+#       3       
+dhp     d/p     
+
+#       1       1       
+dhr     d/R     d/r     
+
+#       77      1       1       1       
+dj      dZ      d/Z     d/dZ    d/j     
+
+#       7       1       
+dk      d/k     t/k     
+
+#       382     46      17      3       
+dl      d/l     d/-/l   t/l     d/@/l   
+
+#       113     3       
+dm      d/m     d/i/m   
+
+#       221     6       4       
+dn      d/n     t/n     n       
+
+#       2       
+dn't    d/-/n/t 
+
+#       20      
+dp      d/p     
+
+#       1       
+dph     d/f     
+
+#       3       
+dpl     d/p/l   
+
+#       2       
+dpr     d/p/r   
+
+#       3       
+dq      d/k     
+
+#       905     46      1       
+dr      d/r     d/R     d/@/r   
+
+#       42      31      
+ds      d/s     d/z     
+
+#       5       
+dsb     d/z/b   
+
+#       3       
+dsc     d/s     
+
+#       2       
+dscr    d/s/k/r 
+
+#       1       
+dsd     d/z/d   
+
+#       1       
+dsf     d/z/f   
+
+#       14      1       
+dsh     d/S     t/s/h   
+
+#       3       2       
+dsk     d/s/k   t/s/k   
+
+#       2       1       
+dsl     d/s/l   d/z/l   
+
+#       8       
+dsm     d/z/m   
+
+#       2       
+dsp     d/s/p   
+
+#       4       
+dspr    d/s/p/r 
+
+#       1       
+dsq     d/s/k   
+
+#       35      1       
+dst     d/s/t   d/z/t   
+
+#       8       
+dstr    d/s/t/r 
+
+#       16      9       
+dt      t       d/t     
+
+#       11      2       
+dth     d/T     t/h     
+
+#       1       
+dtj     t/j     
+
+#       100     1       
+dv      d/v     d/w     
+
+#       12      8       1       
+dz      d/z     dZ      z       
+
+#       5       1       1       
+dzh     dZ      Z       d/Z     
+
+#       4752    7       
+f       f       v       
+
+#       5       
+fb      f/b     
+
+#       4       
+fc      f/k     
+
+#       1       
+fch     S       
+
+#       2       1       
+fd      f/d     f/t     
+
+#       597     
+ff      f       
+
+#       2       
+ffb     f/b     
+
+#       2       
+ffc     f/k     
+
+#       1       
+ffch    f/tS    
+
+#       2       
+ffh     f/h     
+
+#       1       
+ffk     f/k     
+
+#       43      26      
+ffl     f/l     f/@/l   
+
+#       2       
+ffm     f/m     
+
+#       3       
+ffn     f/n     
+
+#       1       
+ffpr    f/p/r   
+
+#       37      1       
+ffr     f/r     f/R     
+
+#       7       
+ffs     f/s     
+
+#       1       
+ffsc    f/s/k   
+
+#       1       
+ffscr   f/s/k/r 
+
+#       2       
+ffsh    f/S     
+
+#       1       
+ffspr   f/s/p/r 
+
+#       1       
+ffst    f/s/t   
+
+#       4       
+fft     f/t     
+
+#       1       
+fg      f/g     
+
+#       5       
+fgh     f/g     
+
+#       1       
+fh      f/h     
+
+#       2       1       
+fj      f/j     f/i     
+
+#       2       1       
+fk      f/k     v/k     
+
+#       749     5       
+fl      f/l     f/@/l   
+
+#       2       
+fm      f/m     
+
+#       3       1       1       
+fn      f/n     v/@/n   v/n     
+
+#       1       
+fq      f/k     
+
+#       666     57      1       
+fr      f/r     f/R     v/r     
+
+#       2       
+fs      f/s     
+
+#       2       
+fsk     f/s/k   
+
+#       1       
+fss     f/s     
+
+#       4       
+fst     f/s/t   
+
+#       241     4       
+ft      f/t     f       
+
+#       3       
+ftb     f/t/b   
+
+#       1       
+ftf     f/t/f   
+
+#       1       
+fth     f/T     
+
+#       1       
+fthl    f/T/l   
+
+#       7       
+ftl     f/t/l   
+
+#       3       
+ftm     f/t/m   
+
+#       1       
+ftp     f/t/p   
+
+#       1       
+ftpr    f/t/p/r 
+
+#       4       
+fts     f/t/s   
+
+#       1       
+ftsh    f/t/S   
+
+#       6       
+ftsm    f/t/s/m 
+
+#       1       
+ftt     f/t/t   
+
+#       2       
+fz      f/z     
+
+#       4490    3313    144     13      11      6       6       1       
+g       g       dZ      Z       x       j       h       k       g/j     
+
+#       3       
+g's     g/z     
+
+#       33      1       
+gb      g/b     g/@/b   
+
+#       2       1       
+gc      g/k     dZ      
+
+#       2       
+gch     g/tS    
+
+#       35      1       
+gd      g/d     g/@/d   
+
+#       13      
+gf      g/f     
+
+#       1       
+gfl     g/f/l   
+
+#       1       
+gfr     g/f/r   
+
+#       296     38      3       2       
+gg      g       dZ      g/g     k       
+
+#       1       
+ggb     g/b     
+
+#       1       
+ggc     g/k     
+
+#       1       
+ggcr    g/k/r   
+
+#       2       
+ggdr    g/d/r   
+
+#       1       
+ggh     g/h     
+
+#       40      35      1       
+ggl     g/@/l   g/l     g/-/l   
+
+#       1       
+ggm     g/m     
+
+#       1       
+ggn     g/n     
+
+#       1       
+ggpl    g/p/l   
+
+#       24      
+ggr     g/r     
+
+#       3       
+ggs     g/z     
+
+#       1       
+ggsh    g/S     
+
+#       103     79      30      21      5       5       
+gh      .       g       f       x       h       k       
+
+#       13      1       
+ghb     b       g/b     
+
+#       4       
+ghbr    b/r     
+
+#       2       
+ghd     g/d     
+
+#       1       
+ghk     k       
+
+#       10      3       
+ghl     l       g/l     
+
+#       4       
+ghm     m       
+
+#       3       
+ghn     n       
+
+#       3       
+ghp     p       
+
+#       1       
+ghs     z       
+
+#       2       
+ghsh    S       
+
+#       1       
+ghsp    s/p     
+
+#       309     5       4       3       
+ght     t       x/t     tS      f/t     
+
+#       1       
+ght's   t/s     
+
+#       3       1       
+ghtb    t/b     f/t/b   
+
+#       1       
+ghtc    t/k     
+
+#       2       
+ghtcl   t/k/l   
+
+#       1       
+ghtdr   t/d/r   
+
+#       18      
+ghtf    t/f     
+
+#       1       
+ghtg    t/g     
+
+#       6       2       
+ghth    t/h     t/T     
+
+#       1       
+ghthl   t/T/l   
+
+#       1       
+ghtj    t/dZ    
+
+#       22      2       
+ghtl    t/l     x/t/l   
+
+#       7       
+ghtm    t/m     
+
+#       8       
+ghtn    t/n     
+
+#       2       
+ghtn't  t/@/n/t 
+
+#       1       
+ghtp    t/p     
+
+#       1       
+ghtpr   t/p/r   
+
+#       2       
+ghtr    t/r     
+
+#       15      1       
+ghts    t/s     f/t/s   
+
+#       1       
+ghtsb   f/t/s/b 
+
+#       3       
+ghtsh   t/S     
+
+#       1       
+ghtsm   f/t/s/m 
+
+#       1       
+ghtsp   t/s/p   
+
+#       4       
+ghtst   t/s/t   
+
+#       1       
+ghtt    t/t     
+
+#       3       2       1       
+gj      g       g/dZ    dZ      
+
+#       2       
+gk      k       
+
+#       586     29      23      
+gl      g/l     l       g/@/l   
+
+#       144     8       1       
+gm      g/m     m       dZ/I/m  
+
+#       370     203     31      2       
+gn      g/n     n       n/j     g/U/n   
+
+#       3       
+gnl     n/l     
+
+#       7       
+gnm     n/m     
+
+#       9       
+gp      g/p     
+
+#       1750    73      5       3       
+gr      g/r     g/R     g/@/r   x/R     
+
+#       8       8       
+gs      g/s     g/z     
+
+#       3       1       
+gsb     g/z/b   x/S/b   
+
+#       1       
+gsch    S       
+
+#       2       
+gsd     g/z/d   
+
+#       3       1       1       
+gsh     g/S     g/s     k/s/h   
+
+#       2       
+gsk     g/s/k   
+
+#       3       
+gsm     g/z/m   
+
+#       1       
+gsp     g/s/p   
+
+#       12      
+gst     g/s/t   
+
+#       10      
+gt      g/t     
+
+#       2       
+gth     g/T     
+
+#       3       
+gtr     g/t/r   
+
+#       3       
+gv      g/v     
+
+#       3       
+gz      g/z     
+
+#       5582    909     32      
+h       h       .       x       
+
+#       1       
+h'd     d       
+
+#       1       
+hch     tS      
+
+#       8       
+hd      d       
+
+#       1       
+hf      f       
+
+#       1       
+hg      g       
+
+#       3       
+hh      h       
+
+#       3       2       1       
+hj      j       h/j     dZ      
+
+#       29      1       
+hl      l       h/l     
+
+#       1       
+hlb     l/b     
+
+#       2       
+hlgr    l/g/r   
+
+#       1       
+hlh     l/h     
+
+#       1       
+hlk     l/k     
+
+#       1       
+hlr     l/r     
+
+#       1       
+hlst    l/s/t   
+
+#       55      
+hm      m       
+
+#       1       
+hmbr    m/b/R   
+
+#       1       
+hmg     m/g     
+
+#       1       
+hmm     m/m     
+
+#       1       
+hms     m/z     
+
+#       33      1       
+hn      n       x/n     
+
+#       1       
+hn's    n/z     
+
+#       1       
+hng     n/g     
+
+#       1       
+hnk     n/k     
+
+#       4       
+hnn     n       
+
+#       4       1       
+hns     n/s     n/z     
+
+#       1       1       
+hnst    n/s/t   n/z/t   
+
+#       2       
+hp      p       
+
+#       34      11      4       1       
+hr      r       R       h/R     h/@/r   
+
+#       1       
+hrb     h/@/r/b 
+
+#       1       
+hrh     r/h     
+
+#       1       
+hrk     r/k     
+
+#       1       
+hrl     R/l     
+
+#       2       1       
+hrm     r/m     R/m     
+
+#       1       
+hrst    r/s/t   
+
+#       1       
+hrv     x/R/v   
+
+#       2       
+hrz     r/t/s   
+
+#       19      3       1       
+hs      S       s       z       
+
+#       5       
+ht      t       
+
+#       1       
+hth     t/h     
+
+#       4       2       1       
+hv      v       k/v     x/v     
+
+#       1       1       
+hz      x/z     z       
+
+#       1172    138     107     91      51      22      4       2       
+j       dZ      j       h       Z       dZ/eI   .       dZ/u    z       
+
+#       2       
+jb      dZ      
+
+#       1       
+jc      k       
+
+#       2       1       
+jd      dZ      d/j     
+
+#       3       
+jh      dZ      
+
+#       2       
+jj      dZ      
+
+#       1       
+jk      dZ/k    
+
+#       1       
+jkm     k/m     
+
+#       3       1       
+jm      dZ/m    m       
+
+#       2       2       
+jn      dZ/@/n  dZ/n    
+
+#       1       1       
+jp      dZ/p    i/p     
+
+#       3       
+jr      dZ/r    
+
+#       1       
+jsl     s/l     
+
+#       2       
+jss     s       
+
+#       1       
+jt      dZ/t    
+
+#       1       
+jv      v       
+
+#       3499    13      2       
+k       k       g       tS      
+
+#       2       
+k'      k       
+
+#       10      
+kb      k/b     
+
+#       1       
+kc      k/k     
+
+#       3       
+kch     k/tS    
+
+#       1       
+kcr     k/k/r   
+
+#       8       
+kd      k/d     
+
+#       5       
+kf      k/f     
+
+#       1       
+kfr     k/f/r   
+
+#       110     22      5       4       
+kh      k       x       h       k/h     
+
+#       1       
+khb     k/b     
+
+#       3       1       
+khl     k/l     x/l     
+
+#       5       
+khm     k/m     
+
+#       2       1       
+khn     k/n     x/n     
+
+#       1       
+khp     k/p     
+
+#       1       
+khr     k/r     
+
+#       2       1       
+khsh    x/S     k/S     
+
+#       1       
+khst    k/s/t   
+
+#       3       1       
+kht     x/t     k/t     
+
+#       1       
+khz     k/z     
+
+#       3       1       1       1       
+kj      k/j     S       k/dZ    tS      
+
+#       44      
+kk      k       
+
+#       1       
+kkr     k/r     
+
+#       104     
+kl      k/l     
+
+#       1       
+klj     k/l/aI  
+
+#       12      
+km      k/m     
+
+#       113     19      2       1       1       
+kn      n       k/n     k/@/n   k/&/n   k/U/n   
+
+#       5       
+kp      k/p     
+
+#       1       
+kpl     k/p/l   
+
+#       102     22      4       
+kr      k/r     k/R     k/@/r   
+
+#       1       
+krz     S       
+
+#       25      
+ks      k/s     
+
+#       1       
+ksd     k/s/d   
+
+#       8       
+ksh     k/S     
+
+#       2       
+kshm    k/S/m   
+
+#       1       
+ksk     k/s/k   
+
+#       2       
+ksm     k/s/m   
+
+#       1       
+ksp     k/s/p   
+
+#       8       
+kst     k/s/t   
+
+#       1       
+kstr    k/s/t/r 
+
+#       2       
+ksv     k/s/v   
+
+#       30      
+kt      k/t     
+
+#       1       
+kthr    k/T/r   
+
+#       1       
+ktr     k/t/r   
+
+#       6       
+kv      k/v     
+
+#       21461   340     
+l       l       .       
+
+#       15      
+l'      l       
+
+#       1       
+l'h     l       
+
+#       7       
+l's     l/z     
+
+#       221     2       
+lb      l/b     l/v     
+
+#       3       
+lbl     l/b/l   
+
+#       10      4       
+lbr     l/b/r   l/b/R   
+
+#       165     97      2       2       1       
+lc      l/k     l/s     l/t/s   l/tS    l/S     
+
+#       28      20      1       
+lch     l/tS    l/k     l/x     
+
+#       4       
+lchr    l/k/r   
+
+#       3       
+lcl     l/k/l   
+
+#       3       
+lcm     l/k/m   
+
+#       3       1       
+lcr     l/k/r   l/k/R   
+
+#       1       
+lcsp    l/k/s/p 
+
+#       1       
+lct     l/k/t   
+
+#       2       
+lcz     l/tS    
+
+#       642     15      6       3       
+ld      l/d     l/t     d       l/dZ    
+
+#       10      
+ldb     l/d/b   
+
+#       1       
+ldbr    l/d/b/r 
+
+#       3       
+ldc     l/d/k   
+
+#       1       
+ldcr    l/d/k/r 
+
+#       11      
+ldf     l/d/f   
+
+#       1       
+ldgl    l/d/g/l 
+
+#       7       2       
+ldh     l/d/h   l/d     
+
+#       10      
+ldl     l/d/l   
+
+#       5       
+ldm     l/d/m   
+
+#       2       1       
+ldn     l/d/n   d/n     
+
+#       3       
+ldn't   d/@/n/t 
+
+#       2       
+ldp     l/d/p   
+
+#       1       
+ldpr    l/d/p/r 
+
+#       21      1       1       
+ldr     l/d/r   l/d/@/r l/d/R   
+
+#       8       2       2       
+lds     l/d/z   l/d/s   l/s     
+
+#       3       
+ldsb    l/d/z/b 
+
+#       1       
+ldschm  l/d/S/m 
+
+#       1       
+ldsh    l/d/S   
+
+#       1       
+ldsk    l/t/s/k 
+
+#       1       
+ldsl    l/d/s/l 
+
+#       3       2       
+ldsm    l/d/z/m l/d/s/m 
+
+#       3       
+ldsp    l/d/s/p 
+
+#       6       3       1       
+ldst    l/d/s/t d/s/t   l/t/S/t 
+
+#       1       
+ldstr   l/d/s/t/r
+
+#       7       1       
+ldt     l/t     l/d/t   
+
+#       1       
+ldthr   l/d/T/r 
+
+#       1       
+ldv     l/d/v   
+
+#       225     8       
+lf      l/f     f       
+
+#       2       
+lfb     f/b     
+
+#       3       
+lfc     l/f/k   
+
+#       1       1       
+lff     l/f     l/f/f   
+
+#       1       
+lfg     l/f/g   
+
+#       2       1       
+lfh     l/f/h   l/v/h   
+
+#       8       
+lfl     l/f/l   
+
+#       1       1       
+lfm     f/m     l/f/m   
+
+#       1       
+lfn     l/f/n   
+
+#       1       1       
+lfp     f/p     l/f/p   
+
+#       11      4       
+lfr     l/f/r   l/f/R   
+
+#       2       
+lfs     l/f/s   
+
+#       1       
+lfsb    l/f/s/b 
+
+#       1       1       
+lfsk    f/s/k   l/f/s/k 
+
+#       3       1       
+lft     l/f/t   f/t     
+
+#       105     96      1       
+lg      l/dZ    l/g     l/@/g   
+
+#       3       
+lgh     l/g     
+
+#       1       
+lgl     l/g/l   
+
+#       10      1       
+lgr     l/g/r   l/g/R   
+
+#       36      28      4       
+lh      l/h     l       j       
+
+#       1       
+lhj     l/h/j   
+
+#       6       1       1       
+lj      l/j     l       l/dZ    
+
+#       1       
+ljk     l/k     
+
+#       122     84      
+lk      l/k     k       
+
+#       2       
+lkb     k/b     
+
+#       1       1       
+lkf     k/f     l/k/f   
+
+#       6       4       3       
+lkh     l/k     l/k/h   l/x     
+
+#       1       
+lkk     l/k     
+
+#       3       
+lkl     k/l     
+
+#       3       3       
+lkm     k/m     l/k/m   
+
+#       2       
+lkn     k/n     
+
+#       2       
+lkr     k/r     
+
+#       2       1       
+lks     k/s     l/k/s   
+
+#       1       
+lksd    l/k/s/d 
+
+#       1       
+lkst    k/s/t   
+
+#       1       
+lkt     l/k/t   
+
+#       4443    95      76      5       
+ll      l       .       j       l/j     
+
+#       2       
+ll'     l       
+
+#       2       
+ll's    l/z     
+
+#       30      
+llb     l/b     
+
+#       2       
+llbl    l/b/l   
+
+#       2       
+llbr    l/b/r   
+
+#       6       
+llc     l/k     
+
+#       1       
+llch    l/tS    
+
+#       1       
+llcl    l/k/l   
+
+#       14      
+lld     l/d     
+
+#       1       
+lldr    l/d/r   
+
+#       18      
+llf     l/f     
+
+#       6       
+llfl    l/f/l   
+
+#       1       
+llfr    l/f/r   
+
+#       2       1       
+llg     l/g     l/dZ    
+
+#       1       
+llgr    l/g/r   
+
+#       22      
+llh     l/h     
+
+#       1       
+llj     l/dZ    
+
+#       3       
+llk     l/k     
+
+#       22      
+llm     l/m     
+
+#       8       
+lln     l/n     
+
+#       14      
+llp     l/p     
+
+#       1       
+llph    l/f     
+
+#       1       
+llpl    l/p/l   
+
+#       1       
+llpr    l/p/r   
+
+#       8       1       
+llr     l/r     l/R     
+
+#       16      8       
+lls     l/z     l/s     
+
+#       4       
+llsb    l/z/b   
+
+#       1       
+llsch   l/S     
+
+#       1       
+llsd    l/z/d   
+
+#       2       
+llsh    l/S     
+
+#       1       
+llsp    l/s/p   
+
+#       10      1       
+llst    l/s/t   l/S/t   
+
+#       2       
+llstr   l/s/t/r 
+
+#       4       
+llsv    l/z/v   
+
+#       6       
+llt     l/t     
+
+#       2       
+lltr    l/t/r   
+
+#       5       1       
+llv     l/v     l/f     
+
+#       285     47      1       
+lm      l/m     m       l/E/m   
+
+#       1       
+lmb     m/b     
+
+#       1       
+lmd     l/m/d   
+
+#       1       
+lmg     l/m/g   
+
+#       1       
+lmgr    m/g/r   
+
+#       2       
+lmh     l/m/h   
+
+#       1       1       
+lml     l/m/l   m/l     
+
+#       1       
+lmn     l/m/n   
+
+#       4       2       
+lms     m/z     l/m/s   
+
+#       1       
+lmsf    l/m/z/f 
+
+#       1       
+lmsg    m/z/g   
+
+#       1       
+lmsh    m/z/h   
+
+#       1       1       
+lmsm    l/m/z/m m/z/m   
+
+#       1       1       
+lmst    l/m/s/t m/s/t   
+
+#       1       1       
+lmstr   l/m/S/t/Rl/m/s/t/r
+
+#       172     6       3       
+ln      l/n     n       l       
+
+#       150     
+lp      l/p     
+
+#       1       
+lpb     l/p/b   
+
+#       5       
+lpf     l/p/f   
+
+#       107     1       
+lph     l/f     l/p/h   
+
+#       9       
+lpl     l/p/l   
+
+#       3       
+lpm     l/p/m   
+
+#       6       
+lpr     l/p/r   
+
+#       3       
+lps     l/p/s   
+
+#       3       1       
+lpt     l/p/t   l/p/tS  
+
+#       1       
+lptr    l/p/t/r 
+
+#       7       
+lq      l/k     
+
+#       44      2       
+lr      l/r     l/R     
+
+#       154     45      12      3       1       1       
+ls      l/s     l/z     l/S     .       l       s       
+
+#       2       
+lsb     l/z/b   
+
+#       1       1       1       
+lsc     l/S     l/s     l/z/k   
+
+#       1       
+lsch    l/S     
+
+#       1       
+lschm   l/S/m   
+
+#       2       
+lsd     l/z/d   
+
+#       2       
+lsgr    l/z/g/r 
+
+#       23      2       
+lsh     l/S     l/s/h   
+
+#       1       
+lshm    l/S/m   
+
+#       12      
+lsk     l/s/k   
+
+#       5       1       
+lsm     l/z/m   l/s/m   
+
+#       2       
+lsn     l/z/n   
+
+#       5       
+lsp     l/s/p   
+
+#       3       
+lss     l/s     
+
+#       34      2       
+lst     l/s/t   l/S/t   
+
+#       3       
+lstr    l/s/t/r 
+
+#       601     49      17      
+lt      l/t     l/tS    .       
+
+#       2       
+ltb     l/t/b   
+
+#       1       
+ltc     l/t/s   
+
+#       1       
+ltch    l/tS    
+
+#       3       
+ltd     l/t/d   
+
+#       2       
+ltf     l/t/f   
+
+#       1       
+ltg     l/t/g   
+
+#       29      4       2       1       
+lth     l/T     l/t/h   l/t     l/D     
+
+#       2       
+lthf    l/T/f   
+
+#       1       
+lthr    l/T/r   
+
+#       2       
+ltj     l/tS    
+
+#       1       
+ltk     l/t/k   
+
+#       7       
+ltl     l/t/l   
+
+#       3       
+ltm     l/t/m   
+
+#       1       
+ltn     l/t/n   
+
+#       3       
+ltp     l/t/p   
+
+#       57      1       1       
+ltr     l/t/r   l/t/@/r l/t/R   
+
+#       2       
+lts     l/t/s   
+
+#       1       
+ltschm  l/t/S/m 
+
+#       1       
+ltsf    l/t/s/f 
+
+#       1       
+ltsh    l/t/S   
+
+#       2       1       
+ltst    l/t/s/t l/t/S/t 
+
+#       1       
+ltv     l/t/v   
+
+#       6       
+ltz     l/t/s   
+
+#       1       
+ltzm    l/t/s/m 
+
+#       293     5       
+lv      l/v     v       
+
+#       2       
+lx      l/k/s   
+
+#       7       5       
+lz      l/z     l/t/s   
+
+#       1       
+lzb     l/z/b   
+
+#       1       
+lzn     l/z/n   
+
+#       16355   1       
+m       m       N       
+
+#       1       
+m'b     -/m/b   
+
+#       1       1       
+m's     m/@/s   m/z     
+
+#       658     73      11      2       
+mb      m/b     m       N/b     -/m/b   
+
+#       1       
+mb's    m/z     
+
+#       3       
+mbd     m/d     
+
+#       3       
+mbf     m/f     
+
+#       3       
+mbk     m/k     
+
+#       56      56      4       2       
+mbl     m/b/@/l m/b/l   m/l     N/b/l   
+
+#       2       
+mbm     m/m     
+
+#       2       
+mbn     m/n     
+
+#       2       
+mbpr    m/p/r   
+
+#       136     3       3       2       
+mbr     m/b/r   N/b/R   m/b/@/r m/b/R   
+
+#       6       1       
+mbs     m/z     m/s     
+
+#       1       
+mbscr   m/s/k/r 
+
+#       1       
+mbsh    m/S     
+
+#       2       
+mbsk    m/s/k   
+
+#       3       
+mbst    m/s/t   
+
+#       1       
+mbt     m/t     
+
+#       9       8       1       1       1       
+mc      m/k     m/s     m/&/k   m/@/k   m/A/k   
+
+#       8       
+mcc     m/@/k   
+
+#       2       
+mccl    m/@/k/l 
+
+#       1       
+mccr    m/@/k/r 
+
+#       1       
+mcd     m/@/k/d 
+
+#       2       
+mcf     m/@/k/f 
+
+#       3       1       
+mcg     m/@/g   m/I/g   
+
+#       1       
+mcgr    m/@/g/r 
+
+#       7       1       
+mch     m/tS    m/@/k/h 
+
+#       7       
+mck     m/@/k   
+
+#       4       
+mcm     m/@/k/m 
+
+#       3       1       
+mcn     m/@/k/n m/&/k/n 
+
+#       2       1       
+mcr     m/k/r   m/@/k/r 
+
+#       1       
+mcsh    m/@/k/S 
+
+#       1       
+mct     m/@/k/t 
+
+#       1       
+mcz     m/z     
+
+#       10      
+md      m/d     
+
+#       1       
+mdl     m/d/l   
+
+#       1       
+mdn     m/d/n   
+
+#       3       
+mdr     m/d/r   
+
+#       40      
+mf      m/f     
+
+#       5       
+mfl     m/f/l   
+
+#       6       1       
+mfr     m/f/r   m/f/R   
+
+#       2       2       
+mg      m/dZ    m/g     
+
+#       11      5       
+mh      m/h     m       
+
+#       6       1       
+mj      m/dZ    m/j     
+
+#       5       
+mk      m/k     
+
+#       1       1       1       
+mkh     N/k     m/k     m/x     
+
+#       61      1       
+ml      m/l     m/@/l   
+
+#       839     
+mm      m       
+
+#       1       
+mmh     m/h     
+
+#       3       
+mml     m/l     
+
+#       1       
+mmr     m/r     
+
+#       187     22      8       
+mn      m/n     m       n       
+
+#       1       
+mn't    n/t     
+
+#       897     8       
+mp      m/p     N/p     
+
+#       5       
+mpb     m/b     
+
+#       1       
+mpbl    m/p/b/l 
+
+#       1       
+mpcr    m/p/k/r 
+
+#       2       
+mpd     m/p/d   
+
+#       5       
+mpf     m/p/f   
+
+#       1       
+mpgr    m/p/g/r 
+
+#       193     
+mph     m/f     
+
+#       3       
+mphl    m/f/l   
+
+#       6       
+mpk     m/p/k   
+
+#       1       
+mpkn    m/p/n   
+
+#       173     22      3       1       
+mpl     m/p/l   m/p/@/l N/p/l   N/l     
+
+#       3       
+mpm     m/p/m   
+
+#       1       
+mpn     m/p/n   
+
+#       1       
+mpp     m/p/p   
+
+#       1       
+mppr    m/p/p/r 
+
+#       123     3       1       1       
+mpr     m/p/r   N/p/R   m/p/@/r m/p/R   
+
+#       21      4       3       
+mps     m/p/s   N       m/s     
+
+#       4       
+mpsh    m/p/S   
+
+#       6       
+mpst    m/p/s/t 
+
+#       1       
+mpstr   m/p/s/t/r
+
+#       63      19      6       2       2       2       
+mpt     m/p/t   m/p/S   m/p/tS  N/t     m/t     n/t     
+
+#       1       
+mptb    m/p/t/b 
+
+#       1       1       
+mptr    m/p/t/r n/t/r   
+
+#       2       
+mq      m/k     
+
+#       37      
+mr      m/r     
+
+#       42      33      
+ms      m/z     m/s     
+
+#       6       
+msb     m/z/b   
+
+#       1       
+msc     m/s     
+
+#       2       
+msch    m/S     
+
+#       2       
+mscr    m/s/k/r 
+
+#       3       
+msd     m/z/d   
+
+#       1       
+msg     m/z/g   
+
+#       18      
+msh     m/S     
+
+#       5       
+msk     m/s/k   
+
+#       1       
+msl     m/s/l   
+
+#       2       
+msm     m/z/m   
+
+#       5       1       
+msp     m/s/p   m/z/p   
+
+#       1       
+msq     m/s/k   
+
+#       1       
+msstr   m/S/t/r 
+
+#       23      1       1       
+mst     m/s/t   m/I/s/t m/S/t   
+
+#       3       
+mstr    m/s/t/r 
+
+#       2       
+mstv    m/s/t/v 
+
+#       1       
+msv     m/z/v   
+
+#       18      7       
+mt      m/t     N/t     
+
+#       1       
+mtr     m/t/r   
+
+#       15      
+mv      m/v     
+
+#       1       
+mvr     m/v/r   
+
+#       3       
+mz      m/z     
+
+#       1       
+mzl     m/z/l   
+
+#       26237   160     19      
+n       n       N       n/j     
+
+#       3       
+n'      n       
+
+#       1       
+n'd     n/@/d   
+
+#       1       
+n'g     n/@/g   
+
+#       1       
+n'll    n/@/l   
+
+#       1       
+n'r     n/@/r   
+
+#       13      
+n's     n/z     
+
+#       14      
+n't     n/t     
+
+#       208     1       
+nb      n/b     N/b     
+
+#       11      
+nbl     n/b/l   
+
+#       24      
+nbr     n/b/r   
+
+#       1256    436     144     24      23      18      16      2       1       1       
+nc      n/s     n/k     N/k     n/S     N       n/tS    N/s     n/z     N/S     n/t/s   
+
+#       222     92      31      12      9       3       2       
+nch     n/tS    N/k     n/k     n/S     N/S     n/x     n/dZ    
+
+#       8       
+nchb    n/tS/b  
+
+#       1       
+nchc    n/tS/k  
+
+#       1       
+nchf    N/k/f   
+
+#       1       
+nchfl   n/tS/f/l
+
+#       1       
+nchh    n/tS/h  
+
+#       5       
+nchl    n/tS/l  
+
+#       8       
+nchm    n/tS/m  
+
+#       6       
+nchn    N/k/n   
+
+#       14      5       1       
+nchr    N/k/r   n/k/r   n/tS/r  
+
+#       1       
+nchs    N/k/s   
+
+#       1       
+ncht    n/tS/t  
+
+#       8       
+nck     N/k     
+
+#       2       
+nckn    N/k/n   
+
+#       70      9       6       
+ncl     n/k/l   N/k/@/l N/k/l   
+
+#       1       
+ncm     m       
+
+#       63      12      1       1       
+ncr     n/k/r   N/k/r   N/k/@/r N/k/R   
+
+#       2       
+ncs     N       
+
+#       70      35      22      
+nct     N/k/t   N/k/S   N/k/tS  
+
+#       3       
+nctl    N/k/t/l 
+
+#       1       
+ncx     N/k/s   
+
+#       2947    33      16      15      13      9       9       
+nd      n/d     N       n/dZ    N/d     n/t     E/n/d   n       
+
+#       2       
+nd's    n/d/z   
+
+#       24      
+ndb     n/d/b   
+
+#       2       
+ndbl    n/d/b/l 
+
+#       8       
+ndbr    n/d/b/r 
+
+#       7       
+ndc     n/d/k   
+
+#       2       1       
+ndch    n/d/tS  n/tS    
+
+#       2       
+ndcl    n/d/k/l 
+
+#       2       
+ndcr    n/d/k/r 
+
+#       4       
+ndd     n/d     
+
+#       1       
+nddr    n/d/r   
+
+#       19      2       
+ndf     n/d/f   n/f     
+
+#       3       
+ndfl    n/d/f/l 
+
+#       4       1       
+ndg     n/d/g   n/dZ    
+
+#       1       
+ndgl    n/d/g/l 
+
+#       4       
+ndgr    n/d/g/r 
+
+#       18      12      4       2       
+ndh     n/d/h   n/d     n/t/h   n/h     
+
+#       2       
+ndhj    n/j     
+
+#       1       
+ndhr    n/d/r   
+
+#       2       1       
+ndj     n/dZ    n/d/dZ  
+
+#       1       1       1       
+ndk     N/k     n/d/k   n/t/k   
+
+#       69      46      3       1       
+ndl     n/d/l   n/d/-/l n/d/@/l n/l     
+
+#       19      4       
+ndm     n/d/m   n/m     
+
+#       8       2       
+ndn     n/d/n   n/n     
+
+#       14      3       
+ndp     n/d/p   n/p     
+
+#       2       
+ndpl    n/d/p/l 
+
+#       2       
+ndpr    n/d/p/r 
+
+#       244     20      6       3       
+ndr     n/d/r   n/d/R   N/d/R   n/d/@/r 
+
+#       22      18      7       1       1       
+nds     n/d/z   n/d/s   n/s     N       n/z     
+
+#       1       
+ndsb    n/z/b   
+
+#       3       
+ndsc    n/d/s/k 
+
+#       1       
+ndscr   n/d/s/k/r
+
+#       7       
+ndsh    n/d/S   
+
+#       2       
+ndsk    n/d/s/k 
+
+#       1       
+ndskn   n/t/s/k/n
+
+#       2       
+ndsl    n/d/s/l 
+
+#       6       2       
+ndsm    n/d/z/m n/t/s/m 
+
+#       2       
+ndsp    n/d/s/p 
+
+#       1       
+ndspr   n/d/s/p/r
+
+#       1       
+ndss    n/d/s   
+
+#       11      2       2       
+ndst    n/d/s/t n/s/t   n/t/S/t 
+
+#       1       
+ndsth   n/s/t   
+
+#       1       
+ndstr   n/d/s/t/r
+
+#       1       
+ndsz    n/d/s   
+
+#       6       1       
+ndt     n/t     n/d/t   
+
+#       1       
+ndthr   n/d/T/r 
+
+#       4       2       2       
+ndv     n/d/v   n/d/w   n/v     
+
+#       1       
+ndz     n/d/z   
+
+#       1       
+ndzh    n/d/Z   
+
+#       453     6       
+nf      n/f     N/f     
+
+#       1       
+nff     m/f     
+
+#       1       
+nffsh   m/f/S   
+
+#       72      1       
+nfl     n/f/l   N/f/l   
+
+#       50      1       
+nfr     n/f/r   N/f/R   
+
+#       2402    456     268     96      12      11      
+ng      N       n/dZ    N/g     n/g     n       N/d     
+
+#       27      
+ngb     N/b     
+
+#       1       
+ngbr    N/b/r   
+
+#       3       
+ngc     N/k     
+
+#       6       3       
+ngch    N/tS    N/dZ    
+
+#       1       
+ngcl    N/k/l   
+
+#       1       
+ngcr    N/k/r   
+
+#       15      
+ngd     N/d     
+
+#       26      
+ngf     N/f     
+
+#       1       
+ngfr    N/f/R   
+
+#       2       
+ngg     N/g     
+
+#       1       
+nggr    N/g/R   
+
+#       31      13      8       2       1       
+ngh     N/h     N       N/g     n/g     n       
+
+#       2       
+ngj     N/dZ    
+
+#       15      
+ngk     N/k     
+
+#       248     80      61      26      4       
+ngl     N/l     N/g/@/l N/g/l   n/g/l   N/@/l   
+
+#       13      
+ngm     N/m     
+
+#       66      
+ngn     N/n     
+
+#       6       
+ngp     N/p     
+
+#       1       
+ngpl    N/p/l   
+
+#       65      47      4       2       1       1       
+ngr     n/g/r   N/g/r   N/r     n/g/R   N/R     N/g/R   
+
+#       1       
+ngrb    N/g/@/r/b
+
+#       52      13      2       
+ngs     N/z     N/s     n/z     
+
+#       1       
+ngsb    N/z/b   
+
+#       1       
+ngsf    N/z/f   
+
+#       1       
+ngsg    N/z/g   
+
+#       10      
+ngsh    N/S     
+
+#       1       1       
+ngsl    N/s/l   N/z/l   
+
+#       1       
+ngsm    N/s/m   
+
+#       1       
+ngsn    N/s/n   
+
+#       3       1       
+ngsp    N/s/p   N/z/p   
+
+#       1       
+ngspr   N/s/p/r 
+
+#       22      2       1       
+ngst    N/s/t   N/z/t   N/k/s/t 
+
+#       5       1       
+ngstr   N/s/t/r N/z/t/r 
+
+#       2       
+ngsv    N/z/v   
+
+#       63      2       1       
+ngt     N/t     N/d     n/k     
+
+#       9       
+ngth    N/k/T   
+
+#       1       
+ngthm   N/k/T/m 
+
+#       2       
+ngtr    N/t/r   
+
+#       1       1       
+ngtz    N/d/z   N/s     
+
+#       2       
+ngv     N/v     
+
+#       2       
+ngz     N/z     
+
+#       197     62      12      6       
+nh      n/h     n       n/j     N       
+
+#       1       
+nhs     n/S     
+
+#       106     8       1       1       
+nj      n/dZ    n/j     N/Z     n/Z     
+
+#       1       
+njsk    n/s/k   
+
+#       382     58      2       1       
+nk      N/k     n/k     n/tS    n/dZ    
+
+#       4       
+nkb     N/k/b   
+
+#       1       
+nkbl    n/k/b/l 
+
+#       1       
+nkc     N/k/k   
+
+#       13      
+nkf     N/k/f   
+
+#       1       
+nkg     N/k/g   
+
+#       9       4       
+nkh     N/k/h   N/k     
+
+#       26      21      1       
+nkl     N/k/l   N/k/@/l n/k/l   
+
+#       5       
+nkm     N/k/m   
+
+#       7       3       1       
+nkn     n/n     N/k/n   n/k/@/n 
+
+#       5       
+nkp     N/k/p   
+
+#       2       
+nkpl    N/k/p/l 
+
+#       4       
+nkr     N/k/r   
+
+#       12      1       
+nks     N/k/s   n/k/s   
+
+#       2       
+nksg    N/k/s/g 
+
+#       2       
+nksh    N/k/S   
+
+#       1       
+nksm    N/k/s/m 
+
+#       6       
+nkst    N/k/s/t 
+
+#       8       1       
+nkt     N/k/t   n/k/t   
+
+#       244     3       
+nl      n/l     n/-/l   
+
+#       142     
+nm      n/m     
+
+#       1120    13      
+nn      n       n/n     
+
+#       1       
+nnb     n/b     
+
+#       1       
+nnf     n/f     
+
+#       4       
+nnh     n/h     
+
+#       1       
+nnk     n/k     
+
+#       1       
+nnm     n/m     
+
+#       3       1       
+nns     n/s     n/z     
+
+#       1       
+nnsbr   n/z/b/r 
+
+#       1       
+nnst    n/s/t   
+
+#       3       
+nnv     n/v     
+
+#       104     
+np      n/p     
+
+#       2       
+npf     n/f     
+
+#       2       
+nph     n/f     
+
+#       28      
+npl     n/p/l   
+
+#       59      
+npr     n/p/r   
+
+#       1       
+nps     n/s     
+
+#       49      44      
+nq      N/k     n/k     
+
+#       235     10      3       
+nr      n/r     n/R     N/R     
+
+#       1       
+nrr     n/r     
+
+#       1017    207     94      29      11      6       3       
+ns      n/s     n/z     n/S     N       N/s     n       N/S     
+
+#       16      
+nsb     n/z/b   
+
+#       22      16      11      1       1       
+nsc     n/S     n/s     n/s/k   N/k     n/z/k   
+
+#       13      3       2       
+nsch    n/S     n/s/k   n/s     
+
+#       1       
+nschl   n/S/l   
+
+#       25      1       
+nscr    n/s/k/r n/s/k/R 
+
+#       4       3       
+nsd     n/z/d   n/s/d   
+
+#       26      5       
+nsf     n/s/f   n/z/f   
+
+#       1       1       
+nsg     n/s/dZ  n/s/g   
+
+#       1       
+nsgr    n/s/g/r 
+
+#       107     1       1       
+nsh     n/S     n/s/h   n/z     
+
+#       6       
+nshr    n/S/r   
+
+#       1       
+nsj     n/s/dZ  
+
+#       60      1       
+nsk     n/s/k   n/z/k   
+
+#       1       
+nskj    n/S/k/j 
+
+#       1       
+nskr    n/s/k/r 
+
+#       21      8       2       
+nsl     n/s/l   n/z/l   n/-/l   
+
+#       23      9       
+nsm     n/s/m   n/z/m   
+
+#       7       
+nsn     n/s/n   
+
+#       91      1       
+nsp     n/s/p   n/S/p   
+
+#       3       
+nsph    n/s/f   
+
+#       6       
+nspl    n/s/p/l 
+
+#       2       
+nspr    n/s/p/r 
+
+#       1       
+nsq     n/s/k   
+
+#       2       
+nsr     n/s/r   
+
+#       6       1       1       
+nss     n/s     n/s/s   n/z/s   
+
+#       1       
+nssh    n/s/S   
+
+#       1       
+nssl    n/s/l   
+
+#       208     4       3       1       
+nst     n/s/t   n/S/t   n/z/t   N/s/t   
+
+#       1       
+nstl    n/s/t/l 
+
+#       105     
+nstr    n/s/t/r 
+
+#       16      7       
+nsv     n/z/v   n/s/v   
+
+#       1       1       
+nsz     n/s     n/z     
+
+#       4956    225     55      54      54      3       
+nt      n/t     n/S     N       N/t     n/tS    n/d     
+
+#       3       
+nt's    n/t/s   
+
+#       4       
+ntb     n/t/b   
+
+#       1       1       
+ntbr    n/b/r   n/t/b/r 
+
+#       1       1       
+ntc     n/t/k   n/t/s   
+
+#       1       
+ntcl    n/t/k/l 
+
+#       2       
+ntd     n/t/d   
+
+#       8       
+ntf     n/t/f   
+
+#       15      
+ntg     n/t/g   
+
+#       264     13      11      2       
+nth     n/T     n/t/h   n/t     N/t     
+
+#       3       
+nthl    n/T/l   
+
+#       102     
+nthr    n/T/r   
+
+#       1       
+ntj     n/t/dZ  
+
+#       267     19      2       1       
+ntl     n/t/l   n/t/-/l n/t/@/l N/l     
+
+#       14      1       
+ntm     n/t/m   N/m     
+
+#       33      
+ntn     n/t/n   
+
+#       2       2       
+ntp     N/p     n/t/p   
+
+#       414     13      7       4       1       
+ntr     n/t/r   n/t/@/r N/t/R   n/t/R   N/t/r   
+
+#       1       
+ntr'    n/t/r   
+
+#       21      6       
+nts     n/t/s   N       
+
+#       1       
+ntsf    n/t/s/f 
+
+#       4       
+ntsh    n/t/S   
+
+#       1       
+ntshr   n/t/S/r 
+
+#       3       
+ntsm    n/t/s/m 
+
+#       2       
+ntst    n/t/s/t 
+
+#       2       
+ntsv    n/t/s/v 
+
+#       1       
+ntt     n/t     
+
+#       1       
+ntthr   n/t/T/r 
+
+#       1       1       
+ntv     n/t/v   n/v     
+
+#       1       
+ntx     n/tS    
+
+#       6       1       
+ntz     n/t/s   n/z     
+
+#       1       
+ntzv    n/t/s/v 
+
+#       330     9       1       
+nv      n/v     N/v     n/w     
+
+#       24      5       2       
+nx      N/k/s   N/k/S   N/z     
+
+#       1       
+nxm     N/k/s/m 
+
+#       1       
+nxr     N/k/s/r 
+
+#       1       
+nxs     N/k/s   
+
+#       2       
+nxt     N/k/s/t 
+
+#       1       
+nxv     N/k/s/v 
+
+#       150     18      3       2       1       
+nz      n/z     n/t/s   n/s     n/T     n/d/z   
+
+#       1       
+nzb     n/z/b   
+
+#       1       
+nzh     n/Z     
+
+#       1       
+nzk     n/t/s/k 
+
+#       1       
+nzl     n/z/l   
+
+#       10278   42      7       
+p       p       .       b       
+
+#       2       
+p'      p       
+
+#       1       
+p'n     p/-/m   
+
+#       2       
+p's     p/s     
+
+#       27      2       
+pb      p/b     b       
+
+#       5       
+pbr     p/b/r   
+
+#       15      
+pc      p/k     
+
+#       3       
+pch     p/tS    
+
+#       1       
+pcr     p/k/r   
+
+#       12      
+pd      p/d     
+
+#       3       
+pdr     p/d/r   
+
+#       26      3       1       
+pf      p/f     f       p       
+
+#       4       
+pfr     p/f/r   
+
+#       6       
+pg      p/g     
+
+#       2       
+pgr     p/g/r   
+
+#       2603    28      11      4       
+ph      f       p/h     p       v       
+
+#       1       
+ph's    f/s     
+
+#       39      
+phl     f/l     
+
+#       6       1       
+phn     f/n     n       
+
+#       131     1       
+phr     f/r     p/R     
+
+#       1       
+phs     f/s     
+
+#       5       1       
+pht     f/t     p/t     
+
+#       51      9       
+phth    f/T     T       
+
+#       1       
+phz     f/z     
+
+#       5       2       
+pj      p/dZ    p       
+
+#       11      
+pk      p/k     
+
+#       2       
+pkn     p/n     
+
+#       899     56      
+pl      p/l     p/@/l   
+
+#       1       
+plj     p/l/j   
+
+#       1       
+plz     p/-/l/z 
+
+#       34      
+pm      p/m     
+
+#       54      37      
+pn      p/n     n       
+
+#       659     
+pp      p       
+
+#       7       
+pph     f       
+
+#       49      30      
+ppl     p/l     p/@/l   
+
+#       1       
+ppm     p/m     
+
+#       73      1       1       
+ppr     p/r     p/R     p/p/r   
+
+#       3       
+pps     p/s     
+
+#       1       
+ppv     p/v     
+
+#       1847    51      1       
+pr      p/r     p/R     p/@/R   
+
+#       281     168     3       2       1       
+ps      p/s     s       .       p/S     z       
+
+#       3       
+psb     p/s/b   
+
+#       4       
+psc     p/s/k   
+
+#       1       
+psch    s/k     
+
+#       15      1       
+psh     p/S     S       
+
+#       4       
+psk     p/s/k   
+
+#       1       
+psl     p/s/l   
+
+#       1       
+psm     p/s/m   
+
+#       2       
+psp     p/s/p   
+
+#       2       
+pspr    p/s/p/r 
+
+#       1       
+psq     p/s/k   
+
+#       35      1       
+pst     p/s/t   p/S/t   
+
+#       5       
+pstr    p/s/t/r 
+
+#       633     70      38      28      
+pt      p/t     p/S     t       p/tS    
+
+#       2       
+ptc     p/t/s   
+
+#       2       
+ptf     t/f     
+
+#       1       1       
+pth     f/T     p/T     
+
+#       1       
+pthl    p/T/l   
+
+#       2       
+pthr    p/T/r   
+
+#       4       
+ptl     p/t/l   
+
+#       1       
+ptn     p/t/n   
+
+#       12      1       
+ptr     p/t/r   p/t/@/r 
+
+#       2       
+pv      p/v     
+
+#       1       1       
+pz      p/s     p/z     
+
+#       942     5       
+q       k       tS      
+
+#       2       
+qb      k/b     
+
+#       1       
+qh      k       
+
+#       1       
+qq      k       
+
+#       1       
+qs      k/s     
+
+#       22826   1127    1027    
+r       r       R       .       
+
+#       4       
+r'      r       
+
+#       2       
+r'n     r/n     
+
+#       13      
+r's     r/z     
+
+#       680     29      9       
+rb      r/b     R/b     b       
+
+#       1       
+rbj     r/b/i/j 
+
+#       21      11      1       
+rbl     r/b/l   r/b/@/l R/b/l   
+
+#       26      
+rbr     r/b/r   
+
+#       1       
+rbs     r/b/z   
+
+#       2       
+rbst    r/b/s/t 
+
+#       403     246     24      22      12      6       5       5       3       1       
+rc      r/k     r/s     R/k     R/s     r/S     R/tS    R/S     s       r/tS    R/T     
+
+#       1       
+rcf     r/k/f   
+
+#       197     122     11      5       2       2       2       
+rch     r/k     r/tS    r/S     R/S     R/k     R/tS    R/x     
+
+#       4       1       
+rchb    r/tS/b  R/S/b   
+
+#       1       
+rchc    r/tS/k  
+
+#       8       
+rchd    r/tS/d  
+
+#       2       
+rchf    r/tS/f  
+
+#       1       
+rchg    r/tS/g  
+
+#       1       
+rchh    R/x     
+
+#       8       7       
+rchl    r/tS/l  r/k/l   
+
+#       5       
+rchm    r/tS/m  
+
+#       1       
+rchn    r/tS/n  
+
+#       1       
+rchp    r/tS/p  
+
+#       1       
+rchpr   r/tS/p/r
+
+#       2       
+rchr    r/k/r   
+
+#       1       
+rchs    r/tS/s  
+
+#       2       1       
+rcht    R/x     R/x/t   
+
+#       7       
+rck     r/k     
+
+#       1       
+rckh    r/k/h   
+
+#       28      6       
+rcl     r/k/l   r/k/@/l 
+
+#       32      1       
+rcr     r/k/r   k/r     
+
+#       1       1       
+rcs     R       r/k/s   
+
+#       17      1       
+rct     r/k/t   r/k/S   
+
+#       1       
+rcz     r/dZ    
+
+#       1278    56      44      11      10      10      1       1       
+rd      r/d     R       R/d     r/dZ    d       r       R/D     r/D     
+
+#       5       
+rd's    r/d/z   
+
+#       10      
+rdb     r/d/b   
+
+#       2       
+rdbr    r/d/b/r 
+
+#       4       
+rdc     r/d/k   
+
+#       7       
+rdf     r/d/f   
+
+#       10      1       
+rdh     r/d/h   r/d     
+
+#       1       
+rdhr    r/T     
+
+#       1       
+rdj     r/dZ    
+
+#       48      4       2       
+rdl     r/d/l   r/d/-/l R/d/l   
+
+#       9       
+rdm     r/d/m   
+
+#       14      
+rdn     r/d/n   
+
+#       1       
+rdp     r/d/p   
+
+#       1       
+rdph    r/d/f   
+
+#       3       
+rdpl    r/d/p/l 
+
+#       32      3       
+rdr     r/d/r   R/d/R   
+
+#       1       
+rdrh    R/t/R   
+
+#       19      4       2       
+rds     r/d/z   r/d/s   R       
+
+#       2       
+rdsb    r/d/z/b 
+
+#       1       
+rdscr   r/d/s/k/r
+
+#       10      
+rdsh    r/d/S   
+
+#       2       
+rdsl    r/d/z/l 
+
+#       5       
+rdsm    r/d/z/m 
+
+#       3       2       
+rdst    r/d/s/t r/d/z/t 
+
+#       6       4       
+rdt     r/d/t   r/t     
+
+#       3       
+rdv     r/d/v   
+
+#       1       
+rdzh    R/dZ    
+
+#       262     8       6       1       
+rf      r/f     R/f     f       r/v     
+
+#       1       
+rfd     r/f/d   
+
+#       3       
+rff     r/f     
+
+#       1       
+rfj     r/f/j   
+
+#       27      
+rfl     r/f/l   
+
+#       2       
+rfp     r/f/p   
+
+#       6       
+rfr     r/f/r   
+
+#       1       
+rfs     r       
+
+#       1       
+rfsk    r/f/s/k 
+
+#       1       
+rfv     r/v     
+
+#       506     214     121     49      17      8       5       5       5       1       1       1       
+rg      r/g     r/dZ    r       R/g     R       R/Z     R/dZ    g       r/Z     R/x     Z       dZ      
+
+#       16      3       2       1       
+rgh     r/g     R/g     r       r/g/h   
+
+#       29      5       
+rgl     r/g/l   r/g/@/l 
+
+#       1       
+rgm     r/g/m   
+
+#       3       
+rgn     r/n     
+
+#       29      1       
+rgr     r/g/r   g/r     
+
+#       3       1       
+rgs     r/g/s   r/g/z   
+
+#       1       
+rgschr  r/k/S/r 
+
+#       2       
+rgsk    r/g/s/k 
+
+#       1       
+rgsm    r/g/z/m 
+
+#       171     113     8       6       
+rh      r       r/h     R/h     R       
+
+#       39      2       2       1       
+rj      r/dZ    R/dZ    r/j     R/j     
+
+#       437     11      3       
+rk      r/k     R/k     k       
+
+#       2       
+rk's    r/k/s   
+
+#       8       
+rkb     r/k/b   
+
+#       1       
+rkc     r/k     
+
+#       1       
+rkch    r/k/tS  
+
+#       2       
+rkd     r/k/d   
+
+#       2       
+rkf     r/k/f   
+
+#       5       2       1       
+rkh     r/k     R/k     R/x     
+
+#       1       
+rkk     R/k     
+
+#       15      4       
+rkl     r/k/l   r/k/@/l 
+
+#       11      
+rkm     r/k/m   
+
+#       3       3       
+rkn     r/k/n   r/n     
+
+#       3       
+rkp     r/k/p   
+
+#       2       
+rkpl    r/k/p/l 
+
+#       5       
+rkr     r/k/r   
+
+#       18      
+rks     r/k/s   
+
+#       1       
+rksb    r/k/s/b 
+
+#       1       
+rkscr   r/k/s/k/r
+
+#       1       
+rksd    r/k/s/d 
+
+#       7       
+rksh    r/k/S   
+
+#       1       
+rksk    r/k/s/k 
+
+#       1       
+rksm    r/k/s/m 
+
+#       2       
+rksp    r/k/s/p 
+
+#       2       
+rkst    r/k/s/t 
+
+#       3       
+rksv    r/k/s/v 
+
+#       4       
+rkt     r/k/t   
+
+#       2       1       
+rkv     r/k/v   R/k/v   
+
+#       672     48      
+rl      r/l     R/l     
+
+#       2       1       
+rlb     r/l/b   R/l/b   
+
+#       9       
+rld     r/l/d   
+
+#       4       
+rldl    r/l/d/l 
+
+#       1       1       
+rlf     R/l/f   r/l/f   
+
+#       1       
+rlfr    r/l/f/r 
+
+#       1       
+rlh     r/l/h   
+
+#       1       
+rlk     r/l/k   
+
+#       2       
+rlp     r/l/p   
+
+#       1       1       
+rls     r/l/s   r/l/z   
+
+#       1       1       
+rlsb    R/l/s/b r/l/z/b 
+
+#       1       
+rlsd    r/l/z/d 
+
+#       1       
+rlsh    r/l/S   
+
+#       1       
+rlsr    r/l/s/r 
+
+#       2       
+rlst    r/l/s/t 
+
+#       3       
+rlt     r/l/t   
+
+#       1455    37      11      
+rm      r/m     R/m     m       
+
+#       3       
+rmb     r/m/b   
+
+#       1       
+rmbr    r/m/b/r 
+
+#       1       
+rmch    r/m/tS  
+
+#       7       
+rmf     r/m/f   
+
+#       1       
+rmfr    r/m/f/r 
+
+#       1       
+rmg     r/m/g   
+
+#       5       
+rmh     r/m/h   
+
+#       20      
+rml     r/m/l   
+
+#       3       
+rmn     r/m/n   
+
+#       2       
+rmp     r/m/p   
+
+#       1       
+rmpr    r/m/p/r 
+
+#       2       1       
+rmr     r/m/r   r/m/@/r 
+
+#       3       1       
+rms     r/m/z   r/m/s   
+
+#       1       1       
+rmst    r/m/S/t r/m/s/t 
+
+#       1       
+rmstr   r/m/s/t/r
+
+#       1       
+rmth    r/m/T   
+
+#       1       
+rmv     r/m/v   
+
+#       1019    74      
+rn      r/n     R/n     
+
+#       10      
+rnb     r/n/b   
+
+#       1       
+rnbl    r/n/b/l 
+
+#       2       
+rnbr    r/n/b/r 
+
+#       3       
+rnc     r/n/k   
+
+#       2       
+rncr    r/n/k/r 
+
+#       6       
+rnd     r/n/d   
+
+#       1       
+rndt    r/n/t   
+
+#       9       
+rnf     r/n/f   
+
+#       5       
+rnfl    r/n/f/l 
+
+#       2       
+rng     r/n/g   
+
+#       4       4       3       
+rnh     R/n/h   r/n/h   r/n     
+
+#       6       
+rnl     r/n/l   
+
+#       13      
+rnm     r/n/m   
+
+#       3       
+rnn     r/n/n   
+
+#       5       
+rnp     r/n/p   
+
+#       9       7       1       1       
+rns     r/n/s   r/n/z   R/n/s   R/n/z   
+
+#       1       
+rnsb    r/n/z/b 
+
+#       2       
+rnsh    r/n/S   
+
+#       1       
+rnsl    r/n/z/l 
+
+#       10      3       
+rnst    r/n/s/t R/n/s/t 
+
+#       1       
+rnstj   R/n/s/t/j
+
+#       6       
+rnt     r/n/t   
+
+#       395     14      8       
+rp      r/p     R/p     p       
+
+#       1       
+rpb     r/p/b   
+
+#       164     
+rph     r/f     
+
+#       1       
+rphr    r/f/r   
+
+#       30      
+rpl     r/p/l   
+
+#       1       
+rpn     r/p/n   
+
+#       49      3       
+rpr     r/p/r   p/r     
+
+#       7       2       
+rps     r/p/s   r       
+
+#       1       
+rpsb    r/p/s/b 
+
+#       1       
+rpsh    r/p/S   
+
+#       1       
+rpsm    r/m     
+
+#       1       
+rpsv    r/p/s/v 
+
+#       11      8       
+rpt     r/p/S   r/p/t   
+
+#       36      10      
+rq      r/k     R/k     
+
+#       1235    88      29      
+rr      r       R       r/r     
+
+#       1       
+rrf     r/f     
+
+#       80      1       
+rrh     r       R       
+
+#       1       
+rrk     R/tS    
+
+#       1       
+rrm     r/m     
+
+#       1       
+rrnh    r/n/h   
+
+#       1       
+rrs     r/z     
+
+#       1       
+rrst    r/s/t   
+
+#       1       
+rrv     r/v     
+
+#       693     134     35      32      28      16      12      10      10      6       6       
+rs      r/s     r/z     .       r/Z     R/s     R       r/S     r       s       R/z     z       
+
+#       7       
+rsb     r/z/b   
+
+#       11      
+rsc     r/s/k   
+
+#       4       1       1       
+rsch    r/S     R/S     r/s/k   
+
+#       1       
+rscht   r/S/t   
+
+#       7       1       
+rscr    r/s/k/r s/k/r   
+
+#       7       
+rsd     r/z/d   
+
+#       4       
+rsf     r/z/f   
+
+#       86      2       
+rsh     r/S     R/S     
+
+#       2       
+rshl    r/S/l   
+
+#       1       
+rshm    r/S/m   
+
+#       2       
+rshr    r/S/r   
+
+#       16      7       1       
+rsk     r/s/k   R/s/k   s/k     
+
+#       1       
+rskj    R/S     
+
+#       10      1       1       
+rsl     r/s/l   R/s/@/l R/s/l   
+
+#       3       2       1       
+rsm     r/z/m   r/s/m   z/m     
+
+#       6       1       
+rsn     r/s/n   s/n     
+
+#       39      1       1       
+rsp     r/s/p   r/S/p   r/z/p   
+
+#       4       
+rsph    r/s/f   
+
+#       2       
+rspl    r/s/p/l 
+
+#       4       1       
+rspr    r/s/p/r R/S/p/r 
+
+#       3       
+rsq     r/s/k   
+
+#       1       
+rsr     r/z/r   
+
+#       2       
+rss     r/s     
+
+#       1       
+rssm    r/s/m   
+
+#       130     4       4       2       1       
+rst     r/s/t   R/s/t   r/z/t   s/t     r/S/t   
+
+#       1       
+rstb    r/s/t/b 
+
+#       2       1       
+rsth    r/s/T   r/s/t/h 
+
+#       3       1       
+rstl    r/s/t/l R/s/@/l 
+
+#       1       
+rstn    r/s/t/n 
+
+#       1       
+rstpr   r/s/t/p/r
+
+#       19      
+rstr    r/s/t/r 
+
+#       17      1       
+rsv     r/z/v   r/S/v   
+
+#       1448    86      64      37      23      11      
+rt      r/t     R/t     r/S     r/tS    R       t       
+
+#       1       
+rt's    r/t/s   
+
+#       6       1       
+rtb     r/t/b   R/t/b   
+
+#       7       
+rtbr    r/t/b/r 
+
+#       4       
+rtc     r/t/k   
+
+#       1       
+rtcr    r/t/k/r 
+
+#       11      2       
+rtf     r/t/f   r/f     
+
+#       5       1       
+rtg     r/g     r/t/g   
+
+#       219     40      12      6       5       
+rth     r/T     r/D     r/t     R/t     r/t/h   
+
+#       4       
+rthb    r/T/b   
+
+#       2       
+rthc    r/T/k   
+
+#       1       
+rthcl   r/T/k/l 
+
+#       2       
+rthd    r/T/d   
+
+#       3       
+rthf    r/T/f   
+
+#       11      
+rthl    r/T/l   
+
+#       6       
+rthm    r/T/m   
+
+#       2       
+rthn    r/T/n   
+
+#       2       
+rthp    r/T/p   
+
+#       1       
+rthpl   r/T/p/l 
+
+#       1       
+rthq    r/T/k   
+
+#       46      1       1       
+rthr    r/T/r   R/T/R   r/T/@/r 
+
+#       1       
+rths    r/T/s   
+
+#       4       
+rthsh   r/T/S   
+
+#       5       
+rthst   r/T/s/t 
+
+#       1       
+rthv    r/T/v   
+
+#       1       
+rtj     r/tS    
+
+#       1       
+rtk     r/t/k   
+
+#       42      14      1       
+rtl     r/t/l   r/t/-/l R/t/-/l 
+
+#       25      
+rtm     r/t/m   
+
+#       13      2       
+rtn     r/t/n   R/t/n   
+
+#       45      3       2       
+rtr     r/t/r   R/t/R   r/t/@/r 
+
+#       27      1       
+rts     r/t/s   r       
+
+#       1       
+rtsc    r/t/s/k 
+
+#       5       1       
+rtsh    r/t/S   r/t/s/h 
+
+#       1       
+rtsl    r/t/s/l 
+
+#       5       
+rtsm    r/t/s/m 
+
+#       1       
+rtst    r/t/s/t 
+
+#       1       
+rtstr   r/t/s/t/r
+
+#       1       
+rtsv    r/t/s/v 
+
+#       2       
+rtt     r/t     
+
+#       1       
+rtthr   r/t/T/r 
+
+#       2       
+rtv     r/t/v   
+
+#       19      3       
+rtz     r/t/s   R/t/s   
+
+#       373     15      7       
+rv      r/v     R/v     v       
+
+#       1       
+rvl     r/v/l   
+
+#       6       
+rx      r/k/s   
+
+#       25      7       2       2       1       1       1       1       
+rz      r/z     r/t/s   R/t/s   r/t/z   R/T     r/Z     r/s     r/tS    
+
+#       1       
+rzb     r/t/s/b 
+
+#       1       
+rzf     r/s/f   
+
+#       1       
+rzg     R/t/s/g 
+
+#       2       1       
+rzh     R/Z     r/t/s/h 
+
+#       1       
+rzl     R/t/s   
+
+#       14158   3320    530     368     81      
+s       s       z       .       Z       S       
+
+#       1       
+s'      z       
+
+#       1       
+s'nt    s/@/n/t 
+
+#       1       
+s's     z/I/z   
+
+#       68      60      2       1       
+sb      z/b     s/b     b       Z/b     
+
+#       2       
+sbj     s/b/j   
+
+#       3       2       
+sbr     z/b/r   s/b/r   
+
+#       989     403     33      5       2       1       
+sc      s/k     s       S       k       z/k     S/k     
+
+#       117     101     14      2       
+sch     s/k     S       s/tS    s/x     
+
+#       1       
+schb    S/b     
+
+#       2       
+schk    S/k     
+
+#       12      
+schl    S/l     
+
+#       11      
+schm    S/m     
+
+#       12      
+schn    S/n     
+
+#       5       2       1       1       
+schr    S/r     S/R     s/k/r   s/x/R   
+
+#       1       
+schv    S/v     
+
+#       57      4       2       1       1       
+scl     s/k/l   s/@/l   k/l     s/k/@/l z/k/l   
+
+#       201     3       
+scr     s/k/r   s/k/R   
+
+#       29      25      2       
+sd      s/d     z/d     d       
+
+#       4       
+sdr     z/d/r   
+
+#       36      4       
+sf      s/f     z/f     
+
+#       1       1       
+sfl     s/f/l   z/f/l   
+
+#       4       
+sfr     s/f/r   
+
+#       26      5       5       4       1       1       
+sg      s/g     s/dZ    z/g     z/dZ    g       s/k     
+
+#       1       
+sgl     s/g/l   
+
+#       1       
+sgn     s/n     
+
+#       8       1       1       1       
+sgr     s/g/r   g/r     s/k/r   z/g/r   
+
+#       1909    24      3       
+sh      S       s/h     z/h     
+
+#       23      
+shb     S/b     
+
+#       5       
+shc     S/k     
+
+#       6       1       
+shch    S/tS    S/k     
+
+#       3       
+shcl    S/k/l   
+
+#       2       
+shcr    S/k/r   
+
+#       6       1       
+shd     S/d     S/t     
+
+#       1       
+shdr    S/d/r   
+
+#       9       
+shf     S/f     
+
+#       7       
+shg     S/g     
+
+#       5       1       
+shh     S/h     S       
+
+#       21      
+shk     S/k     
+
+#       1       
+shkh    S/k     
+
+#       88      
+shl     S/l     
+
+#       44      2       1       
+shm     S/m     Z/m     S/@/m   
+
+#       87      
+shn     S/n     
+
+#       11      
+shp     S/p     
+
+#       1       
+shpl    S/p/l   
+
+#       50      1       
+shr     S/r     S/R     
+
+#       1       
+shst    S/s/t   
+
+#       21      
+sht     S/t     
+
+#       2       2       
+shtr    S       S/t/r   
+
+#       6       2       1       
+shv     S/v     S/f     S/w     
+
+#       18      2       
+sj      s/dZ    S       
+
+#       402     3       1       
+sk      s/k     S/k     z/k     
+
+#       1       
+skb     s/k/b   
+
+#       1       
+skh     s/k     
+
+#       1       
+skj     s/k/j   
+
+#       2       
+skl     s/k/l   
+
+#       4       
+skm     s/k/m   
+
+#       1       
+skn     s/n     
+
+#       4       1       1       
+skr     s/k/r   s/k/@/R s/k/R   
+
+#       1       
+skt     s/k/t   
+
+#       1       
+skv     s/k/v   
+
+#       729     29      19      3       
+sl      s/l     z/l     l       z/@/l   
+
+#       1114    232     204     1       
+sm      z/@/m   z/m     s/m     m       
+
+#       1       
+smn     s/n     
+
+#       2       
+smr     s/m/r   
+
+#       477     13      9       1       
+sn      s/n     n       z/n     S/n     
+
+#       3       
+sn't    z/@/n/t 
+
+#       1211    9       8       
+sp      s/p     z/p     S/p     
+
+#       1       
+spb     z/b     
+
+#       1       
+spbr    s/p/b/r 
+
+#       176     
+sph     s/f     
+
+#       1       
+sphr    s/f/r   
+
+#       82      
+spl     s/p/l   
+
+#       4       
+spn     s/p/n   
+
+#       110     3       2       
+spr     s/p/r   s/p/R   z/p/r   
+
+#       1       
+spt     s/p/t   
+
+#       205     
+sq      s/k     
+
+#       35      10      3       3       
+sr      s/r     z/r     S/r     s/R     
+
+#       1       
+srh     s/r     
+
+#       3833    188     37      13      
+ss      s       S       z       s/s     
+
+#       20      
+ssb     s/b     
+
+#       1       
+ssbl    s/b/l   
+
+#       2       
+ssbr    s/b/r   
+
+#       3       
+ssc     s/k     
+
+#       1       
+sscr    s/k/r   
+
+#       18      
+ssf     s/f     
+
+#       6       4       2       
+ssh     s/h     s/S     S       
+
+#       1       
+ssj     s/dZ    
+
+#       5       
+ssk     s/k     
+
+#       98      2       
+ssl     s/l     s/@/l   
+
+#       27      
+ssm     s/m     
+
+#       89      
+ssn     s/n     
+
+#       1       
+ssn't   s/@/n/t 
+
+#       9       4       
+ssp     s/p     s/s/p   
+
+#       1       
+sspl    s/p/l   
+
+#       1       
+ssq     s/k     
+
+#       8       
+ssr     s/r     
+
+#       1       
+sssh    s/S     
+
+#       5       3       1       
+sst     s/t     s/s/t   z/s/t   
+
+#       3       
+sstr    s/t/r   
+
+#       3       
+ssv     s/v     
+
+#       5008    93      63      25      16      9       7       
+st      s/t     s/tS    .       s       S/t     t       z/t     
+
+#       1       
+st's    s/t/s   
+
+#       19      
+stb     s/t/b   
+
+#       1       
+stbr    s/t/b/r 
+
+#       7       2       
+stc     s/t/k   s/k     
+
+#       2       
+stch    s/t/tS  
+
+#       2       
+stcl    s/t/k/l 
+
+#       1       1       
+stcr    s/k/r   s/t/k/r 
+
+#       5       
+std     s/t/d   
+
+#       39      
+stf     s/t/f   
+
+#       1       
+stfl    s/t/f/l 
+
+#       2       
+stg     s/t/g   
+
+#       1       
+stgl    s/t/g/l 
+
+#       1       
+stgr    s/t/g/r 
+
+#       127     10      10      1       
+sth     s/T     s/t     s/t/h   s/tS    
+
+#       1       
+sthl    s/T/l   
+
+#       4       3       
+sthm    z/m     s/m     
+
+#       1       
+stk     s/t     
+
+#       49      34      15      
+stl     s/t/l   s/@/l   s/l     
+
+#       32      5       
+stm     s/t/m   s/m     
+
+#       16      1       
+stn     s/t/n   s/n     
+
+#       1       
+stn't   s/@/n/t 
+
+#       8       
+stp     s/t/p   
+
+#       1       
+stph    s/t/f   
+
+#       2       
+stpl    s/t/p/l 
+
+#       4       1       
+stpr    s/t/p/r s/t/p/R 
+
+#       868     22      9       4       1       1       
+str     s/t/r   s/t/R   s/t/@/r S/t/R   S/t/r   s/t/@/R 
+
+#       1       1       
+strz    s/t/r   s/t/r/I/z
+
+#       5       
+sts     s/t/s   
+
+#       1       
+stsc    s/t/s/k 
+
+#       1       
+stschr  s/t/S/r 
+
+#       1       
+stscr   s/t/s/k/r
+
+#       1       
+ststr   s/t/s/t/r
+
+#       6       
+stv     s/t/v   
+
+#       24      17      2       2       1       
+sv      s/v     z/v     S/v     s/w     s/f     
+
+#       11      7       5       
+sz      s       S       z       
+
+#       1       
+szc     S/tS    
+
+#       3       
+szcz    S/tS    
+
+#       3       1       
+szk     S/k     s/k     
+
+#       3       
+szt     s/t     
+
+#       19340   1779    697     247     18      9       
+t       t       S       .       tS      d       s       
+
+#       3       1       
+t'      t       d       
+
+#       1       1       
+t'd     t/@/d   t/I/d   
+
+#       1       
+t'l     t/@/l   
+
+#       1       
+t'll    t/-/l   
+
+#       8       
+t's     t/s     
+
+#       1       
+t'v     t/@/v   
+
+#       56      1       1       
+tb      t/b     t/@/b   t/i/b   
+
+#       3       
+tbl     t/b/l   
+
+#       12      
+tbr     t/b/r   
+
+#       1       
+tbz     t/b/z   
+
+#       18      4       1       
+tc      t/k     t/s     tS      
+
+#       296     2       1       
+tch     tS      t/tS    S       
+
+#       12      1       
+tchb    tS/b    t/tS/b  
+
+#       2       
+tchbl   tS/b/l  
+
+#       4       
+tchc    tS/k    
+
+#       1       
+tchcr   tS/k/r  
+
+#       2       
+tchd    tS/d    
+
+#       7       
+tchf    tS/f    
+
+#       1       
+tchfl   tS/f/l  
+
+#       1       
+tchk    tS/k    
+
+#       10      
+tchl    tS/l    
+
+#       11      
+tchm    tS/m    
+
+#       1       
+tchn    tS/n    
+
+#       5       
+tchp    tS/p    
+
+#       1       
+tchpl   tS/p/l  
+
+#       3       
+tchst   tS/s/t  
+
+#       1       
+tcht    tS/t    
+
+#       3       
+tcl     t/k/l   
+
+#       5       
+tcr     t/k/r   
+
+#       16      
+td      t/d     
+
+#       2       
+tdr     t/d/r   
+
+#       67      
+tf      t/f     
+
+#       5       
+tfl     t/f/l   
+
+#       1       
+tfr     t/f/r   
+
+#       16      1       
+tg      t/g     t/dZ    
+
+#       5       
+tgr     t/g/r   
+
+#       2063    377     148     41      36      8       
+th      T       D       t       .       t/h     s       
+
+#       1       
+th's    T/s     
+
+#       10      1       
+thb     T/b     D/b     
+
+#       1       
+thbl    T/b/l   
+
+#       4       
+thbr    T/b/r   
+
+#       1       
+thchl   T/k/l   
+
+#       2       
+thd     T/d     
+
+#       4       
+thdr    D/d/r   
+
+#       22      1       
+thf     T/f     D/f     
+
+#       4       
+thg     T/g     
+
+#       3       1       
+thh     T/h     D/h     
+
+#       1       
+thj     T/j     
+
+#       42      1       
+thl     T/l     t/l     
+
+#       22      8       7       
+thm     D/m     T/m     D/@/m   
+
+#       32      
+thn     T/n     
+
+#       7       
+thp     T/p     
+
+#       1       
+thpl    T/p/l   
+
+#       1       
+thpr    T/p/r   
+
+#       169     6       1       1       1       
+thr     T/r     T/R     s/r     t/R     t/r     
+
+#       15      5       4       2       
+ths     T/s     D/z     T/z     D/s     
+
+#       2       
+thsh    T/S     
+
+#       1       
+thsk    t/s/k   
+
+#       1       
+thsp    T/s/p   
+
+#       3       
+thst    T/s/t   
+
+#       3       
+tht     T/t     
+
+#       1       
+thtr    T/t/r   
+
+#       1       
+thv     T/v     
+
+#       3       3       
+tj      t/dZ    tS      
+
+#       19      
+tk      t/k     
+
+#       1       
+tkn     t/n     
+
+#       168     30      3       
+tl      t/l     t/-/l   t/@/l   
+
+#       1       
+tll     t/j/E   
+
+#       80      1       
+tm      t/m     t/@/m   
+
+#       44      
+tn      t/n     
+
+#       23      1       
+tp      t/p     p       
+
+#       6       
+tpl     t/p/l   
+
+#       7       
+tpr     t/p/r   
+
+#       1       
+tq      t/k     
+
+#       2407    69      22      4       
+tr      t/r     t/R     t/@/r   t/@/R   
+
+#       175     21      9       4       2       
+ts      t/s     z       .       tS      d/z     
+
+#       4       
+tsb     t/s/b   
+
+#       18      
+tsch    tS      
+
+#       2       
+tscr    t/s/k/r 
+
+#       1       
+tsd     t/s/d   
+
+#       1       
+tsf     t/s/f   
+
+#       1       
+tsh     tS/A    
+
+#       22      
+tsk     t/s/k   
+
+#       1       
+tsl     t/s/l   
+
+#       4       
+tsm     t/s/m   
+
+#       5       
+tsp     t/s/p   
+
+#       1       
+tspr    t/s/p/r 
+
+#       21      
+tst     t/s/t   
+
+#       4       
+tstr    t/s/t/r 
+
+#       1       
+tsv     t/s/v   
+
+#       1402    8       
+tt      t       t/t     
+
+#       1       
+ttb     t/b     
+
+#       2       
+ttd     t/d     
+
+#       1       
+ttfr    t/f/R   
+
+#       4       
+ttg     t/g     
+
+#       3       2       2       
+tth     t       T       t/T     
+
+#       2       
+tthr    t/T/r   
+
+#       1       
+ttj     tS      
+
+#       87      14      8       
+ttl     t/-/l   t/l     t/@/l   
+
+#       2       
+ttm     t/m     
+
+#       36      2       1       
+ttr     t/r     t/R     t/t/r   
+
+#       7       
+tts     t/s     
+
+#       5       
+ttsb    t/s/b   
+
+#       1       
+ttsbl   t/s/b/l 
+
+#       1       
+ttsch   t/s/tS  
+
+#       1       
+ttsd    t/s/d   
+
+#       1       
+ttsf    t/s/f   
+
+#       1       
+ttsm    t/s/m   
+
+#       3       
+ttst    t/s/t   
+
+#       1       
+ttstr   t/s/t/r 
+
+#       6       
+ttsv    t/s/v   
+
+#       3       
+ttv     t/v     
+
+#       2       1       
+tv      v       t/f     
+
+#       114     9       7       1       
+tz      t/s     z       t/z     dZ      
+
+#       2       
+tzb     t/s/b   
+
+#       3       
+tzg     t/s/dZ  
+
+#       1       1       
+tzh     t/s     t/s/h   
+
+#       4       1       
+tzk     t/s/k   t/z/k   
+
+#       1       
+tzkr    t/s/k/R 
+
+#       3       
+tzl     t/s/l   
+
+#       2       
+tzn     t/s/n   
+
+#       1       1       
+tzp     t/s/p   t/z/p   
+
+#       1       
+tzr     t/s/r   
+
+#       1       
+tzs     t/s     
+
+#       3       
+tzsch   tS      
+
+#       1       1       
+tzst    t/s/S/t t/s/s/t 
+
+#       1       
+tzt     t/s/t   
+
+#       1       
+tzv     t/s/v   
+
+#       6780    134     20      6       
+v       v       f       w       b       
+
+#       1       
+vc      v/t/s   
+
+#       3       1       
+vd      v/d     b/d     
+
+#       2       
+vg      v/g     
+
+#       1       
+vgr     f/g/r   
+
+#       8       2       
+vk      f/k     v/k     
+
+#       13      1       
+vl      v/l     l       
+
+#       1       
+vlt     v/-/l/t 
+
+#       9       1       
+vn      v/n     n       
+
+#       2       
+vp      f/p     
+
+#       26      13      3       
+vr      v/r     v/R     v/@/r   
+
+#       1       
+vrd     v/r/@/d 
+
+#       30      5       
+vsk     f/s/k   v/s/k   
+
+#       1       1       
+vt      f/t     v/t     
+
+#       1       
+vtz     f/t/s   
+
+#       9       
+vv      v       
+
+#       2       
+vz      v/z     
+
+#       1       
+vzh     v/Z     
+
+#       1291    128     94      84      55      8       6       
+x       k/s     g/z     z       .       k/S     S       s       
+
+#       9       
+xb      k/s/b   
+
+#       1       
+xbl     k/s/b/l 
+
+#       1       
+xbr     k/s/b/r 
+
+#       59      45      2       1       
+xc      k/s     k/s/k   k/s/s   s/k     
+
+#       4       
+xch     k/s/tS  
+
+#       16      
+xcl     k/s/k/l 
+
+#       19      
+xcr     k/s/k/r 
+
+#       1       
+xd      k/s/d   
+
+#       15      
+xf      k/s/f   
+
+#       1       
+xg      k/s/g   
+
+#       1       
+xgl     k/s/g/l 
+
+#       1       
+xgr     k/s/g/r 
+
+#       26      12      6       1       1       
+xh      g/z     k/s/h   k/s     dZ      k/S     
+
+#       7       2       
+xl      k/s/l   k/s/@/l 
+
+#       9       1       
+xm      k/s/m   S/m     
+
+#       3       
+xn      k/s/n   
+
+#       140     
+xp      k/s/p   
+
+#       56      
+xpl     k/s/p/l 
+
+#       22      1       
+xpr     k/s/p/r k/s/p/R 
+
+#       3       
+xq      k/s/k   
+
+#       2       
+xr      k/s/r   
+
+#       9       6       
+xs      k/s/s   k/s     
+
+#       1       
+xsc     k/s     
+
+#       1       
+xst     k/s/s/t 
+
+#       145     17      5       
+xt      k/s/t   k/s/tS  s/t     
+
+#       2       
+xtb     k/s/t/b 
+
+#       2       
+xth     k/s/T   
+
+#       1       
+xthl    k/s/T/l 
+
+#       1       
+xtl     k/s/t/l 
+
+#       120     1       1       
+xtr     k/s/t/r k/s/t/R s/t/R   
+
+#       2       
+xv      k/s/v   
+
+#       2212    48      41      28      20      14      3       
+z       z       s       .       t/s     T       Z       S       
+
+#       8       
+zb      z/b     
+
+#       4       4       1       
+zc      s/k     z/k     z/dZ    
+
+#       5       
+zd      z/d     
+
+#       1       
+zf      z/f     
+
+#       1       
+zg      z/g     
+
+#       5       3       1       1       1       
+zh      Z       dZ      S       t/s     z/h     
+
+#       1       
+zhd     Z/d     
+
+#       1       
+zhk     Z/k     
+
+#       2       
+zhn     Z/n     
+
+#       2       1       
+zk      z/k     s/k     
+
+#       6       5       
+zl      z/@/l   z/l     
+
+#       6       2       2       
+zm      z/m     s/m     t/s/m   
+
+#       9       1       
+zn      z/n     s/n     
+
+#       1       
+zp      z/p     
+
+#       5       3       1       
+zr      z/r     z/R     s/r     
+
+#       3       
+zs      Z       
+
+#       1       
+zsv     Z/v     
+
+#       2       1       
+zt      z/t     s/t     
+
+#       1       
+zth     z/T     
+
+#       4       1       
+zv      z/v     t/s/v   
+
+#       58      36      1       1       1       1       1       1       
+zz      z       t/s     d/s     d/z     s       t/t/s   t/z     tS      
+
+#       1       
+zzb     z/b     
+
+#       25      6       
+zzl     z/@/l   z/l     
+
+#       2       
+zzm     z/m     
+

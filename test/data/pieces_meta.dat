@@ -15,6 +15,7 @@ aeo A
 aeu A
 aewi A
 aeye A
+aey A
 ai A
 aia A
 aiae A
@@ -108,7 +109,7 @@ bb P
 bbl PL PAL
 bbr PR
 bbs PS
-bc PK
+bc PK PS
 bch PX
 bchl PKL
 bcl PKL
@@ -119,7 +120,7 @@ bdr PTR
 bf PF
 bfl PFL
 bfr PFR
-bg PK
+bg PK PJ
 bgl PKL
 bgr PKR
 bh P
@@ -153,22 +154,22 @@ bsl PSAL PSL
 bsp PSP
 bst PST
 bstr PSTR
-bt PT T
+bt PT T PX
 btf TF
 btl TL TAL
 btr PTR
 bts PTS
 bv PF
-bvr PFR
+bvr PFR PFAR
 bz PS
 
-'c K
+'c K S
 c' K
-c K S X
+c K S X .
 cb KP
-cc K KS X
+cc K KS X S
 cch K
-ccl KL
+ccl KL KAL
 ccr KR
 cd KT
 cf KF
@@ -186,21 +187,21 @@ chdr XTR
 chf XF
 chg XJ
 chh K X
-chk XK
+chk XK KK
 chl KL XL
 chm KN M KM XM
 chn KN XN
 chr KR KAR XR
-chs KS
+chs KS XS X
 chsb KSP
 chsf KSF
-chsh KX
+chsh KX KS
 chsm KSM
-chst KST
+chst KST XST
 chsth KS0
 chsv KSF
-cht KT T
-chth K0
+cht KT T XT
+chth K0 KT
 chtl KTL
 chtp KTP
 chts TS
@@ -236,7 +237,7 @@ cksb KSP
 cksc KSK
 ckscr KSKR
 cksf KSF
-cksh KX
+cksh KX KS
 cksk KSK
 cksl KSL
 cksm KSM
@@ -251,7 +252,7 @@ ckth K0
 ckthr K0R
 ckv KF
 ckx KKS
-'cl LK
+'cl LK KL
 cl KL KAL
 cm M KM
 cn KN N
@@ -260,24 +261,24 @@ cph KF
 cq K
 cr KR KAR
 'c's'l KS
-cs KS X
+cs KS X S
 csk KSK
-cst KS
-ct KT T KX
+cst KS NST
+ct KT T KX X
 ctf KTF
 cth K0
-cthl K0
+cthl K0 K0L
 ctl KTL
-ctm KTM
+ctm KTM TM
 ctn KTN
-ctr KTR
+ctr KTR KTAR
 cv KF
-cz KS X
+cz KS X S TS
 czm XM
 
 'd T
 d' T
-d T J
+d T J .
 db TP
 dbl TPL
 dbr TPR
@@ -300,7 +301,7 @@ dfr TFR
 dg J TK
 dgl JL
 dgm JM
-dgr TKS
+dgr TKS TKR
 dh T
 dk TK
 dl TL TAL
@@ -315,7 +316,7 @@ ds TS
 dsb TSP
 dscr TSKR
 dsf TSF
-dsh TX
+dsh TX TS
 dsk TSK
 dsm TSM
 dsp TSP
@@ -414,8 +415,9 @@ ffb FP
 ffc FK
 ffh F
 ffl FL FAL
+fpr FPR
 ffpr FPR
-ffr FR
+ffr FR FAR
 ffs FS
 ffsc FSK
 ffscr FSKR
@@ -425,17 +427,17 @@ ffst FST
 fft FT
 fgh FK
 fk FK
-fl FL
+fl FL FAL
 fn FN
-fr FR
-ft FT
+fr FR FAR
+ft FT F FX
 ftl FTL
 ftm FTM
 ftpr FTPR
 fts FTS
 ftt FT
 
-g K J
+g K J H
 gb KP
 gc K
 gd KT
@@ -448,14 +450,14 @@ ggh K
 ggl KL KAL
 ggm KM
 ggn KN
-ggpl KP
+ggpl KP KPL
 ggr KR
 ggs KS
 ggsh KX
-ght T FT
+ght T FT X
 ghtl TL
 gl KL KAL L
-gh K F .
+gh K F J H .
 gm KM M
 gn KN N
 gp KP
@@ -475,7 +477,7 @@ hh H
 hl L
 hm M
 hmbr MPR
-hmg MF
+hmg MF MJ
 hmm M
 hn N
 hp P
@@ -491,7 +493,7 @@ hs X S
 ht T
 hv F
 
-i A
+i A .
 ia A JA
 iaa A
 iae A
@@ -596,11 +598,11 @@ khr KR
 khsh KX
 khz KS
 kk K
-kl KL
+kl KL KAL
 km KM
 kn N KN
 kr KR
-krz KSR
+krz KSR KRS
 ks KS
 ksh KX
 ksm KSM
@@ -611,7 +613,7 @@ kv KF
 
 'l L
 l' L
-l L
+l L .
 lb LP
 lbl LPL LPAL
 lbr LPR
@@ -621,15 +623,15 @@ lchl LKL
 lcl LKL
 lcm LKM
 lcz LX
-ld LT T
+ld LT T LJ
 ldb LTP
-ldc LT
+ldc LT LTK
 ldf LF LTF
 ldgl LTKL
 ldh LT
 ldl LTL
 ldm LTM
-ldn LTN
+ldn LTN TN
 ldn't TNT
 ldr LTR
 lds LTS
@@ -645,27 +647,27 @@ lf LF F
 lfb FP
 lff LF
 lfg LFK
-lfh LF
+lfh LF F
 lfl LFL
-lfm LFM
+lfm LFM FM
 lfr LFR
 lfsb LFSP
-lfsk LFSK
-lft LFT
+lfsk LFSK FSK
+lft LFT FT
 lg LJ LK
 lgh LK LJ
-lgr LKR
+lgr LKR LKAR
 lh L
 lk LK K
 lkh LK K
-lkm LKM
+lkm LKM KM
 ll L .
 llb LP
 llbr LPR
 lld LT
 llf LF
 llfl LFL
-llg LK
+llg LK LJ
 llgr LKR
 llh L
 llm LM
@@ -679,15 +681,15 @@ lms MS LMS
 ln LN N
 lp LP
 lpf LPF
-lph LF
+lph LF LP
 lpl LPL
 lpm LPM
 lps LPS
-lpt LPT
+lpt LPT LPX
 lq LK
-lr LR
+lr LR LAR
 ls LS LX
-lsh LX
+lsh LX LS
 lshm LXM
 lsk LSK
 lsm LSM
@@ -699,13 +701,13 @@ lstr LSTR
 lt LT LX .
 ltb LTP
 ltd LT
-ltg LT
+ltg LT LTJ
 lth L0 LT
 ltl LTL
 ltm LTM
 ltn LTN
 ltp LTP
-ltr LTR
+ltr LTR LTAR
 lts LTS
 ltsh LTX
 ltst LTST
@@ -722,30 +724,30 @@ m'b MP
 mb MP M
 mbb MP
 mbd MT
-mbf MF
-mbh F
+mbf MF MPF
+mbh F M
 mbk MK
-mbl MPL MPAL
+mbl MPL MPAL MAL ML
 mbm MPM
 mbn MN
 mbpr MPR
-mbr MPR
-mbs MS
+mbr MPR MPAR
+mbs MS MPS
 mbscr MSKR
 mbsh MX
 mbsk MSK
-mbst MST
+mbst MST MPST
 mbstr MSTR
-mbt MST
-mc MK
-mcc MK
+mbt MST MT
+mc MK MAK MS
+mcc MK MAK
 mccl MAKL
 mccr MAKR
 mcd MAKT
 mcf MAKF
 mcg MAK
 mcgr MAKR
-mch MX
+mch MX MAK
 mcm MAKM
 mcn MAKN
 mcr MKR MAKR
@@ -756,34 +758,34 @@ md MT
 mf MF
 mfl MFL
 mfr MFR
-mg MK
+mg MK MJ
 mh M
 mk MK
 mkh MK
-ml ML
-mph MF
+ml ML MAL
+mph MF MP
 mm M
 mn MN M N
 mp MP
 mpk MPK
-mpl MPL
+mpl MPL MPAL
 mpm MPM
 mpn MPN
 mpp MP
 mppr MPR
-mpr MPR
+mpr MPR MPAR
 mps MP MS MPS
 mpsh MPX
 mpst MPST
-mpt MPT MPX
+mpt MPT MPX MT NT
 mptr MPTR NTR
 mq MK
-mr MR
+mr MR MAR
 m's MS
 ms MS
 msb MSP
 msch MX
-msd MSTD
+msd MSTD MST
 msg MSK
 msh MX
 msk MSK
@@ -807,8 +809,8 @@ mzl MSL
 n' N
 n N
 nb NP
-nbl NPL
-nbr NPR
+nbl NPL NPAL
+nbr NPR NPAR
 nc NK NTS NS NX
 nch NX NK
 nchb NXP
@@ -817,12 +819,12 @@ nchm NXM
 nchm NXM
 nchn NKN
 nchp NXP
-nchr NKR
+nchr NKR NXR
 nchs NKS
 ncht NXT
 nck NK
 nckn NKN
-ncl NKL
+ncl NKL NKAL
 ncr NKR NKAR
 ncs NKS NK
 nct NKT NKX
@@ -838,18 +840,18 @@ ndf NTF
 ndfl NTFL
 ndg NJ NTK
 ndgl NTKL
-ndgr NJR
+ndgr NJR NTKR
 ndh NT
 ndhr NTR
-ndk NTK
+ndk NTK NK
 ndl NTL NTAL NTAL
 ndm NTM
 ndn NTN
 ndp NTP
 ndpl NTPL
 ndpr NTPR
-ndr NTR
-nds NTS
+ndr NTR NTAR
+nds NTS NS
 ndsk NTSK
 ndskn NTSKN
 ndsl NTSL
@@ -861,9 +863,10 @@ ndst NTST
 ndt NT
 ndv NTF
 nf NF
-nfl NFL
+nfl NFL NFAL
 nfr NFR
-ng NK NJ
+ng' NK
+ng NK NJ N
 ngb NKP
 ngch NKX
 ngd NKT
@@ -875,9 +878,9 @@ ngl NKL NKAL
 ngm NKM
 ngn NKN
 ngp NKP
-ngr NKR
+ngr NKR NKAR
 ngs NKS
-ngsh NKX
+ngsh NKX NKS
 ngst NKST
 ngt NKT NT
 nh N
@@ -885,25 +888,25 @@ nk NK
 nkf NKF
 nkh NK
 nkl NKAL NKL
-nl NL
+nl NL NAL
 nm NM
 nn N
 np NP
 npl NPL
 npr NPR
 nq NK
-nr NR
-ns NS NTS NX
+nr NR NAR
+ns NS NTS NX S
 nsb NSP
-nsc NSK NX
-nsch NX
+nsc NSK NX NS
+nsch NX NSK
 nscr NSKR
-nsd NST
+nsd NST NS
 nsf NSF
-nsh NX
+nsh NX NSH
 nshr NXR
 nsk NSK
-nsl NSL
+nsl NSL NSAL
 nsm NSM
 nsn NSN
 nsp NSP
@@ -929,7 +932,7 @@ owe A
 oy A
 
 p P .
-pc PK
+pc PK PS
 pd PT
 pf PF F
 ph F P
@@ -937,11 +940,11 @@ pl PL PAL
 pm PM
 pn PN N
 pp P
-pr PR
+pr PR PAR
 ps S PS
 pt PT PX T
 
-q K
+q K X
 
 r R .
 rb RP
@@ -958,17 +961,17 @@ rchpr RXPR
 rchr RKR
 rchs RXS
 rcht RKT
-rcl RKL
+rcl RKL RKAL
 rcr RKR
 rcs RKS
 rct RKT RKX
 rd RT RJ
 rdb RTP
-rdl RTL
+rdl RTL RTAL
 rdm RTM
 rdn RTN
 rdpl RTPL
-rdr RDR RTR
+rdr RDR RTR RTAR
 rds RTS
 rdsh RTX
 rdsl RTSL
@@ -978,7 +981,7 @@ rdv RTF
 rdzh RTJ
 rf RF
 rfd RFT
-rfl RFL
+rfl RFL RFAL
 rfr RFR
 rfs RFS
 rfv RFF
@@ -987,13 +990,13 @@ rgschr RKXR
 rgsm RKSM
 rh R
 rk RK
-rkb RKB
+rkb RKP
 rkd RKT
 rkf RKF
 rkh RK
-rkl RKL
+rkl RKL RKAL
 rkm RKM
-rkn RN
+rkn RN RKN
 rkp RKP
 rkpl RKPL
 rkr RKR
@@ -1018,16 +1021,16 @@ rn RN
 rp RP
 rph RF
 rphr RFR
-rpl RPL
+rpl RPL RPAL
 rpr RPR
 rq RK
 rr R
 rrh R
 rrm RM
-rs RS RJ RX
+rs RS RJ RX R .
 rsb RSP
 rsc RSK
-rsch RX
+rsch RX RSK
 rscr RSKR
 rsf RSF
 rsh RX
@@ -1038,16 +1041,17 @@ rsph RSF
 rspl RSPL
 rspr RSPR
 rss RS
-rst RST
-rstl RSL
+rst RST ST
+rstl RSL RSTL RSAL
 rstr RSTR
-rt RT RX
+rt RT RX R
 rth R0 RT
 rthr R0R
+rths R0S
 rthsh R0X
 rthst R0ST
 rtl RTL RTAL
-rtr RTR
+rtr RTR RTAR
 rts RTS
 rtt RT
 rtz RTS
@@ -1058,14 +1062,14 @@ rzg RSJ
 
 s S J X .
 sb SP
-sc SK S X
+sc SK S X K
 sch SK X SX
 schl XL
 schm XM
 schn XN
 schr XR
 schsch XX
-scl SKL SKAL
+scl SKL SKAL SAL
 scr SKR
 sd ST
 sdr STR
@@ -1073,7 +1077,7 @@ sf SF
 sg SK SJ
 sh X S
 shl XL
-shr XR
+shr XR XAR
 shst XST
 sht XT
 shv XF
@@ -1081,11 +1085,11 @@ sk SK
 skb SKP
 skr SKR
 skt SKT
-sl SL L
+sl SL L SAL
 sm SM
 smn SMN
 smr SMR
-sn SN
+sn SN N
 sn't SNT
 sp SP
 sph SF
@@ -1098,10 +1102,10 @@ ssb SP
 ssf SF
 st ST SX S
 str STR STAR 
-sv SF
+sv SF V F
 
 t' T
-t T X .
+t T X J .
 tb TP
 tbl TPL
 tbr TPR
@@ -1114,7 +1118,7 @@ tchc XK
 tchcr XKR
 tchd XT
 tchf XF
-tchfl AXL
+tchfl XL XFL
 tchk XK
 tchl XL
 tchm XM
@@ -1128,7 +1132,7 @@ tcr TKR
 td T
 tdr TR
 tf TF
-tg TK
+tg TK TJ
 tgr TKR
 th 0 T .
 thb 0P
@@ -1147,7 +1151,7 @@ tk TK
 tl TL TAL
 tm TM
 tn TN
-tp TP
+tp TP P
 tpl TPL
 tpr TPR
 tr TR TAR
@@ -1162,7 +1166,7 @@ ttm TM
 ttn TN
 ttr TAR TR
 tts TS
-tz TS
+tz TS S
 
 u A
 ua A
@@ -1198,7 +1202,7 @@ woo A
 wou A
 wu A
 
-x KS S X KX KJ .
+x KS S X KX KJ H .
 xb KSP
 xbl KSPL
 xbr KSPR
@@ -1213,7 +1217,7 @@ xgl KSKL
 xgr KSKR
 xh KS
 xl KSAL KSL
-xm KSM
+xm KSM SM
 xn KSN
 xp KSP
 xpl KSPL
@@ -1268,7 +1272,7 @@ ywi A
 ywo A
 ywoo A
 
-z S TS .
+z S TS J .
 zb SP HSP
 zc SK
 zd ST
@@ -1278,16 +1282,16 @@ zh J
 zhk JK
 zhd JT
 zhn JN
-zk SK
-zl SL
+zk SK TSK
+zl SL SAL
 zm SM TSM
 zn SN
 zr SR
-zs SS
+zs SS J
 zsv SSF
 zt ST
 zth S0
-zv SF
+zv SF F
 zz S TS
 zzb SP
 zzl S SL SAL
@@ -1353,7 +1357,7 @@ ghl L FL KL
 ghm M
 ghn FN N
 ghp P
-ghr FR
+ghr FR R
 ghs S
 ghsh FX X
 ghstr FSTR
@@ -1387,7 +1391,7 @@ gnm NM
 gnp NP
 g's KS
 gsd KST
-gsh KX
+gsh KX KS
 gsk KSK
 gsm KSM
 gsp KSP
@@ -1453,7 +1457,7 @@ ksk KSK
 ksp KSP
 ksv KSF
 kthr K0R
-lchr LKR
+lchr LKR LKAR
 lcr LKR
 lcsp LKSP
 lct LKT
@@ -1538,7 +1542,7 @@ ltschm LTXMA
 ltsf LTSF
 lzn LSN
 mb's MS
-mck MAK
+mck MAK MK
 mdl MTL
 mdn MTN
 mdr MTR
@@ -1567,7 +1571,7 @@ ncm NKM
 nctl NKTL
 ncx NKKS
 n'd NJ NT
-ndcr NTK
+ndcr NTK NTR NTKR
 nddr NTR
 nd's NTS
 ndsb NTSP
@@ -1659,7 +1663,7 @@ nsz NS
 n't NT
 ntb NTP
 ntbr NTPR
-ntc NTK
+ntc NTK NTS
 ntcl NTKL
 ntd NT
 ntf NTF
@@ -1791,7 +1795,7 @@ p's PS
 psb PSP
 psc PSK
 psch SK
-psh PX X
+psh PX X PS
 psk PSK SK
 psl PSL
 psm PSM
@@ -1809,7 +1813,7 @@ pthl P0L
 pthr P0R
 ptl PTL
 ptn PTN
-ptr PTR
+ptr PTR PTAR
 pv PF
 pz PS
 qb KP
@@ -1867,7 +1871,7 @@ eiwi A
 fsk FSK
 ghbr PAR
 ghbr PR
-ghh F
+ghh F H
 hq K
 nskr NSKR
 ojai AJA
@@ -1945,13 +1949,13 @@ rsd RST
 rshl RXL
 rshm RXM
 rshr RXR
-rsl RSL
+rsl RSL RSAL
 rsm RSM
 rsq RSK
 rsr RSR
 rssm RSM
 rstb RSTP
-rsth RST
+rsth RST RS0
 rstn RSTN
 rstpr RSTPR
 rsv RSF
@@ -1960,7 +1964,7 @@ rtbr RTPR
 rtc RTK
 rtcr RTKR
 rtf RTF
-rtg RK
+rtg RK RTK RTJ
 rthb R0P
 rthc R0K
 rthcl R0KL
@@ -2030,11 +2034,11 @@ spn SPN
 spt SPT
 srh SR
 ssbl SPL
-ssbr SPAR
+ssbr SPAR SPR
 ssc SK
 sscr SKR
 ssh S SX
-ssl SL
+ssl SL SAL
 ssm SM
 ssn SN
 ssn't SNT
@@ -2209,7 +2213,7 @@ vlt FLT
 vn FN
 vp FP
 vr FR FAR
-vrd FRTALAK
+vrd FRT
 vsk FSK
 vt FT
 vtz FTS
@@ -2307,7 +2311,7 @@ rpsb RPSP
 rpsh RPX
 rpsm RM
 rpsv RPSF
-rpt RPX
+rpt RPX RPT
 rrf RF
 rrk RK
 rrnh RN
@@ -2406,7 +2410,6 @@ spn SPN
 spt SPT
 srh SR
 ssbl SPL
-ssbr SPAR
 ssc SK
 sscr SKR
 ssh S SX
@@ -2436,7 +2439,7 @@ stfl STFL
 stg STK
 stgl STKL
 stgr STKR
-sth S0 ST
+sth S0 ST SX
 sthl S0L
 sthm SM
 stk STK
@@ -2633,6 +2636,7 @@ n'r NAR
 szcz SX
 h'd T
 llsch LX
+lsch LX
 rpn RPN
 eyey .
 ey .
@@ -2648,21 +2652,21 @@ ctz KTS
 weja AJA
 waju AJA
 
-bj PJ
+bj PJ P
 ckj KJ
 dj J
 rj RJ
 sj SJ X
 skj SKJ
 thj 0J
-tj TJ
+tj TJ X
 ttj TJ
-nj NJ
+nj NJ NH
 gj KJ
 hj J
 jb JP
 j'b JP
-jc S
+jc S JK
 jd FT
 jh J
 jj J
@@ -2674,9 +2678,9 @@ jp JP
 jr JR
 jsl SL
 jss S
-jt T
+jt T JT
 jv JF
-kj KJ
+kj KJ K
 klj KLJ
 lhj LJ
 lj L LJ
@@ -2700,7 +2704,7 @@ fj F
 blj PL
 ssj SJ
 rdj RJ
-jn JN
+jn JN N
 jd JT
 ghtj TJ
 dtj TJ
@@ -2718,3 +2722,95 @@ nnsth NS0
 hnk NK
 ptm PTM
 tzp TSP
+uyao A
+s's SS
+iwe A
+aii A
+owia A
+szl SAL
+dsv T
+mcl MKL
+ghsp SP
+llsd LST
+ltv LTF
+csv KSF
+csb KSP
+yiu A
+rdhr RTR
+css KS
+rskj RX
+aeoe A
+ktr KTR
+dph TF
+rnstj RNST
+rnsb RNSP
+nggr NKR
+ghch X
+ghj J
+gz KS
+fq FK
+dgk JK
+llph LF
+lmn LMN
+iaea A
+iaou A
+ioio A
+eoe A
+eiwa A
+rmfr RMFR
+rmpr RMPR
+uwo A
+nrh NR
+njsk NSK
+owwa A
+cts KTS
+ndq NTK
+rpm RPM
+rtsp RTSP
+nctn NKTN
+aeoi A
+mscr MSKR
+oyee E
+ueou A
+uiou A
+s' S
+tschh X
+vc FS
+uayo A
+rsz RS
+ncb NKP
+awow A
+uiae A
+rcz RX
+mphr MFR
+rdsv RTSF
+tsf TSF
+rfj RFJ
+ktss KTS
+ksb KSP
+dsq TSK
+oiou A
+nctn NKTN
+uyee A
+iyawa A
+eeye A
+ioau A
+rnbl RNPAL
+msc MS
+h's S
+mth M0
+yieu A
+uio A
+iyaa A
+hnhnm NNM
+ngw NK
+thv 0F
+rtstr RTSTR
+rtthr RT0R
+lgl LKL
+lpht L0
+sphr SFR
+chp XP
+rschm RXM
+tchh X
+lphth L0

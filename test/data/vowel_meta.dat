@@ -1,4 +1,4 @@
-#       58944   84      
+#       59247   88      
 a       A       .       
 
 #       120     
@@ -7,7 +7,7 @@ aa      A
 #       1       
 aaiu    A       
 
-#       748     
+#       749     
 ae      A       
 
 #       68      
@@ -28,6 +28,12 @@ aei     A
 #       62      
 aeo     A       
 
+#       5       
+aeoe    A       
+
+#       1       
+aeoi    A       
+
 #       46      
 aeu     A       
 
@@ -35,9 +41,12 @@ aeu     A
 aewi    A       
 
 #       1       
+aey     A       
+
+#       1       
 aeye    A       
 
-#       1783    
+#       1786    
 ai      A       
 
 #       19      
@@ -55,7 +64,10 @@ aiea    A
 #       1       
 aieu    A       
 
-#       7       
+#       1       
+aii     A       
+
+#       8       
 aio     A       
 
 #       4       
@@ -97,7 +109,7 @@ aoue    A
 #       3       
 aoui    A       
 
-#       1451    
+#       1456    
 au      A       
 
 #       2       
@@ -130,7 +142,7 @@ auwo    A
 #       2       
 auy     A       
 
-#       324     
+#       329     
 aw      A       
 
 #       68      
@@ -172,6 +184,9 @@ awie    A
 #       7       
 awo     A       
 
+#       1       
+awow    A       
+
 #       2       
 awwo    A       
 
@@ -181,7 +196,7 @@ awy     A
 #       4       
 awye    A       
 
-#       454     
+#       456     
 ay      A       
 
 #       105     
@@ -247,10 +262,10 @@ ayya    A
 #       1       
 ayyi    A       
 
-#       49374   21501   
+#       49624   21748   
 e       A       .       
 
-#       2970    
+#       2987    
 ea      A       
 
 #       8       
@@ -262,11 +277,14 @@ eai     A
 #       2       
 eao     A       
 
-#       124     
+#       125     
 eau     A       
 
 #       1       
 eaui    A       
+
+#       1       
+eaw     A       
 
 #       4       
 eawa    A       
@@ -283,7 +301,7 @@ eawo    A
 #       1       
 eawoo   A       
 
-#       1550    40      
+#       1553    42      
 ee      A       .       
 
 #       5       
@@ -319,7 +337,10 @@ eewi    A
 #       1       
 eewo    A       
 
-#       943     
+#       1       
+eeye    A       
+
+#       953     
 ei      A       
 
 #       26      
@@ -338,6 +359,9 @@ eio     A
 eiu     A       
 
 #       1       
+eiwa    A       
+
+#       1       
 eiwi    A       
 
 #       842     
@@ -346,10 +370,13 @@ eo      A
 #       3       
 eoa     A       
 
+#       3       
+eoe     A       
+
 #       14      
 eoi     A       
 
-#       356     
+#       360     
 eou     A       
 
 #       1       
@@ -358,10 +385,10 @@ eow     A
 #       1       
 eowu    A       
 
-#       1       
+#       2       
 eoy     A       
 
-#       1025    
+#       1026    
 eu      A       
 
 #       2       
@@ -373,13 +400,13 @@ euae    A
 #       2       
 eue     A       
 
-#       8       
+#       12      
 eui     A       
 
 #       1       
 euo     A       
 
-#       225     8       
+#       232     4       
 ew      A       .       
 
 #       58      12      
@@ -406,7 +433,7 @@ ewey    A
 #       1       
 eweya   A       
 
-#       58      
+#       59      
 ewi     A       
 
 #       51      11      
@@ -421,7 +448,7 @@ ewy     A
 #       1       
 ewya    A       
 
-#       542     3       
+#       546     3       
 ey      A       .       
 
 #       21      
@@ -460,10 +487,10 @@ eywo    A
 #       1       
 eywoo   A       
 
-#       50677   
-i       A       
+#       50718   219     
+i       A       .       
 
-#       4870    
+#       4876    
 ia      A       
 
 #       1       
@@ -472,11 +499,17 @@ iaa     A
 #       27      
 iae     A       
 
+#       1       
+iaea    A       
+
 #       5       
 iai     A       
 
 #       14      
 iao     A       
+
+#       1       
+iaou    A       
 
 #       1       
 iaow    A       
@@ -496,13 +529,13 @@ iawa    A
 #       1       
 iaye    A       
 
-#       2157    
+#       2166    
 ie      A       
 
 #       1       
 ieo     A       
 
-#       33      
+#       35      
 ieu     A       
 
 #       1       
@@ -517,7 +550,7 @@ iewa    A
 #       3       
 iewe    A       
 
-#       2       
+#       7       
 iewi    A       
 
 #       1       
@@ -535,17 +568,23 @@ iio     A
 #       1       
 iiu     A       
 
-#       4004    
+#       4018    
 io      A       
 
 #       18      
 ioa     A       
+
+#       1       
+ioau    A       
 
 #       23      
 ioe     A       
 
 #       24      
 ioi     A       
+
+#       1       
+ioio    A       
 
 #       560     
 iou     A       
@@ -556,7 +595,7 @@ ioua    A
 #       2       
 iowa    A       
 
-#       843     
+#       844     
 iu      A       
 
 #       1       
@@ -580,6 +619,9 @@ iwaw    A
 #       1       
 iway    A       
 
+#       4       
+iwe     A       
+
 #       3       
 iwee    A       
 
@@ -601,6 +643,12 @@ iy      A
 #       25      
 iya     A       
 
+#       1       
+iyaa    A       
+
+#       1       
+iyawa   A       
+
 #       7       
 iye     A       
 
@@ -616,10 +664,10 @@ iyi     A
 #       5       
 iyo     A       
 
-#       40813   84      
+#       40977   77      
 o       A       .       
 
-#       829     1       
+#       834     1       
 oa      A       .       
 
 #       2       
@@ -637,7 +685,7 @@ oao     A
 #       2       
 oau     A       
 
-#       545     
+#       548     
 oe      A       
 
 #       22      
@@ -667,7 +715,7 @@ oewy    A
 #       3       
 oey     A       
 
-#       1101    
+#       1103    
 oi      A       
 
 #       16      
@@ -679,7 +727,10 @@ oie     A
 #       6       
 oio     A       
 
-#       1572    
+#       2       
+oiou    A       
+
+#       1588    
 oo      A       
 
 #       1       
@@ -703,7 +754,7 @@ oou     A
 #       1       
 oowoo   A       
 
-#       3710    
+#       3729    
 ou      A       
 
 #       18      
@@ -721,25 +772,25 @@ oue     A
 #       1       
 ouei    A       
 
-#       26      
+#       27      
 oui     A       
 
 #       2       
 ouie    A       
 
-#       1       
+#       2       
 ouw     A       
 
 #       1       
 ouwe    A       
 
-#       2       
+#       3       
 ouy     A       
 
 #       1       
 ouye    A       
 
-#       836     
+#       837     
 ow      A       
 
 #       51      
@@ -763,6 +814,9 @@ owei    A
 #       40      
 owi     A       
 
+#       2       
+owia    A       
+
 #       6       
 owie    A       
 
@@ -774,6 +828,9 @@ owou    A
 
 #       1       
 owu     A       
+
+#       1       
+owwa    A       
 
 #       1       
 owwee   A       
@@ -796,7 +853,7 @@ owya    A
 #       1       
 owye    A       
 
-#       180     
+#       181     
 oy      A       
 
 #       49      
@@ -820,10 +877,10 @@ oyou    A
 #       3       
 oyu     A       
 
-#       18019   
+#       18134   
 u       A       
 
-#       935     
+#       943     
 ua      A       
 
 #       5       
@@ -847,10 +904,13 @@ uay     A
 #       6       
 uaya    A       
 
+#       1       
+uayo    A       
+
 #       2       
 uayu    A       
 
-#       679     221     
+#       681     221     
 ue      A       .       
 
 #       13      
@@ -861,6 +921,9 @@ uee     A
 
 #       7       
 uei     A       
+
+#       5       
+ueou    A       
 
 #       7       
 ueu     A       
@@ -880,14 +943,23 @@ uey     A
 #       1       
 ueye    A       
 
-#       895     
+#       897     
 ui      A       
 
 #       22      
 uia     A       
 
+#       1       
+uiae    A       
+
 #       29      
 uie     A       
+
+#       2       
+uio     A       
+
+#       1       
+uiou    A       
 
 #       1       
 uiu     A       
@@ -934,14 +1006,20 @@ uwi     A
 #       1       
 uwia    A       
 
+#       1       
+uwo     A       
+
 #       36      
 uy      A       
 
 #       9       
 uya     A       
 
-#       10      
+#       11      
 uye     A       
+
+#       1       
+uyee    A       
 
 #       2       
 uyo     A       
@@ -949,10 +1027,10 @@ uyo     A
 #       1       
 uyu     A       
 
-#       348     147     
-w       .       A       
+#       308     189     
+w       A       .       
 
-#       861     4       
+#       867     4       
 wa      A       .       
 
 #       5       
@@ -997,7 +1075,7 @@ wea     A
 #       143     
 wee     A       
 
-#       73      
+#       74      
 wei     A       
 
 #       1       
@@ -1015,7 +1093,7 @@ wewo    A
 #       5       
 wey     A       
 
-#       677     
+#       680     
 wi      A       
 
 #       1       
@@ -1024,7 +1102,7 @@ wia     A
 #       15      
 wie     A       
 
-#       514     
+#       520     
 wo      A       
 
 #       3       
@@ -1033,7 +1111,7 @@ woa     A
 #       6       
 woe     A       
 
-#       205     
+#       207     
 woo     A       
 
 #       1       
@@ -1063,10 +1141,10 @@ wye     A
 #       3       
 wyo     A       
 
-#       15020   20      
+#       15068   36      
 y       A       .       
 
-#       396     
+#       398     
 ya      A       
 
 #       4       
@@ -1129,7 +1207,7 @@ yewoo   A
 #       1       
 yey     A       
 
-#       82      
+#       83      
 yi      A       
 
 #       3       
@@ -1138,7 +1216,13 @@ yia     A
 #       8       
 yie     A       
 
-#       266     
+#       1       
+yieu    A       
+
+#       1       
+yiu     A       
+
+#       267     
 yo      A       
 
 #       2       
