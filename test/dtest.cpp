@@ -127,8 +127,8 @@ int main(int argc, char * argv[])
   string word, pron;
 
   Extract extract;
-  const PronType t = EXTRACT_REAL;
-  // const PronType t = EXTRACT_META;
+  // const PronType t = EXTRACT_REAL;
+  const PronType t = EXTRACT_META;
 
   if (t == EXTRACT_REAL)
   {

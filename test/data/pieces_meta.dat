@@ -16,7 +16,7 @@ aeu A
 aewi A
 aeye A
 aey A
-ai A
+ai A .
 aia A
 aiae A
 aie A
@@ -63,7 +63,7 @@ auwe A
 auwi A
 auwo A
 ao A
-au A
+au A .
 auy A
 aw A
 awa A
@@ -334,7 +334,7 @@ ea A
 eae A
 eai A
 eao A
-eau A
+eau A .
 eaui A
 eaujo AJA
 eaw A
@@ -384,17 +384,17 @@ ewa A .
 ewai A
 ewau A
 eway A
-ewe A
+ewe A .
 ewee A .
 ewey A
 eweya A
-ewi A
+ewi A .
 ewo A .
 ewoo A
 ewy A
 ewya A
 ey A
-eya A
+eya A .
 eyi A
 eyja AJA
 eye A
@@ -505,7 +505,7 @@ iau A
 iaui A
 iawa A
 iaye A
-ie A
+ie A .
 ieo A
 ieu A
 ieuwe A
@@ -613,7 +613,7 @@ kv KF
 
 'l L
 l' L
-l L .
+l L RN .
 lb LP
 lbl LPL LPAL
 lbr LPR
@@ -807,7 +807,7 @@ mzl MSL
 
 'n N
 n' N
-n N
+n N .
 nb NP
 nbl NPL NPAL
 nbr NPR NPAR
@@ -903,7 +903,7 @@ nsch NX NSK
 nscr NSKR
 nsd NST NS
 nsf NSF
-nsh NX NSH
+nsh NX NSH NS
 nshr NXR
 nsk NSK
 nsl NSL NSAL
@@ -925,8 +925,8 @@ o A .
 oa A .
 oe A
 oi A
-oo A
-ou A
+oo A .
+ou A .
 ow A
 owe A
 oy A
@@ -950,7 +950,7 @@ r R .
 rb RP
 rbr RPR RPAR
 rbst RPST
-rc RS RK RX RJ
+rc RS RK RX RJ .
 rch RK RX
 rchb RXP
 rchc RXK
@@ -1168,8 +1168,8 @@ ttr TAR TR
 tts TS
 tz TS S
 
-u A
-ua A
+u A .
+ua A .
 ue A .
 ui A
 uo A
@@ -1188,13 +1188,13 @@ wauwa A
 waw A
 way A .
 waywa A
-we A
+we A .
 wea A
 wei A
 weie A
 wewo A
 wey A
-wi A
+wi A .
 wo A
 woa A
 woe A
@@ -1820,7 +1820,7 @@ qb KP
 qh K
 qq K
 qs KS
-'r R
+'r R AR
 r' R
 rbl RPAL RPL
 rbn RPN
@@ -2027,6 +2027,7 @@ skm SKM
 skn SN
 skv SKF
 's'n SN
+s'n SN
 s'nt SNT
 spb SP
 spbr SPR
@@ -2631,7 +2632,7 @@ woj A
 uuo A
 ph's FS
 ntx NTKS
-t'v RF
+t'v RF TF
 n'r NAR
 szcz SX
 h'd T
@@ -2770,7 +2771,7 @@ rtsp RTSP
 nctn NKTN
 aeoi A
 mscr MSKR
-oyee E
+oyee A
 ueou A
 uiou A
 s' S
@@ -2814,3 +2815,14 @@ chp XP
 rschm RXM
 tchh X
 lphth L0
+weu A
+ewu A
+ewei A .
+iei A
+awoo A
+k's KS
+oewoo A
+'w .
+iewee A
+ywai A
+ewea A
