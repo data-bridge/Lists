@@ -1,11 +1,28 @@
-2018-06-29
+2018-07-01
 ----------
-Sort out pieces into vowels and consonants in data/
-Add comment lines with counts
+* Try reading in the cons/vowel files, compare with originals, no change?
 
-Collisions vet
-- real
-- mpron
+* Statistics on pieces
+  cons                     vowel
+  # %  easy/hard# cnt %
+1
+2
+3
+4
+5
+
+easy means pkr = p/k/r or PKR (hard consonants only)
+hard means rest
+
+* Generate collision files for real and meta
+* Look at real collisions by hand
+* Make statistics
+  - real collisions that do or don't collapse in metapron as well
+  - If none that don't collapse, then the reals are "one word"
+  - Statistics on avg collisions by histogram
+  - Metapron can't be expected to untangle real collisions,
+    but the other ones are new
+
 
 2018-06-19
 ----------
